@@ -1,0 +1,13 @@
+The DeLossifier attempts to clean up the effects of lossy compressed (MP3 etc.) input.
+
+Lossy compression (such as MP3 compression) reduces the amount of data
+needed to store or stream audio by 'throwing away' things that it deems
+'nearly inaudible'. Especially at lower bitrates, this causes very
+clearly noticeable artifacts that are typical for lossy compression.
+
+Beside the fact that these artifacts are often already noticeable, the
+processing that is done by Stereo Tool (or any other processor) invalidates
+the assumptions that the compressor has made on which effects are noticeable
+and which are not.
+
+The DeLossifier attempts to detect these artifacts, and to clean them up.

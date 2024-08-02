@@ -1,0 +1,3 @@
+Highpass frequency for the output signal.
+
+Immersive Bass may generate low frequency rumble, which is filtered out below this frequency.

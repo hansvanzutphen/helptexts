@@ -1,0 +1,8 @@
+Reduce bass further if it causes problems.
+
+If [[394]] or [[449]] indicates that the bass is damaging other sounds,
+by potentially causing intermodulation distortion, the bass clipping level
+is reduced further, at most this level.
+
+If this level is much lower than [[311]], the effect on the bass level may
+become noticeable and annoying.

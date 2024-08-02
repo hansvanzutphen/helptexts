@@ -1,0 +1,3 @@
+Measures highs levels based on ITU-BS1770.
+
+This means that it responds stronger to highs above about 1 kHz.

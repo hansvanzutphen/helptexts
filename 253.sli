@@ -1,0 +1,3 @@
+Stops the bass level from being reduced if the input bass level is louder than the configured Maximum bass peak level.
+
+If the bass that comes in is louder than the level set in Maximum bass peak level, the louder peaks are preserved if this is enabled.

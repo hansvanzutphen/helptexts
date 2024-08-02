@@ -1,0 +1,12 @@
+Restarts Stereo Tool after an unrecoverable issue.
+
+If an exception occurs in Stereo Tool, it will first attempt to recover
+from it without restarting. If this keeps failing (more than 10 exceptions
+in a 10 minute period, for some parts of code immediately), Stereo Tool
+will close itself and start a new instance.
+
+The automatic recovery will be attempted regardless of whether this setting
+is enabled or disabled.
+
+See also [[2795]]; if an audio input or output does not function after
+restarting it several times, Stereo Tool will also restart.

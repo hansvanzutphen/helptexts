@@ -1,0 +1,3 @@
+The maximum attack speed.
+
+This is for the "automatic/hydraulic door" behavior: Push harder against it and at some point (this speed) it won't move faster anymore.

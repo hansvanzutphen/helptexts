@@ -1,0 +1,12 @@
+Chooses between feed forward and feedback mode.
+
+In feed forward mode, the input is used directly for the measurement.
+In feedback mode, the output level is measured instead of the input level.
+
+Feedback mode is known to sound more natural, but the level control is
+far less accurate. For example, say the input level is 6 dB too loud and
+the ratio is 1:1000.
+Then in feed forward mode, the level will be reduced by about 6 dB.
+But in feedback mode, once the level is reduced by about 3 dB, the compressor
+will 'see' that it needs about 3 dB of reduction and not reduce the level
+further.

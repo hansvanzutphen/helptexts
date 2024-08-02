@@ -1,0 +1,8 @@
+Enables GPS time stamping. Requires a GPS receiver!
+
+With GPS time stamping, you can keep transmitters in a Single Frequency Network (SFN) in sync, within about 1 microsecond (1 millionth of a second).
+
+You have a Single Frequency Network if you have multiple transmitters that transmit at the exact same frequency with overlapping reception areas. By precisely adjusting the delay between the transmitter, taking the speed of light, where signals from both transmitters are about equal in strength
+and where large groups of potential listeners are into account, you can make sure that on a line between the transmitters there's good reception, and the signals do not interfere with each other.
+
+Note: This is NOT needed for RDS AF switching!

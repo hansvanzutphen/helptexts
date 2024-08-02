@@ -1,0 +1,5 @@
+Controls the release behavior of the limiter.
+
+The limiter attack is always as fast as possible without causing distortion.
+The same is true for release, but in some cases the release behavior can be too prudent. This slider overrides the standard limiter release behavior: If the release behavior that would be used based on the adaptive algorithm is slower than this, the configured release time is used instead. This does mean that very fast release times can cause some distortion.
+

@@ -1,0 +1,5 @@
+Determines behavior when the connection to the UECP server gets lost.
+
+If this setting is enabled, whenever the connection is lost, the RDS encoder will return to the settings that are configured inside Stereo Tool. If it is disabled, it will keep using the last received UECP data.
+
+If you are using UECP to update things like Now Playing information, you should probably enable this and configure some standard text inside Stereo Tool.

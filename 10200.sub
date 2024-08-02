@@ -1,0 +1,12 @@
+Settings that control clipping detection.
+
+A lot of different detection mechanisms are used to determine if a sample
+is clipped or not. Incorrectly detecting a sample as clipped is bad, because
+it reduces the number of 'reliable' samples that we can use to restore the
+audio. But, incorrectly detecting a clipped sample as not clipped is worse,
+because the reconstruction will use bad data.
+
+Because of this, multiple methods are used to detect clipping, which are
+all designed to detect too many samnples as clipped and not to miss any.
+Then, the result of all these methods is combined, and only if <i>all</i>
+methods agree that a sample is clipped, it will be marked as such.

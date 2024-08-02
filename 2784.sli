@@ -1,0 +1,5 @@
+Determines how strong the pre-ringing killer works.
+
+At 100%, the audio that is determined to be pre-ringing is removed
+completely. At higher levels, more audio is removed. This may cause
+'gaps' before punchy sounds, but it also improves the dynamics further.

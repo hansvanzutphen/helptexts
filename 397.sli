@@ -1,0 +1,3 @@
+Controls how strictly the clipper clips.
+
+Lower values leave more small spikes in the output signal, which (if you don't want spikes) need to be removed by HARD LIMIT. And HARD LIMIT removes the spikes by lowering the output level. Strictness is configurable because higher Strictness levels cost much more CPU processing power.

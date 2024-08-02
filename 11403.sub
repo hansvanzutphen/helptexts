@@ -1,0 +1,11 @@
+"Advanced RDS" features.
+
+Advanced RDS is a separate license option. The main reason why there's a setting for this
+(it's easy enough to just not enable any RDS features that require an Advanced RDS license)
+is that external commands via [[3838]] can also enable Advanced RDS features, which could cause
+a station to suddenly be in unregistered mode. So, turning this off also blocks external commands
+that use advanced features.
+
+The following features are part of Advanced RDS:
+[[5911]], [[6592]], [[5913]], [[6328]], [[6597]] and [[6598]], [[11437]], [[11434]] and
+multiple [[10860]] ports or Site/Encoder addresses.

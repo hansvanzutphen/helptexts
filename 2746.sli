@@ -1,0 +1,4 @@
+Combine both inputs and use the result as processing input, or setup a backup input.
+
+This can be used either for providing a backup input and switching to it in case of signal loss,
+or to combine signals from multiple studio's without electrically coupling them.

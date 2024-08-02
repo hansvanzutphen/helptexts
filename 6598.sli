@@ -1,0 +1,8 @@
+Extended Group Sequence information.
+
+Example: 8A: 3A 1A
+
+If in [[6597]], group 8A is encountered but no 8A data is available, then this list means that it needs to try
+to transmit a 3A group. If there's also no 3A data, then it should transmit a 1A group.
+
+Multiple such fall-through lists can be separated with a / . (Example: 8A: 3A / 9A: 1A).

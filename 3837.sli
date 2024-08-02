@@ -1,0 +1,3 @@
+Enables external RDS input via [[10054]].
+
+Internally, the pilot will be synchronized to the incoming RDS signal - any incoming pilot signal will be ignored. If this RDS signal is of really bad quality, it might cause problems, and if the RDS signal is weak the internal stereo pilot generator will take over. Except for that, the input level does not matter.

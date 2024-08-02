@@ -1,0 +1,6 @@
+Uses composite clipping mode for some preparation steps.
+
+Before the actual clipping starts, a 'test' clip is performed to detect
+quality issues such as drops in other frequencies caused by loud highs.
+If this setting is disabled, this test clip is performed at a lower
+sample rate, which might slightly affect the result of the measurement.

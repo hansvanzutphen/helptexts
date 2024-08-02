@@ -1,0 +1,4 @@
+The size of the area around the current sample used to calculate the RMS level.
+
+Bigger values means less precise timing of attack/release behavior, but also less effect from low frequencies (less pumping). Generally, the RMS block size should be set just high enough to not cause distortion when using the limiters ([[893]]) a lot.
+

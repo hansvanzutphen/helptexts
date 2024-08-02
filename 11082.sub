@@ -1,0 +1,7 @@
+Dynamically adjust the Dehummer behavior based on the input.
+
+Note: This is not necessarily a good idea for good audio quality, it's more intended at forensics uses.
+For example, if you want to filter out the sound of a driving car, which slowly changes in sound, it can
+help to make the Dehummer learn continuously.
+
+On music this will sound bad, so don't use it on that.

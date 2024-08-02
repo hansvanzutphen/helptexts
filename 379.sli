@@ -1,0 +1,4 @@
+The order of the highpass filter.
+
+A higher value means steeper filtering. This can in some cases lead to
+unnatural sounding bass.

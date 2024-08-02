@@ -1,0 +1,5 @@
+<b>DEPRECATED!</b> Clips the audio below 0 dB with little protection against distortion.
+
+This filter is good at removing short spikes, but causes distortion if it needs to clip too much.
+
+If the [[10236]] is enabled, this filter is in bypass mode, except that it amplifies the audio with the value set in the slider.

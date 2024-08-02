@@ -1,0 +1,5 @@
+Slightly increases the quality of low frequencies, at the cost of increased CPU usage.
+
+For low frequencies, composite clipping has far less effect than for high
+frequencies, but it can still have some effect. With this checkbox enabled,
+the bass clippers also run in composite clipping mode.

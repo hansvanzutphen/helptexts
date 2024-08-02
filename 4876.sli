@@ -1,0 +1,4 @@
+Enables Sudden Jump Protection.
+
+When using this, make sure that it's almost never active - it should only
+act on rare, very loud bursts, not on every kick in a dynamic song for example.

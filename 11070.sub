@@ -1,0 +1,12 @@
+Built-in self test to check sound card behavior.
+
+The self test generates a report that can be used to determine if the sound card in the system behaves properly. Among others, it measures the sound card frequecy response, noise level and distortion.
+
+To use this,
+<UL>
+<LI>In the Stereo Tool instance that will measure the output (this can be the same one that sends out the test tones, but it can also be a different instance on a different pc), first set up the [[4216]] where the report will be written to.</LI>
+<LI>Then enable [[11073]] on that same pc.</LI>
+<LI>Then, on the pc that will send the test tones, enable [[11072]].</LI>
+</UL>
+
+Make sure that the receiving instance is listening to the correct output. The test will take several minutes, when it's finished a text file will be written in the output folder. The text file name contains the start date and time of the test.

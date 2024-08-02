@@ -1,0 +1,16 @@
+Selection of the AF method: A, B or B for retransmission on multiple frequencies.
+
+AF method A is simple: You can select upto 25 frequencies that carry the exact same content.
+A receiver can always switch between these frequencies.
+
+AF method B makes it possible to specify which frequencies carry the same content, and which frequencies
+carry localized (sometimes different) versions of the same content.
+A receiver should not switch (depending on settings that the user can sometimes overrule) to a frequency
+that carries a localized version of the same station, at moments when the content is different from the
+frequency that the user is listening on.
+
+AF method B for retransmission is a special case: If the content of a station is rebroadcast elsewhere where
+there is no separate RDS encoder available, then the first station needs to transmit the AF method B lists
+for multiple stations. This feature requires the "Advanced RDS" license.
+
+

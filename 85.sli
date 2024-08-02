@@ -1,0 +1,7 @@
+Determines whether the audio is compressed or limited.
+
+Limiting means that audio below a certain volume is left untouched. If the volume gets above this level, the output volume is lowered such that the resulting output stays at the set maximum volume ([[35]]).
+
+Compression affects all audio: Low volume sounds are amplified, high volume sounds are de-amplified.
+
+In general, when the goal is to make the volume as constant as possible, use limiting. If the goal is sound quality, maintaining dynamics, use compression.

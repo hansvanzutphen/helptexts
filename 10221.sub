@@ -1,0 +1,4 @@
+Stereo Boost is the preferred filter to add stereo separation to music.
+
+It basically just uses a multiband compressor to increase the level of the L-R channel. It can be configured to never reduce stereo separation (in tracks with completely separate channels) and it does also not create too much (anti-phase) boost of the L-R channel.
+

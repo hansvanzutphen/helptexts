@@ -1,0 +1,3 @@
+The bitrate that MicroMPX uses.
+
+For MicroMPX 1, 320 kbit/s is normally sufficient, but if [[4014]] is used, a higher value (384 kbit/s) is recommended.

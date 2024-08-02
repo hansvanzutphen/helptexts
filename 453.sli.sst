@@ -1,0 +1,1 @@
+Determines how much headroom the BS412 limiter has for errors. When lowering this value, the average output level will drop to some extent. If this value is too low, however, sudden volume drops can occur.

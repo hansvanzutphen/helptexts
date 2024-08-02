@@ -1,0 +1,6 @@
+If bass is present ([[2641]]), increases the [[2631]] temporarily.
+
+This slider controls how strongly the bass affects the release behavior. Setting it higher means more release slowdown when we see bass.
+
+If you use this for a single multiband band, then you need less of this because there are less other frequencies that hinder bass detection.
+

@@ -1,0 +1,5 @@
+Protection against restoring DC offsets.
+
+To avoid restoring a DC offset, if the inversion of the RC circuits
+causes a large offset, this slider controls how fast this DC offset is
+removed. Default value is 100%, you should probably leave it there.

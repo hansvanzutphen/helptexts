@@ -1,0 +1,6 @@
+Delay the startup of Stereo Tool when Windows starts.
+
+Delays [[2799]]. This is usually not needed and unwanted, but on some systems, sound card drivers
+take longer to initialize, and if Stereo Tool is started immediately, it can be that the drivers
+aren't ready yet. This is especially an issue with AoIP drivers that might need to access to the
+network first.

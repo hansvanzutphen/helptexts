@@ -1,0 +1,14 @@
+Determines the attack behavior.
+
+Attack and [[3287]] must be balanced to get good results. Normally, they are filled in automatically, but you can still change them to get a different behavior.
+
+Standard behavior (input and output):<BR/>
+<img src="images/AttackShape_Good.png" width=745><BR/>
+
+Too low Attack Shape will cause the attack to start later and go down too deep:<BR/>
+<img src="images/AttackShape_TooLow.png" width=745><BR/>
+
+Too high Attack Shape will cause the attack to jump down instantly, but using a more asymptotical behavior - if you increase the [[1265]] time to compensate, it will take very long before the target level is reached:<BR/>
+<img src="images/AttackShape_TooHigh.png" width=745><BR/>
+
+See also [[3287]].

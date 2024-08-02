@@ -1,0 +1,4 @@
+Controls the detection of single frequency peaks for [[3398]].
+
+See [[398]]. Increasing this value allows more peaks to be detected and protected. But if
+too many peaks are protected, there will be a slight volume loss.

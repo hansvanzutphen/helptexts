@@ -1,0 +1,1 @@
+Attempts to limit the bandwidth use (including error correction) below the specified value. This value will change dynamically depending on the error correction span and overhead settings, so use this setting to predict approximately how much bandwidth your MicroMPX stream will ultimately consume when applying error correction.

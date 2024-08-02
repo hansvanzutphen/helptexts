@@ -1,0 +1,3 @@
+Gating settings for release.
+
+If the current output is much softer than the target level, this stops release from acting. This helps for example to avoid releasing when there's only noise present, which would boost the noise. Also, for example during speech, if there's a moment of silence, this stops the compressor from releasing completely, which would cause the attack to get a very big spike that it needs to handle.

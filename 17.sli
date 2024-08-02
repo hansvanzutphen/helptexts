@@ -1,0 +1,3 @@
+Maximum tape head displacement (assuming cassette tapes) to be detected and resolved.
+
+0 disables this filter. Suggested value: 40 &mu;m.

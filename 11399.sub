@@ -1,0 +1,7 @@
+RDS Alternative Frequency settings.
+
+AF lists are used to tell a receiver which other frequencies carry the same content as the current frequency.
+Receivers can use this to automatically choose the frequency with the strongest signal.
+It can also tell receivers (together with some other data) which other frequencies usually carry the same content,
+but not always - and protect against switching to a different version of the same programming during times when the
+broadcasts are different. For example, a station might have multiple transmitters with regional ads or regional news.

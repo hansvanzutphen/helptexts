@@ -1,0 +1,6 @@
+Disable any Spectral Hole Filler action below this frequency.
+
+Typically, low frequencies are normally encoded very well by MPEG codecs, and wrongly
+reconstructed audio at very low frequencies can sound bad.
+
+This setting controls above which frequency the Spectral Hole Filler works.

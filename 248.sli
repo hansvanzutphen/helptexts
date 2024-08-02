@@ -1,0 +1,5 @@
+Determines the frequency above which no bass boost occurs anymore.
+
+Frequencies above this frequency are completely ignored in the bass boost filter.
+
+Set this slider higher to have more bass boost - but the bass will sound distorted if it is set too high.

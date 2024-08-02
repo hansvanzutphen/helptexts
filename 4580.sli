@@ -1,0 +1,4 @@
+Sets the time (history) to be considered for continuous learning.
+
+Higher values can cause the CPU load to increase dramatically.
+

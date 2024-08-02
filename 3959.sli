@@ -1,0 +1,3 @@
+Oversample the audio to avoid aliasing effects.
+
+This sounds slightly better, but increases the CPU load a lot.

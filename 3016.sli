@@ -1,0 +1,3 @@
+Amount of lookahead.
+
+Higher values give a better sound, but also more latency.

@@ -1,0 +1,3 @@
+Selects an NMEA input file/name.
+
+Usually, you should select a COM port in [[6759]]. If the NMEA is routed in some other way, or if the standard COM port settings are incorrect, selecting the name might work.

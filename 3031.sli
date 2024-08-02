@@ -1,0 +1,3 @@
+Tells the Dequantizer how many bits the input signal has.
+
+Setting this level too high creates more MP3-like artifacts, setting it too low won't fix all the quantization effects.

@@ -1,0 +1,4 @@
+Deforms the bass to achieve louder levels and sound better on some speakers.
+
+Deforms low bass sounds if they are being clipped by making the tops 'flatter', to make them sound louder at the same peak level. This adds harmonics, so if too much is used it can sound bad, especially with electronic music which contains very clean bass sounds. Another effect is that bass is more audible on speakers that are bad at reproducing bass.
+

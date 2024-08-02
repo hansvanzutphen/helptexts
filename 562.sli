@@ -1,0 +1,4 @@
+Dynamically increase the release speed if the volume drops more.
+
+If this is set to 0 the release always runs at exactly the same speed.
+A similar effect can be reached with [[2457]].

@@ -1,0 +1,4 @@
+Whatever the input is, the bass may never exceed this level.
+
+So even if there's only bass present, if this level is set low, it will not
+reach full modulation.

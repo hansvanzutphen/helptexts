@@ -1,0 +1,3 @@
+Built-in analyzer/demodulator of external FM signals.
+
+To use this, input sample rate must be 176.4 or 192 kHz.

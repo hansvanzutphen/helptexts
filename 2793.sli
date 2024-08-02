@@ -1,0 +1,58 @@
+VLC --sout string for stream encoding, if [[9049]] is set to VLC.
+
+This is a bit tricky and needs some explanation. It also requires that
+<a href="http://www.videolan.org/vlc/">VLC</a> (32 bit version for 32 bit Stereo Tool, 64 bit version for 64 bit Stereo Tool) is installed on your system.
+Currently only works in Windows.
+
+VLC is a powerful program which includes a library that makes most of the
+options available to other programs. While receiving a stream is relatively
+simple (see [[2714]], you can just enter the URL and VLC can determine what
+to do with it), to send an output stream much more information must be
+given: Which codec do you want to use, which sample rate and bit rate, stereo or mono,
+the type of stream and more.
+
+Because VLC is very powerful, it's nearly impossible to include all the
+necessary settings in Stereo Tool. Instead, we have chosen to use the VLC
+command line string to offer the full range of options in VLC, and to
+automatically take advantage of future VLC releases that might have more
+options.
+
+<b>How to generate a command line string using VLC.</b>
+This section describes how to use VLC to generate a command line string that
+you can past into Stereo Tool.
+Some standard strings will be provided below this section.
+
+Steps:
+<UL>
+<LI>Open VLC Media Player</LI>
+<LI>Open Media &arrow; Streaming.</LI>
+<LI>Select an audio file to play.</LI>
+<LI>Click 'Stream' at the bottom.</LI>
+<LI>You should now see a page showing the file that you selected earlier. Press Next.</LI>
+<LI>Click on the pull-down field right of 'New target', and select the type of stream you want. For example HTTP.</LI>
+<LI>Make sure that Transcoding is enabled.</LI>
+<LI>Select a transcoding profile - for example 'Audio - MP3'. You can click the edit button to fine-tune the settings.</LI>
+<LI>Click Next.</LI>
+<LI>You will now see a command line rule that looks like this:<BR/>
+    <tt>:sout=#transcode{vcodec=none,acodec=mp3,ab=200,channels=2,samplerate=44100} :sout-keep</tt><BR/>
+    The meaning is: No video codec, MP3 audio codec, 200 kbit/s, 2 channel audio, 44100 Hz.
+    <tt>:sout-keep</tt> keeps the stream open if you switch to a new file, for Stereo Tool this is irrelevant so you can remove it.</LI>
+<LI>Paste this line in the SOUT field of Stereo Tool, and it should start streaming immediately.</LI>
+</UL>
+
+Some example strings that you can adjust manually to match your own
+situation are listed below:
+
+OGG/Vorbis Shoutcast streaming:
+<tt>--sout=#transcode{vcodec=none,acodec=vorb,ab=128,channels=2,samplerate=44100}:std{access=shout,mux=ogg,dst=user:pass@ip:port/access}</tt>
+<i>access</i> is usually empty. Make sure that you do not remove the trailing <i>/</i> though or it won't work.
+
+MP3 Shoutcast streaming:
+<tt>--sout=#transcode{vcodec=none,acodec=mp3,ab=128,channels=2,samplerate=44100}:std{access=shout,mux=raw,dst=user:pass@ip:port/access} --sout-shout-mp3</tt><BR/>
+Please not the extra --sout-shout-mp3 option, if you omit this the stream will open but no data will ever be sent to it.
+
+HTTP MP3 streaming to port 8080 on localhost:
+<tt>--sout=#transcode{vcodec=none,acodec=mp3,ab=200,channels=2,samplerate=44100}:std{access=http,mux=raw,dst=127.0.0.1:8080}</tt>
+
+In case of problems, you can add <tt>--extraintf logger -vvv</tt> to the options. This will open a logging window that might be useful to find out what's happening exactly (do not turn this on during normal usage because it can make things unstable). For a full list of options (some can cause big problems when using them from within Stereo Tool) see <a href="https://wiki.videolan.org/VLC_command-line_help">VLC command line help</a>.
+

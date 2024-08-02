@@ -1,0 +1,19 @@
+The deprecated Classic Multiband Compressor is only available for compatibility reasons.
+
+<b>Do not use this for new presets. Use the new [[10461]] instead.</b>
+
+Volume compression (A.K.A. audio level compression) reduces the dynamic range of a sound. This means that loud sounds become softer, and soft sounds become louder.
+
+Multiband volume compression means that the audio is separated into seperate frequency bands, and each frequency band is compressed separately. This means that for example bass and hi-hats are treated separately, and a loud peak of one of the two does not affect the other. This greatly reduces pumping, and it makes different recordings sound more equal. (If one recording has a loud bass and the next has a loud hi-hat, after using the multiband compressor the loudness of the bass and the hi-hat is lowered.) See <a href="http://en.wikipedia.org/wiki/Audio_level_compression">Wikipedi: Audio level compression</a> for a lengthy description.
+
+The Multiband compressor in Stereo Tool splits the audio into 10 frequency bands, ranging from extremely low bass sounds (40 Hz) upto very high highs (16 kHz). Then it compresses or limits each of those bands separately.
+
+<img src="images/compr_limit_graph_small.gif">
+
+<i>Limiting</i> means that audio below a certain volume is left untouched. If the volume gets above this level (A in the graph below), the output volume is lowered such that the resulting output stays at the set maximum volume A. Regardless how much the input level is increased, the output level stays the same.
+
+<i>Compression</i> affects all audio: Low volume sounds are amplified, high volume sounds are de-amplified. If the input volume is increased further, it has less and less effect on the audio - but a bit of the increase is always maintained.
+
+In general, when the goal is to make the volume as constant as possible, use limiting. If the goal is sound quality, maintaining the dynamics of the recording, use compression.
+
+For better compression results, read <a href="/good_compression.shtml">Achieving good compression</a>.

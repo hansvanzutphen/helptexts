@@ -1,0 +1,6 @@
+Output to sound card is pre-emhpasized.
+
+If you do not enable this button, the output is de-emphasized before it
+is sent to the sound card. Without this button the sound equals what a
+listener will hear on an AM radio.
+

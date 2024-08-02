@@ -1,0 +1,7 @@
+Determines how quickly a new delayed clip can occur.
+
+A punchy sound means that the volume goes up suddenly. To determine whether
+the volume goes up, we need to keep track of the average level - this value
+tells the detection algorithm what the lowest frequency is that it can
+expect in the input, which helps to determine how fast it should respond to
+lower sample values.

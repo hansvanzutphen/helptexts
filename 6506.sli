@@ -1,0 +1,4 @@
+Pre-bass clipping strictness.
+
+Setting this higher clips the bass more strictly, at the
+cost of increased CPU load.

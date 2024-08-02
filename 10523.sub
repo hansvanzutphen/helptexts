@@ -1,0 +1,5 @@
+Shows the RF spectrum as it should look after broadcasting it with an FM transmitter.
+
+The wider the signal is, the more disturbances your signal causes to weaker stations at adjacent frequencies.
+A wider FM spectrum also increases intermodulation distortion and reduces the received signal strength (beause a larger part of the spectrum will fall outside that range that a receiver is tuned to.)
+See [[10425]] and [[2154]].

@@ -1,0 +1,1 @@
+Selects a WDM device to use for the secondary audio output. This setting is overridden and disabled when &ldquo;ASIO Output Left&rdquo; is set to anything other than &ldquo;No ASIO&rdquo;.

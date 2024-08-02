@@ -1,0 +1,12 @@
+Lets certain frequencies be counted more than others by the AGC.
+
+See for example this image:
+
+<img src="images/sevdah_peq.png">
+
+As you can see, low bass frequencies are ignored. This means that in a track,
+if suddenly the bass kicks in, the level is hardly adjusted. Similarly,
+frequencies between 600 and 2000 Hz are counted a lot less strongly, which
+helps to keep the level constant for loud female voices. This avoids
+pumping.
+

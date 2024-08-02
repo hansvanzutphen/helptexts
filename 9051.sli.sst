@@ -1,0 +1,1 @@
+Selects a WDM device to use for input. This setting is overridden when &ldquo;ASIO Input Left&rdquo; is set to anything other than &ldquo;No ASIO&rdquo;.

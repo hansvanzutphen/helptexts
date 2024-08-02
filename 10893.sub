@@ -1,0 +1,6 @@
+Protects an FM signal thats sent to the transmitter over a lossy link.
+
+See [[10128]]. The same effect can also be used for lossy FM links.
+The total amount of pre-emphasis is really big, so this really should
+only be used if loudness isn't very important (for example in countries
+with loudness limitations, such as BS412).

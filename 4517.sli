@@ -1,0 +1,3 @@
+Delay setting to align FM output with HD output.
+
+This setting increases or decreases the delay of the FM signal by upto 2 seconds. Changing it doesn't cause any sound card restarts and doesn't affect the normal synchronization behavior, so it can be seen as a static extra delay that can be changed at any time to match the HD signal.

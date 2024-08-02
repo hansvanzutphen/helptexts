@@ -1,0 +1,1 @@
+Although FM processors typically perform clipping as a final processing stage, many modern recordings are already clipped before they even reach the listener. The declipper can account for this and repair clipped audio prior to processing.

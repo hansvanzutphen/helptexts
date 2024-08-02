@@ -1,0 +1,7 @@
+The maximum increment of a restored sample.
+
+Certain waveforms, for example block wave forms, would cause a nearly-infinite
+peak level. This slider forces the level to stay below a certain level, relative
+to the original level of the sample.
+
+Seting a low value may cause distortion to remain present.

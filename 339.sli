@@ -1,0 +1,4 @@
+Lowers both channels if one needs to be lowered by [[256]].
+
+Without this, a drop on a single channel can sounds really bad, especially when listening to headphones.
+

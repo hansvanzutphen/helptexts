@@ -1,0 +1,11 @@
+RC value of the first highpass filter.
+
+Tilt is usually caused by a Resistor and Capacitor (RC) circuit, which acts
+as a highpass filter. For example, a sound card might use an RC circuit
+to remove DC offset from a signal. Unfortunately, this also reduces the
+audio quality and makes processing more difficult.
+
+The tilt correction filter in Stereo Tool inverts the effect of an RC
+circuit, thus restoring the original signal (except for the DC offset).
+
+This slider sets the RC value of the RC circuit to be inverted.

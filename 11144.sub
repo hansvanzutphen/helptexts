@@ -1,0 +1,7 @@
+Gating settings.
+
+Gating stops the release when the level is very low. This is for example
+useful for speech programs, to avoid pulling up the level of background
+noise when someone is silent for a moment. It also helps against pumping
+in music.
+

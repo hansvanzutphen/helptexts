@@ -1,0 +1,6 @@
+Determines how strongly the compressor responds to changing input levels.
+
+Say, at one moment a sound comes in at the threshold level, so nothing happens to it.
+If another sound comes in at 6 dB above the theshold level, the input should be reduced
+by half. The ratio indicates how much of the increase in input level is not removed. At a the lowest ratio (1:1), the compressor is basically disabled. At the maximum ratio, 1000:1, 1/1000th of the increase is kept.
+

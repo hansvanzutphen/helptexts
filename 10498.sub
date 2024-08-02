@@ -1,0 +1,22 @@
+Displays the median attenuation value of compressor bands.
+
+If the median amount of attenuation of each band of the multiband compressor
+is roughly equal, then soft and loud sounds are handled roughly the same.
+
+On some radio stations, you can clearly hear that when a song ends and fades
+out, the frequency content shifts. This happens because at some point some
+frequencies are still being compressed while others are not, or no frequencies
+are compressed anymore and the sound is identical to the input.
+
+That by itself is fine, but if the multiband compressor changes the sound of
+the input, not by using [[863]] but by modifying compressor settings such
+as [[893]] and [[903]], then this type of problems start to occur.
+
+If you configure the multiband compressor such that on average, after playing
+a lot of differnt program content through it, all bands have the same amount
+of compressor action, then this will not or hardly happen (only for songs that
+sound very different from the average).
+
+The median display shows dotted bars in the multiband compressor attenuation
+meters, so you can run a few hours of programming through it and then check
+if they look fine - and adjust some levels if needed.

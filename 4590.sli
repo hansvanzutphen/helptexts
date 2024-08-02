@@ -1,0 +1,5 @@
+The maximum total bitrate of normal plus recovery packets.
+
+Recovery packets can in some cases be a bit bigger than normal packets. So a few kbit/s overhead is
+recommended. If no overhead is available above the (calculated) total bitrate based on normal plus
+recovery packets, then any excess recovery packets are dropped.

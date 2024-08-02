@@ -1,0 +1,1 @@
+Selects which ASIO driver and device to use for ASIO I/O selections. Only one device can be selected here, though 3rd&nbsp;party drivers such as ASIO4ALL allow additional flexibility in routing between multiple ASIO devices.

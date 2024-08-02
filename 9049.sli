@@ -1,0 +1,4 @@
+Sound card to which the normal (non-FM) output should be sent.
+
+If this is set to Streaming (via VLC), a stream is used for input instead.
+This can be overruled by [[511]] and [[512]].

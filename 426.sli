@@ -1,0 +1,3 @@
+Controls the BS412 compressor target level, relative to [[425]].
+
+Setting this higher means that the compressor kicks in later, but may result in bigger slow volume changes.

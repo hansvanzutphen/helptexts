@@ -1,0 +1,4 @@
+Only boost punch sounds.
+
+After [[10598]], all the sounds that are louder than a specific level are boosted. But it's better to boost only sounds that are 'punchy', in other words, if the volume goes up rapidly. This filter removes boosts found in the first step if the sounds are not punchy.
+

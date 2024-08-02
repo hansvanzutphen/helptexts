@@ -1,0 +1,12 @@
+Locks each thread to one or more CPU cores.
+
+This can be used to tightly control the CPU usage of Stereo Tool. This has several benefits, among others allocating a separate CPU core for each thread can make the behavior more predictable (without setting affinities Windows will dynamically put each thread somewhere). More predictable scheduling of tasks means that the time the calculations take is more constant, which is beneficial if you want to achieve minimum latency.
+
+Core 0 is typically used by Windows to handle driver events, and they take precedence over Stereo Tool. So, it's best to put tasks that are less time sensitive (GUI updates, web server) on core 0.
+
+If your CPU supports Hyperthreading, typically cores 0/1, 2/3, 4/5 etc. are combined. This means that if core 2 is working, and core 3 is also working, each core only runs at about 65% of its normal speed. If there are enough cores in the system, try to avoid using Hyperthreaded cores.
+
+On a 4-core CPU with Hyperthreading (such as most Intel i7 CPU's), [[4042]] set to 2, [[416]] enabled, the following settings will work well:<BR/>
+GUI and Server on code 1, Input on core 2, Recombine on core 3, Main 1 on core 4, 2nd 1 on core 7, Main 2 on core 6, 2nd 2 on core 5. As long as the CPU load on each core is below 50%, using cores 4+7 and 6+5 for the main processing won't interfere with each other (since 4+7 will be finished before 6+5 starts working and vice versa), but if for some reason they do become active at the same time they won't completely halt each other and each will still run at 65% of its normal speed, until one of the two finishes.
+
+See also [[4042]] and [[416]].

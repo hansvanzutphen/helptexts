@@ -1,0 +1,1 @@
+The equalizer section is fairly self explanatory. It affects the frequency response of the signal prior to the multiband compressors and subsequent stages. The interface allows &ldquo;drawing&rdquo; the desired EQ curve, and displays an RTA showing the input signal.

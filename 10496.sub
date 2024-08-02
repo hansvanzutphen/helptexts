@@ -1,0 +1,16 @@
+This slider helps to keep the frequency response of both sweeps and pink noise flat.
+
+If you play a sweep through a multiband compressor, it happens frequently
+that the output is louder in some places than in other. Usually, it is louder
+around the crossover frequency between bands, although this also depends on
+the amount of compression.
+
+A good value for Flat Frequency Response can only be found by trial and error,
+the value that gives the flattest response on sweeps should be used. It is
+generally also a good idea to test the response for pink noise; this slider
+has very little effect on pink noise but it should be flat as well, except
+for intentional non-flatness.
+
+<i>Update: With properly setup band frequencies, this slider is not needed.
+The default frequencies in Stereo Tool have not yet been adjusted for this.
+But they will be in the future, making this slider useless for most users.</i>

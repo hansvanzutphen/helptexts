@@ -1,0 +1,1 @@
+Determines the maximum amount of loading SST will attempt to place on the CPU. Lower settings will use less CPU, but will reduce the quality of the processing to some extent. For every 10% the Quality slider is below 100%, the CPU load is reduced by 5%.

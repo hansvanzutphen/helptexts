@@ -1,0 +1,7 @@
+Second RC circuit inversion value
+
+See [[458]]. This slider allows to invert a second RC circuit.
+
+Note: In many cases, the best results are obtained by using the same
+value for both RC inversion sliders.
+

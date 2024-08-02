@@ -1,0 +1,30 @@
+Corrects tilt caused by sound card, FM transmitter or cables.
+
+Almost all sound cards (except those by <a href="http://www.marian.de/">Marian</a>)
+use a highpass filter in their output to remove and DC offset from the
+signal. This causes overshoots when broadcasting a tightly clipped MPX
+signal. Similarly, some transmitters slowly adjust their frequency when there's
+a DC offset, which has a similar effect.
+
+This filter reverses the effect to make it look like there is no RC circuit
+at all.
+
+Some values measured with this filter on the built-in sound card of a laptop:<BR/>
+Tranmitter with the volume calibrated to give 75 kHz modulation for a 1000 Hz
+sine wave at maximum level:
+<UL><LI>15 Hz sine wave: 74 kHz modulation</LI>
+<LI>1000 Hz sine wave: 75 kHz modulation</LI>
+<LI>60000 Hz sine wave: 73 kHz modulation</LI>
+<LI>15 Hz square wave: <b>91</b> kHz modulation</LI></UL>
+After calibrating Tilt Correction:
+<UL><LI>15 Hz sine wave: 75 kHz modulation</LI>
+<LI>1000 Hz sine wave: 75 kHz modulation</LI>
+<LI>60000 Hz sine wave: 73 kHz modulation</LI>
+<LI>15 Hz square wave: <b>75</b> kHz modulation</LI></UL>
+This YouTube video describes how to set it up:
+
+
+See this YouTube video for a detailed explanation of how to set this up correctly:
+
+<center><iframe width="420" height="315" src="//www.youtube.com/embed/YeJ5Xq5EEEU" frameborder="0" allowfullscreen></iframe></center>
+

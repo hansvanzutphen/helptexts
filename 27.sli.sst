@@ -1,0 +1,1 @@
+Sets the target maximum output level from the AGC. This control essentially serves as the &ldquo;drive&rdquo; to the following stages of processing, including multiband.

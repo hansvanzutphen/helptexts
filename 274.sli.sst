@@ -1,0 +1,1 @@
+Slows&nbsp;the AGC activity when the input level drops below this value to prevent rush up of noise or other artifacts. This also prevents large swings in levels between pauses in audio.

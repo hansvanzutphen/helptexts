@@ -1,0 +1,13 @@
+Adjusts the spectrum without compression, making it possible to generate a very consistent sound without sounding compressed.
+
+<center><iframe width="560" height="315" src="//www.youtube.com/embed/qCSd12nxzZQ" frameborder="0" allowfullscreen></iframe></center>
+
+This filter is a dynamic re-equalizer that operates before the AGC in the processing path. Using the familiar Bands user interface found in MB1 and MB2, it can be configured to precisely match bands already in use elsewhere. Subject to user settings, this filter will attempt to keep levels in the bands at a Target level with respect to each other. Spectrum Correction is not a compressor and does not affect actual levels, overall. Furthermore, using it does not require any subsequent filters to be altered to accommodate it. If this filter is boosting the level in some band(s), it is reducing some other band(s).
+
+Without spectrum correction, the multiband sections are responsible for two jobs: 1) Controlling audio levels, and 2) Dynamically re-equalizing incoming audio. This is usually not a problem, but it can become one on some material.  
+
+Let's say incoming audio usually produces about 10dB of gain reduction in MB1 and all bands are roughly equal in the amount of gain reduction they're doing. Now a song comes along that has very little high end. The top band of the multiband section will release and could end up doing almost no work at all. That is suboptimal, because the multiband now has no margin of error. If the amount of highs drops even further, there's nothing the multiband can do to correct it, and the audio will become muddy and dull. That's where spectrum correction comes in, to fix material that is imbalanced before it hits any further filtering.
+When audio is playing that is properly balanced, per the settings, this filter will have virtually no effect on the audio. When doing large amounts of correction, the filter should be unobtrusive. It simply fixes the audio relatively slowly while attempting to be as transparent as possible.
+The user interface for this filter resembles the multiband compressor UI, but has some important distinctions. When the filter is doing no work, you'll see nothing in the interface (no colored bars). Bars stretching to the right, in shades of blue indicate a boost in level. Bars toward the left, in shades of red, indicate a cut to the volume in that band. 
+
+<font size=-1>The Auto EQ documentation was written by Wes Keene</font>

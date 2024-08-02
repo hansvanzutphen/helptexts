@@ -1,0 +1,5 @@
+Removes sounds (usually reverb) made louder by a strong boost of the L-R channel.
+
+Reverb often gets increased a lot when using strong Stereo Boost settings. Some people like this - but if you want to keep the audio closer to the original, turn this on.
+
+In extreme cases, this can cause artifacts.

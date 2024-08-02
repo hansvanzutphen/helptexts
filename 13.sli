@@ -1,0 +1,3 @@
+The maximum amount of noise to be removed.
+
+This can be fine-tuned for different frequency ranges in [[10084]].

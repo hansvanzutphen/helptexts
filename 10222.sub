@@ -1,0 +1,6 @@
+Stereo Image gives independent control over phase differences and instrument placement. <b>But it can easily create artifacts.</b>
+
+The most interesting feature is to convert stereo to mono without cancellation (loss) of sounds. This creates a sound that is as full as the stereo image, but it is in fact mono. This can be done by setting both [[19]] and [[22]] to 0.00. If you are not located between the speakers, when you press the MONO switch on your audio system you often still hear a big difference, because a lot of the sound disappears. After setting these two sliders to 0, that doesn't happen anymore. Example uses are radio stations (FM, AM, streaming) that broadcast in mono, and people who are deaf in one ear who want to listen with headphones.
+
+<font color=#FF0000>Several sliders of the Stereo Image manipulator cause severe artifacts and should only be used as described. They are marked as 'partially deprecated'. Please read this section carefully if you enable the Stereo Image filter.</font>
+

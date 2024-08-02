@@ -1,0 +1,5 @@
+When inside the window, slowly move towards the level without window.
+
+The half-life time is the time it takes to travel half-way to the level where the AGC would have
+been if there hadn't been a window. So, if the AGC is at -3, and without window would have been at -4,
+and the half-life time is set to 1 second, then after 1 second it's at -3.5 dB.

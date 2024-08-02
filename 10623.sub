@@ -1,0 +1,8 @@
+Settings that control compressor/limiter envelope detection.
+
+In a compressor we have 2 things: An 'envelope', basically a line that follows the audio level, and the compressor behavior itself. If the level drops a lot, release is faster - and this is based on the envelope. Now, if the envelope just follows sample levels, then there will be a lot of near-0 values (just when a waveform crosses 0) which would cause infinitely fast release behavior. The envelope line needs to be made such that this doesn't happen.
+
+So, around a peak in the waveform, for the surrounding samples we should not allow the envelope to reach much lower values than the value of that peak.
+
+That works fine for high frequencies. But if you take a bass, the sample values are dropping slowly and in the valleys the level will still approach 0. Which still causes issues with release behavior.
+Because of that, there's some code that measures DC offset and increases the [[2631]] to something close to infinity when there's more DC offset present. [[2631]] controls how big the area is that's considered for DC measurement (lower frequency = bigger area). What we are actually measuring here is DC offset in a specific direction divided by total (absolute) power.

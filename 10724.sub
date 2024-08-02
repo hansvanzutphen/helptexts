@@ -1,0 +1,3 @@
+Controls band linking between adjacent multiband bands.
+
+The idea is similar as [[10494]], but the type of coupling is very different. One of the things that can easily be done with Band Linking is to ensure that the lowest band doesn't get attenuated less than band 2, which helps to avoid 'thunder bass' during voices, and to ensure that the highest band doesn't get attenuated less than the band before that, which avoids too much of the highest highs, which can sound unnatural.

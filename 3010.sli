@@ -1,0 +1,3 @@
+HTTP server core affinity.
+
+This core handles the Stereo Tool [[10051]], at least the internal part. Non-critical, you should normally just set this to the same core as the [[3009]].

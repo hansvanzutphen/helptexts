@@ -1,0 +1,9 @@
+Settings that control MP3 pre-ringing removal.
+
+Pre-ringing is the effect that a suddenly starting sound, after MP3 encoding, doesn't start suddenly
+anymore, but "fades out" in both directions in time. Post-ringing would be similar to reverb, which is
+not really annoying, but pre-ringing is very unnatural (a sound is audible before it actually starts).
+
+Removing pre-ringing means that an analysis is needed where both the pre-ringing and the actual sound
+are taken into account. Because the actual sound starts later in time, pre-ringing requires a relatively
+large lookahead, and causes extra latency.

@@ -1,0 +1,7 @@
+Increases or decreases phase differences between the left and right channel, without touching instrument placement.
+
+Moves between 0 (no phase differences between the channels), 1 (no change) up to 8 (8 times as much phase difference as in the original signal).
+0 is VERY useful for converting to MONO, the resulting sound can be downmixed to mono without any distortion or loss of sounds, which occur in normal stereo to mono conversion. This creates a much fuller and undistorted mono sound.
+Note that "0" does not mean that the output signal is mono, because the instrument locations are not affected by the phase slider. To get mono sound, also set [[22]] to 0.
+
+<font color=#FF0000>This filter creates artifacts, mainly for values above 1.00. When playing compressed audio, especially lower (< 192 kbit/s) bandwidth MP3 files, setting phase to a high value will also very strongly amplify the already present MP3 encoding artifacts, which results in a very poor sound quality.</font>

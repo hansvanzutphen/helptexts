@@ -1,0 +1,1 @@
+Specify the IP address of the host running the MicroMPX client. Multicast and broadcast IP addresses are also supported (any valid multicast IP, or x.x.x.255 for broadcast to an entire subnet).

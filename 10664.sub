@@ -1,0 +1,8 @@
+Shows time spent to display the GUI.
+
+See [[10663]]. This graph is less useful because it doesn't show actual
+CPU usage - in fact, since the GUI thread runs at a lower priority a lot
+of the time that's displayed might be spent waiting for other programs.
+
+If only Stereo Tool is running on a system which has enough CPU cores
+available it will show something that's close to the actual CPU usage of the GUI.

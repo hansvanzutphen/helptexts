@@ -1,0 +1,6 @@
+Does not declip if the samples above and below the clipping level look different.
+
+If a sound is clipped and then noise is added (analog audio path, tilt,
+MP3 encoding), then when looking at the histogram it should normally look
+roughly symmetrical above and below the clipping level. If that's not the
+case, it may be an indicaton that clipping was detected incorrectly.

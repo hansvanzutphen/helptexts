@@ -1,0 +1,3 @@
+Listen only to UECP commands targetted to this address.
+
+UECP can send commands via multicasting to multiple RDS encoders. If it does that, it can use addressing information to target a subset of encoders.

@@ -1,0 +1,4 @@
+The threshold for the bass clipper.
+
+If a bass sound waveform peaks above this level, it is clipped
+(see also [[5318]]).

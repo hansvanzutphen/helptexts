@@ -1,0 +1,6 @@
+Filters out some high frequencies to protect processing against audio problems.
+
+Some tracks from around 2010-2013 have a high pitched tone in them, which
+causes compressors (not just in Stereo Tool but in nearly all audio
+processors) to go haywire. If this setting is enabled, such frequencies
+are filtered out before processing starts, which solves the problem.

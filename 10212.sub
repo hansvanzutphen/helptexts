@@ -1,0 +1,7 @@
+The AGC filter attempts to make the audio level constant, without causing noticeable changes in the sound.
+
+If does so by - if possible very gradually - increasing and decreasing the audio level. If sudden spikes are present, it can remove those spikes without lowering the output level too much, to avoid pumping and similar annoying effects.
+
+The AGC never increases the incoming audio level, it only decreases it if it gets too loud. Use [[6]] to increase the input level.
+
+<table cellpadding=4 cellspacing=0 border=0><tr><td><img src="images/agc_before.png" border=1></td><td><img src="images/agc_after.png" border=1></td></tr><tr><td>Before AGC</td><td>AGC output</td></tr></table><BR><i>Piece of audio before and after AGC. The output signal (bright green) is much more constant in volume than the input signal.</i>

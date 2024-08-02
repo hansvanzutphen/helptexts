@@ -1,0 +1,3 @@
+Locks the GUI threads to one or more CPU cores.
+
+See [[11037]].

@@ -1,0 +1,5 @@
+Allows setting the clipping level for streaming separately.
+
+Typically, audio for FM needs to be clipped much harder than streams.
+This setting determines how much lower (or higher) the clipper drive for non-FM
+output is.

@@ -1,0 +1,4 @@
+Add a portion of L+R to the L-R channel for the volume measurements.
+
+This reduces the amount of stereo increment if there's a big difference between L+R and L-R.
+

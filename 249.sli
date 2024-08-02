@@ -1,0 +1,3 @@
+Bass boost artifacts below this frequency are not cleaned up at all.
+
+Set this slider higher to have more bass boost - but the bass will sound distorted if it is set too high.

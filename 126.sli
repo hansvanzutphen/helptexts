@@ -1,0 +1,3 @@
+Broadcasts the current date and time, once per minute.
+
+A receiver can use this to adjust its clock.

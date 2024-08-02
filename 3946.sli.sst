@@ -1,0 +1,1 @@
+Selects the secondary audio input as a backup audio source, which can either be switched to air based on silence, or continuously mixed with the main source.

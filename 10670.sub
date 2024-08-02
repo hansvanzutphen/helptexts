@@ -1,0 +1,12 @@
+ACR Stereo is to date the most effective stereo enhancer in Stereo Tool.
+
+ACR Stereo adds a copy of the L-R (stereo, difference between channels) information to the original
+stereo signal. This creates a sparkling stereo effect. In cases when the stereo effect in the
+input signal is already very strong, or almost not present, this filter switches off automatically.
+On top of these things, the stereo effect is stronger for transients.
+
+Several users have reported that the bass also sounds much better with this filter enabled.
+
+This type of stereo widening has very little impact on reverb (which often gets boosted by
+other types of stereo widening). When used for FM, it also has very little impact on
+multipath distortion (see also [[2154]]).

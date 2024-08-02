@@ -1,0 +1,6 @@
+Create a very punchy bass sound.
+
+Delay bass clipping at the start of a new bass sound for this amount of time.
+The onset of the bass is not reduced, leading to a very punchy bass sound.
+But also potentially to some distortion - although this type of very brief
+distortion is almost not noticeable.

@@ -1,0 +1,4 @@
+Enables the RDS Group Sequence.
+
+The Group Sequence can be used to specify exactly which RDS groups must be transmitted in what order,
+and what should be transmitted if a specific group isn't available.

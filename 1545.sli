@@ -1,0 +1,10 @@
+[Select how extensive the user interface is.]
+
+With this pull-down menu you can choose how extensive (and hence complicated
+to use) the user interface is.
+
+if you want to load a preset and only change some simple things, use Simple.
+For normal users, Basic should be fine. Advanced and Expert show a lot more
+settings that are difficult to use and can easily ruin the sound. Extreme
+Tweaker contains lots of obscure settings that you should probably never
+touch.

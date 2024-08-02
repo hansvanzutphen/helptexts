@@ -1,0 +1,5 @@
+Switches between old and new mouse behavior for sliders.
+
+The new mouse behavior makes the mouse work at a typically useful speed. You can hold Control or right-click when adjusting a slider setting to have very precise control, and you can use Shift to move faster, in bigger steps.
+
+The old mouse behavior was quite different from how most programs work. Holding the left mouse key long switches to a mode where movements are slower.

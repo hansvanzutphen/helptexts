@@ -1,0 +1,3 @@
+Configure band 2 protection against very loud highs relative to the lows.
+
+See [[10214]]. If there are only bass sounds present, the band 2 output level could rise indefinitely, while band 1 would be kept very low. This greatly increases noise levels. (For example, if the bass in the input is reduced by a factor 40, and the highs are not reduced at all, in total the highs are 40 times louder than the lows). This slider configures how much the band 2 output level can rise above the band 1 output level.

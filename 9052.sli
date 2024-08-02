@@ -1,0 +1,6 @@
+Sound card to use for SCA audio input.
+
+If this is set to Streaming (via VLC), a stream is used for input instead.
+This setting can be overruled by [[519]] and [[520]].
+
+If the input is coming from a different sound card than [[9051]], hiccups may occur on one of the inputs.

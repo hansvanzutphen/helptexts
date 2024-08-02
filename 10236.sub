@@ -1,0 +1,9 @@
+Clips the output, while removing distortion caused by clipping.
+
+Boosts the output level without increasing peak level. The Advanced Clipper can make the sound up to 12 dB louder, without causing higher peaks (hence clipping) in the output.
+
+The clipper in Stereo Tool detects and actively removes (almost) any distortion that is audible by humans - but nothing else! This results in a clean, open, dynamic and very bright sound.
+
+This filter is intended for FM, AM or internet radio stations that want to sound loud. It can also be used to create a 'denser' sound.
+
+Loudness leaves some small spikes in the signal. Therefore, if you use this filter, and the [[7]] slider is set at (or just below) 0 dB, make sure that [[10]] is enabled to avoid distortion caused by clipping. If you use Stereo Tool to prepare an FM signal, always turn [[10]] on when using the Advanced Clipper, regardless of the Post Amp slider setting.

@@ -1,0 +1,7 @@
+How much drop of levels is allowed before the gap protection needs to work.
+
+A lower value will reduce the quality of the highs somewhat, but protect
+the mids much better.
+
+A higher value gives pristine and loud highs, but at the cost of a less
+tight sound and less consistency in the mids.

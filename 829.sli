@@ -1,0 +1,5 @@
+The number of bands.
+
+If you change the number of bands, all the
+[[833]] and [[2661]] sliders will get new default values. A popup
+will ask you if you want to update the sliders to these new default values.

@@ -1,0 +1,8 @@
+Switches stereo enhancement off when the signal is nearly mono.
+
+If the left and right channel levels are not perfectly equal, sounds such
+as a DJ speaking through a microphone would constantly be moved off-center even more -
+and if a delay ([[2802]]) is used, an echo would be audible all the time.
+To protect against this, the filter switches off is the signal is nearly
+mono.
+

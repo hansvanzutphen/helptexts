@@ -1,0 +1,4 @@
+Default tilt. Normally 0 degrees.
+
+If there's a constant tilt present, you can set it here. However, see
+[[353]] for a better solution that also improves the audio quality.

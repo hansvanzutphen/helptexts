@@ -1,0 +1,5 @@
+Target level for the Auto EQ.
+
+Auto EQ will keep the level in bands right where desired. This slider determines the appropriate level for each band on a +/- 12dB scale. Where the sliders are in that scale is irrelevant. The only thing that matters is the relationship of the bands to one another. For example, in a two band scenario if band 1 is at +2dB and band 2 is at 0dB, that’s identical to band 1 being at 0dB and band 2 being at -2dB.
+
+<i>Important:</i> The best results are obtained if, on average material, the meters are all in the center. The default settings are generally ok, but for different types of content some adjustments may be needed. To determine whether the levels are in the center on average, look at the median display.

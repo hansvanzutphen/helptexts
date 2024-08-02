@@ -1,0 +1,1 @@
+Adjusts how frequently the error correction packets will be sent. A setting of 0 will disable sending of error correction packets. Smaller values will send packets more frequently and consume additional bandwidth.

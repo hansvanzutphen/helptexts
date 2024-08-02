@@ -1,0 +1,1 @@
+Specifies the silence threshold level and timeout before switching to the secondary audio input as backup (assuming &ldquo;Use as Backup&rdquo; is &ldquo;On&rdquo; and &ldquo;Always add to main input&rdquo; is &ldquo;Off&rdquo;). If &ldquo;Use as Backup&rdquo; is &ldquo;Off&rdquo; or &ldquo;Always add to main input&rdquo; is &ldquo;On&rdquo; these settings will be disabled.

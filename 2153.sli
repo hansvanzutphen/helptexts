@@ -1,0 +1,16 @@
+Enables Single Sideband encoding.
+
+This video was published by Omnia:
+<center><iframe width="560" height="315" src="//www.youtube.com/embed/KlxeI2uqCOw" frameborder="0" allowfullscreen></iframe></center>
+
+Single Sideband (SSB) coding means that the stereo signal is encoded at
+the area between 23 and 38 kHz, instead of 23 and 53 kHz. This should reduce
+multipath distortion issues because there is less high frequency content.
+
+Reports on the usefulness of this technique vary. Other manufacturers report
+numbers like 40% see an improvement, 40% see a deterioration, 20% sees no
+difference.
+
+For now, if you want to improve multipath distortion, our suggestion is to
+use the [[2154]] or [[10425]] - responses to that have been far more
+convincing. Of course you can also combine them.

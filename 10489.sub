@@ -1,0 +1,7 @@
+Protection against spikes for slow compressor settings.
+
+Some presets use very slow attack and release times. This can sound great,
+but the level control for sudden volume increases is less good.
+
+This section contains the settings for an extra compressor that takes over
+in such cases. It does not affect normal audio.

@@ -1,0 +1,6 @@
+Ignores any side chain for the Power Bass behavior.
+
+In some cases, side chains have so much impact on the bass that Power Bass
+will always boost the bass, even when it's not needed at all. This setting
+should probably always be on (and will probably be removed in a future
+version).

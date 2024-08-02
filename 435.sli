@@ -1,0 +1,5 @@
+Tells the non-composite Stokkemask clipper how loud the audio will be broadcast.
+
+Basically, this is used to tell the Stokkemask clipper how much the audio
+level is reduced (below 100% modulation) because stereo and RDS are added.
+

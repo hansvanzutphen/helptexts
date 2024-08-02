@@ -1,0 +1,6 @@
+Hash code used for encoding the stream.
+
+This code must be the same on the encoder and all decoders.
+
+In general it's a bad idea to show this code... But: You need it if you ever want to add an extra decoder to your stream.
+And if someone has access to this interface, they can interfere with everything already.

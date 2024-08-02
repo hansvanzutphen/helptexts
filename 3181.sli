@@ -1,0 +1,7 @@
+Chooses between Analog and Digital compressor mode.
+
+Analog mode was added later, and is the preferred mode. It sounds slightly better and it uses far less processing power.
+
+For the first Multiband Compressor, you can choose whether you want to use Digital or Analog mode. [[10781]] only supports Analog mode.
+
+<b>To keep this manual readable, the manual for the first Multiband Compressor (this one) will only describe the Digital parameters. For Analog mode, also for the first Multiband Compressor, see [[10781]].</b>

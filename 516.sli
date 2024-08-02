@@ -1,0 +1,5 @@
+ASIO left channel input.
+
+If [[10187]] is enabled, selecting an ASIO input port here overrules the
+setting in [[9051]]. As soon as an ASIO input port is selected, ASIO will
+be used and the buffer filling display will turn from blue to green.

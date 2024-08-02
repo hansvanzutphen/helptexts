@@ -1,0 +1,3 @@
+Enables entering a password, which is transcoded to a hash.
+
+You can enter a password here, which is hashed and put in [[5350]].

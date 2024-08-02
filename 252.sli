@@ -1,0 +1,4 @@
+Scales Maximum bass peak level according to the predicted bass level coming out of the AGC and Multiband filters.
+
+If this is disabled, the maximum bass peak level does not change if any other settings are changed. If it is enabled, the filter will make a prediction of the maximum bass level coming out of the AGC and Multiband filters, and assume that 100% is this maximum level (short bass spikes in Multiband are ignored in this calculation).
+

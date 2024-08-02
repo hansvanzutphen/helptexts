@@ -1,0 +1,14 @@
+The final clippers and limiters.
+
+Stereo Tool has 2 clippers built in:
+<UL><LI><b>[[10235]]</b><BR/>
+This clipper is indeed very simple. It does not handle distortion too well,
+so you should only use it to remove some occasional spikes.</LI>
+<LI><b>[[10236]]</b><BR/>
+The Advanced Clipper uses a lot of techniques to minimize or even completely
+remove digital clipping and intermodulation distortion. It can produce an
+extremely loud, yet still dynamic and distortion-free sound. The Advanced
+Clipper requires registration.</LI>
+</UL>
+These clippers may still leave some very small spikes through. To remove those,
+[[10]] can be used.

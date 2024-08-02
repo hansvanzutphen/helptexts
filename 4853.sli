@@ -1,0 +1,3 @@
+The maximum amount of reduction the filter can make for this band.
+
+Setting this close to 0 dB makes the filter slightly less effective, but can greatly reduce audible changes in spectrum, especially for the center bands.

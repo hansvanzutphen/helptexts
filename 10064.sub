@@ -1,0 +1,3 @@
+Reduces excessive highs caused by [[110]].
+
+It tries to do this with as little impact on the sound as possible. This filter only responds if the total level would be too high, so if there are no other sounds present it will not reduce the highs a lot, regardless of how loud they are. This means that it normally has no impact on speech, only on music. For FM output, the de-esser is far less needed when using [[10519]] than when using traditional clipping.

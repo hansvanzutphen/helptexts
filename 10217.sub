@@ -1,0 +1,4 @@
+Should no longer be needed.
+
+This was used to protect the clipper against too much bass, but with all the improvements to the multiband compressor, limiter and clipper and the introduction of [[10633]] since Bass AGC was created, it should probably not be used anymore.
+

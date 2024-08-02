@@ -1,0 +1,9 @@
+EXPERIMENTAL: Enables asymmetrical clipping and limiting for FM stations (!)
+
+If 2 stations from the same owner are located close to another and very close
+in frequency, for example only 100 or 200 kHz apart, then it might improve
+the reception if for both frequencies the bandwidth towards the other frequency
+can be reduced.
+
+This is currently available for testing only and it does not work if the
+composite clipper for FM is enabled.

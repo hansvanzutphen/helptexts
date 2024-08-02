@@ -1,0 +1,7 @@
+Chooses between more multipath distortion protection and better sound quality.
+
+A higher value allows more spikes in the RF signal that could cause
+multipath distortion, but also affects the audio less.
+
+Because the effect on the audio is already very limited, a value of 100%
+is usually fine.

@@ -1,0 +1,1 @@
+Avoids buffer underruns or overruns if different sound cards are used for input and output.

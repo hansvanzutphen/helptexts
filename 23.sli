@@ -1,0 +1,5 @@
+Adds a constant phase offset between the two channels.
+
+This slider can be used to add a phase offset between the channels. Both -180 and +180 cause the channels to be the opposite of each other, 0 is normal output.
+
+[[19]] is performed first!

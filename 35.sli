@@ -1,0 +1,5 @@
+The target maximum output level for this frequency band.
+
+For each band, how much of the output volume range may be used before the amplification must be turned down.
+
+This is the value A in the graph above.

@@ -1,0 +1,4 @@
+Switches between equalizing before performing multiband compression (hence boosting or reducing the compression of bands), or afterwards (behaving like a normal equalizer).
+
+This setting is only available for convenience. Disabling it gives the same result as enabling it and multiplying the [[35]] levels by the equalizer levels.
+

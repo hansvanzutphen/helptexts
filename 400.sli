@@ -1,0 +1,14 @@
+Determines how strongly the high frequencies are protected against bass.
+
+Without protection, a combination of loud bass and loud highs leads to
+quite horrible intermodulation distortion from the bass in the highs,
+as can be heard on my FM radio stations. Stereo Tool contains a unique
+filter that detects when this is noticeable, and fixes it.
+
+This slider controls how strongly the protection works. Opposed to what
+you may expect, protecting it <i>too much</i> can by itself cause something
+that sounds like intermodulation distortion, and the protection slightly
+lowers the level of the highs frequencies.
+
+A value of a few percent seems to work best. This also depends a bit on the
+[[410]] slider.

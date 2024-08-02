@@ -1,0 +1,3 @@
+Determines how much FM hiss can be removed, compared to the measured hiss level.
+
+This normally needs to be set a bit above 100%, because otherwise the hiss is not always completely removed. If it is set too high, other sounds might be damaged as well.

@@ -1,0 +1,13 @@
+Enables using a separate thread (which usually uses a CPU core) for each channel.
+
+Where [[4042]] adds latency, this setting can actually slightly reduce latency because the calculations finish faster.
+
+This should always be enabled, unless you really need to let Stereo Tool
+use only one core. By using multiple cores, about 70% more audio can be
+processed in the same amount of time.
+
+This option has no effect on a PC with only one CPU core
+(and no hyperthreading), or (on Windows) if the environment flag
+NUMBER_OF_PROCESSORS is set to 1.
+
+See also [[4042]].

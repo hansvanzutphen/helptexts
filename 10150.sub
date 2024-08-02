@@ -1,0 +1,6 @@
+Settings to detect input tilt.
+
+Input tilt can be caused by an analog path to Stereo Tool, but there are also
+many CD's which contain clipped and then tilted audio.
+
+See also [[10168]] - this is where you should fix a constant tilt in the input to Stereo Tool, which also improves the audio quality. The detection in this panel only detects the tilt but does not restore it.

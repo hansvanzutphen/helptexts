@@ -1,0 +1,9 @@
+Disables reconstruction of very high frequencies.
+
+The Spectral Hole Filler is good at reconstructing small gaps in the audio, but less good at 
+reconstructing large areas. In many cases, in lower bitrate MP3/MPEG2 encoded files a lot of 
+high frequency content is removed. If the Spectral Hole Filler reconstructs this audio it
+can sound weird.
+
+A better solution is to use Spectral Hole Filler in combination with [[10898]] - a link
+between the two still needs to be made...

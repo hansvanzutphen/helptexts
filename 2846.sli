@@ -1,0 +1,5 @@
+Main processing affinity mask.
+
+Only used when [[3005]] is set to Mask.
+
+See Windows MSDN documentation. You should normally not need this.

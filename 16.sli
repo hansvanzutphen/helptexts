@@ -1,0 +1,7 @@
+Prepares the bass to be played on a system with a single subwoofer.
+
+If there is a phase difference in the bass between the left and right channel, and the sound is played using a single bass speaker, the bass will get deformed and lowered in volume. If this filter is turned on, phase differences for bass sounds are removed completely, which solves this problem.
+This occurs only very rarely. Note however that when the [[23]] slider is set to a high value, this will occur much more frequently.
+When listening with headphones, this somewhat reduces the stereo effect.
+
+<font color=#FF0000>In some cases this filter can cause severe artifacts.</font>

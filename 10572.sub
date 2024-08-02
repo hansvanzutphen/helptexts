@@ -1,0 +1,3 @@
+Settings to avoid artifacts.
+
+Controls how fast the volume may go up (should be fast!) and down (should not be fast, to avoid bad effects).

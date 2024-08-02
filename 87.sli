@@ -1,0 +1,3 @@
+Enables high quality mode.
+
+This filters out compression artifacts. Doing so increases the CPU load, and it's only useful when very aggressive compression or limiting is used (high [[45]] or [[55]] levels) - otherwise there are no compression artifacts to filter.

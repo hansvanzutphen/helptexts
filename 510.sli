@@ -1,0 +1,15 @@
+Normal (non-FM) output buffer size.
+
+Using a bigger buffer size reduces the chance of getting audio dropouts
+if the pc is very busy, but it also increases the delay between input
+and output. If you want to do other things on the pc that's running
+Stereo Tool (starting other programs while processing is running etc.), you
+might need a big buffer here.
+
+If you use ASIO ([[511]], [[512]]), the buffer size can be much lower than if
+you're not. If you're not using ASIO there are also buffers in Windows that
+add a lot of extra delay.
+
+To get the lowest possible latency (see also [[263]]), set this value as low
+as possible without getting audio drops, and avoid running other programs that
+cause hiccups.

@@ -1,0 +1,3 @@
+Reduces the dynamics boost for already dynamic sound.
+
+The effect is reduced if the signal is already very dynamic. This slider offsets the detection of how dynamic the sound already is. Result is displayed in the bars on the right (gray dotted part that comes in from the right: The bigger this is, the more dynamic ND thinks the sound is, and the effect of the filter is reduced as indicated by this gray dotted area).

@@ -1,0 +1,3 @@
+Allows exceeding [[3227]] if the input is very loud.
+
+This is the automatic door behavior again: If you push very hard against a hydraulically controlled door, the oil in the hydraulic system starts to heat up, and as a consequence, the oil becomes thinner and the door will start moving faster. This setting controls how much faster the door can move if the pressure is high for a while (see also [[3713]]).

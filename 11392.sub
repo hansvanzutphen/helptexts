@@ -1,0 +1,34 @@
+Kantar watermarking for audience tracking.
+
+<b>Kantar watermarking is available in ST-Enterprise and STXtreme.</b> There is a (deprecated) Stereo Tool stand alone Kantar version as well,
+if you were using Kantar watermarking in this version before March of 2023, please contact us to upgrade your license to ST-Enterprise.
+
+For ST-Enterprise, to use Kantar watermarking select your license files (usually named license.lic and license.aud) from the ST-Enterprise user interface (screenshot).
+After this, the channels that your license covers are selectable under [[5895]].
+Kantar embedding currently only works if the [[500]] is set to 48 kHz or a multiple thereof (96, 192), and [[3826]] is disabled.
+
+<img src="images/Kantar-License-Enterprise.png">
+
+In order to get a watermarking embedding license, please contact Kantar Media support at www.kantarmedia.com/watermarkinghelpdesk with following information:
+<UL>
+<LI> Product name and version</LI>
+<LI> Customer name</LI>
+<LI> Country</LI>
+<LI> If different, country of broadcast</LI>
+<LI> Channel(s) to be watermarked</LI>
+<LI> Customer internal name for the hardware platform</LI>
+<LI> AuthorisationCode for each hardware or login contact for online solution</LI>
+</UL>
+The AutorisationCode.txt file can be found in the Stereo Tool directory after installation, and can be regenerated if needed by running AuthorizationCodeCL.exe in that same directory.
+
+Kantar watermarking log files are created in C:\Users\<i>username</i>\ST-Enterprise.log. If you rename the ST-Enterprise executable, ST-Enterprise is replaced by that name, so for example for ST-Enterprise10.exe it will be in C:\Users\<username>\ST-Enterprise10.log.
+
+Running Kantar watermarking causes an extra delay in the audio. The total delay is equal to the setting under [[263]] plus the processing delay plus the Kantar delay, which is 2048 samples. So, the <b>extra</b> delay when enabling Kantar at 48 kHz, compared to the set value, is 128.00 ms for Latency 4096, 85.33 for 2048, 64.00 for 1024, 53.33 for 512, 48.00 for 256, 45.33 for 128.
+Note that turning Kantar on or off causes a jump in time of 2048 samples - when turning it on, it inserts a bit of silence, when turning it off, some audio is discarded.
+
+Kantar watermarking resynchronizes its time stamp with the Windows system clock at least once a day (when a new day starts), plus whenever the timestamp has an offset to the system clock that exceeds 10 seconds.
+
+<i>For the deprecated Stereo Tool Kantar build, instead of selecting the license files, you need to place them in the directory from which
+you're running Stereo Tool (screenshot), typically <tt>C:\Program Files (x86)\Stereo Tool</tt>, then restart Stereo Tool to read them. The standard location for log files is C:\Users\username\stereo_tool.log .</i>
+
+<img src="images/Kantar-License.png">

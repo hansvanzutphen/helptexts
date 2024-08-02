@@ -1,0 +1,5 @@
+Do not use this unless you CPU can't handle the new mode!
+
+Legacy mode is LESS strict and has much more effect on the audio.
+
+Warning: Changing this mode changes the output signal, if you are in a country where you have to be Stokkemask compliant, you might need to do a new measurement when you turn this setting off.

@@ -1,0 +1,4 @@
+Process channels separately, combined, or in between.
+
+At 0%, the two channels will always behave the same. At 100%, they move completely separate of each other.
+

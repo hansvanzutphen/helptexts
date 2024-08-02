@@ -1,0 +1,3 @@
+Sets the amplification before going into the clipper.
+
+Clipping always occurs at 0 dB, this slider adjusts the input level to match.

@@ -1,0 +1,3 @@
+Configure band 2 protection against volume drops due to loud mid or high frequencies.
+
+See [[10214]]. This slider is used to tell the AGC how loud band 2 is expected to be compared to band 1. Band 2 is processed with a lower Target RMS level, based on this setting. Normally this should lead to roughly identical dynamic amplification levels for band 1 and 2. If - due to loud mid or high frequencies - band 2 is much louder than the configured level, its output volume is not dropped below the output volume of band 1. This means that, in cases where relatively loud mid or high frequencies are present, the 2 band AGC starts behaving more like a 1 band AGC, which gives better protection against unwanted volume drops and rises.

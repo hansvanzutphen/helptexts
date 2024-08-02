@@ -1,0 +1,5 @@
+Coupling between all bands.
+
+This number defines how strongly bands are coupled if they are exactly
+one octave apart ([[2204]] doubles between bands). Bands are coupled stronger
+if they are closer together and weaker if the distance between them is bigger.

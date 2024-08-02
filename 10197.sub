@@ -1,0 +1,12 @@
+Description of the type of input signal.
+
+Many things in the input path can affect clipped samples. On a CD, it's
+usually (but not always!) easy to see: Samples at the absolute top or bottom
+are clipped, and other samples are not.
+
+But in many cases the audio from the CD does not reach Stereo Tool directly.
+There can be an analog studio (which can causing tilting of the audio),
+recordings can be compressed with a lossy compressor such as an MP3 encoder
+(try to avoid that if possible! It makes perfect declipping impossible, although
+it's still possible to make a big improvement.)
+

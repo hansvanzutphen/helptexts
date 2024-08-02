@@ -1,0 +1,3 @@
+Settings that protect the clipper against excessive highs.
+
+Excessive highs can punch <i>holes</i> in the rest of the audio, which is generally perceived as very annoying in music (it's ok with speech). This is usually only a problem for FM output, where the highs are boosted by [[110]] and a lot of clipping is used to reach high output levels.

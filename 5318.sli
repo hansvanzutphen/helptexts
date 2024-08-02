@@ -1,0 +1,7 @@
+The amount of overshoots that loud bass may create.
+
+More overshoots make the bass louder (at the same Threshold level),
+and reduces the amount of harmonics that are generated.
+
+See also [[5310]].
+

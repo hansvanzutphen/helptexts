@@ -1,0 +1,35 @@
+Repairs clipped audio: Removes distortion and restores dynamics.
+
+<center><iframe width="420" height="315" src="//www.youtube.com/embed/oqOljvx9KaM" frameborder="0" allowfullscreen></iframe></center>
+
+Perfect Declipper improves the audio quality of too loud recordings. This includes most modern CD's and MP3's (see 'Why should I use it' on the right). It does this by calculating the missing (clipped) information from the data that is still available.
+
+Declipping consists of 3 steps:
+<UL><LI>[[10150]] detection</LI>
+<LI>Clipping detection</LI>
+<LI>[[10199]]</LI></UL>
+How well declipping works is determined by the combination of these 3 steps.
+
+<i>
+<b>Why should I use it?</b><BR/>
+In the 1980's, CD's were expensive and only available in high-end systems - and hence most CD's were recorded at the best possible quality.
+In the last two decades, due to what is called the <i><a href="http://en.wikipedia.org/wiki/Loudness_war">loudness war</a></i>, music has
+been released at continuously increasing volume levels. This has come at a cost: Reduction of dynamics and <i>clipping</i>. Clipping means
+that the loudest spikes in the music are cut off, which causes <i>digital clipping distortion</i>. In the last few years, it has gotten so
+bad that in some cases you can even clearly hear the distortion on laptop speakers.
+
+Perfect Declipper can restore the clipped parts of the audio, in many cases the result is indistinguishable from the original, not clipped,
+recording. In the process, it also restores part of the dynamics.
+
+<b>Do I need high-end audio equipment to hear the difference?</b><BR/>
+No! In fact, I've received many emails and messages from people who stated that their cheap equipment suddenly sounded like a high-end system
+to them. Even on the cheapest headphones the difference in quality is amazing. Just check the samples on this site.
+
+<b>Is declipping useful if we are going to clip the audio again anyway at the end of the processing?</b><BR/>
+Yes! Stereo Tool's [[10236]] detects whether distortion is noticeable and usually
+does not cause audible distortion. And if the declipper output is fed into another processor,
+especially older processors that were not built to handle clipped audio,
+the increased dynamics help a lot to generate a much more constant and much
+better quality sound.
+</i>
+

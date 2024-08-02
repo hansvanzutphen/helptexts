@@ -1,0 +1,6 @@
+Enables transmission of the PIN (Programme Item Number).
+
+The scheduled broadcast start time and day of the month is transmitted with this.
+This way, a receiver can see when a specific program starts and ends. It can for
+example be used to record a program, even if the start/end time changes (like
+VPS for video recorders).

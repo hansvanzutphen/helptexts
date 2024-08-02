@@ -1,0 +1,22 @@
+Configures the RadioText text that is displayed on some radios.
+
+RadioText is a longer (upto 64 characters) text. Not all radios that can receive and display RDS also display this text.
+
+RadioText can be configured using the same formatting as [[9041]]. Because
+it takes a long time to transmit the (much longer) RadioText, upto about
+5 seconds for a single transmission of the whole text, options such as scrolling
+are not very useful, and because the text is so long and reception errors
+frequently occur, it's better to avoid dynamic texts - unless there's a lot of time for each text to be transmitted (at least 20-30 seconds).
+
+Stereo Tool also support RadioText Plus (RT+). With RT+, you can tell the receiver what the meaning of parts of the RT text is. For example,
+you can indicate that a part of the text is the artist name or title of a song, or a link to a website. Some receivers can use this info to -
+for example - display album art, or even direct links to buy a song. Receivers that don't support this will just ignore the extra information.
+
+An RT text can contain at most 2 RT+ fields. To indicate the start or end of an RT+ field, use <tt>\+XX</tt> to indicate the start of a field,
+and <tt>\-</tt> to indicate the end. XX can either be the decimal value of the RT+ field (00-63), or one of our predefined names (<tt>AR</tt>
+for artist, <tt>TI</tt> for title, <tt>WW</tt> (case insensitive) for a link. The <tt>\+</tt> and <tt>\-</tt> fields are not part of the
+length of the RadioText string!
+
+Example:<BR/>
+<tt>&nbsp;&nbsp;Now playing \+tiRadar Love\- by \+arGolden Earring\-</tt><BR/>
+<tt>&nbsp;&nbsp;For more info go to \+WWwww.thimeo.com\-!</tt><BR/>

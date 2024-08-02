@@ -1,0 +1,11 @@
+Reduces the bass sensitivity effect during delayed clipping.
+
+Despite what was said in [[545]], in some cases delayed clipping can cause
+noticeable distortion. Because of that, the clipping level will still be
+reduced a bit if [[394]] or [[449]] indicate that it should be reduced.
+This slider controls how strongly it responds during the onset of a bass.
+
+If [[311]] is 90%, [[294]] is 70%, [[546]] is 100%, then the difference between
+the maximum (90%) and calculated (say 80%) level is used and multplied by
+this value. So say it's set to 0.5, then the delayed clipping level that
+is used will be 100% - 0.5 * (90% - 80%) = 95%.

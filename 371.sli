@@ -1,0 +1,5 @@
+Determines how the maximum level is measured - short term, long term or combined.
+
+Either means that it uses the minimum of the two, both mean that it uses the
+maximum of the two - in which case the [[372]] is used to adjust the short
+term level.

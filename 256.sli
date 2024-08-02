@@ -1,0 +1,9 @@
+Removes short volume spikes that remain at the end of the AGC processing.
+
+<b>Superseded by [[10060]], use that instead for better results.</b>
+
+The AGC responds slowly to volume changes, to keep the effects on the audio as small as possible. This does mean that if the volume suddenly increases a lot, a loud 'spike' of sound can remain. This slider determines how much 'spike' is allowed above the configured [[29]]; anything louder than that is reduced.
+
+If this slider is set too high, loud spikes remain; if it is set too low, too much spikes are removed, which takes out 'kicks' from the audio, making it sound too 'flat'.
+
+If this setting causes peaks to be removed, black bars are displayed in the output bars at the bottom of the window. Ideally, these should only occur when they are needed (sudden volume jumps), not during 'normal' music (like every bass kick).

@@ -1,0 +1,5 @@
+Extra distortion allowed for all frequencies.
+
+It is likely (but still needs to be checked) that with a very small amount
+of allowed distortion, the clipper might sounds more open. And the amount
+of extra distortion is so low that it's hardly noticeable.

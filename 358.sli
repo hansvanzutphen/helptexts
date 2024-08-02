@@ -1,0 +1,3 @@
+Determines how much distortion can be restored.
+
+A higher value also causes a slightly higher CPU load.

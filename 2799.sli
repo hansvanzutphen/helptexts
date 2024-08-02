@@ -1,0 +1,6 @@
+Automatically start Stereo Tool when Windows starts.
+
+Note that Stereo Tool is only started when the user under who's account
+this setting was enabled logs in. So, to make this work properly, make sure
+that this happens automatically when Windows starts.
+

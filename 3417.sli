@@ -1,0 +1,3 @@
+Lowpasses the compressor control signal.
+
+By lowpassing the control signal from the compressor, distortion from fast compressor action is removed. It also helps smoothe out remaining spikes when the [[10789]] is a bit too slow, since the filtering works symetrically (not only forward in time).

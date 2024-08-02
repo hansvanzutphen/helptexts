@@ -1,0 +1,12 @@
+"Opportunistic SSB/DSB switching", which reduces the amount of clipping and allows for more loudness, more dynamics and a cleaner sound.
+
+Dual sideband stereo (DSB) and single sideband stereo (SSB) have peaks at different locations. So, for some moments in time, SSB will result in having less clipping, and at other moments, DSB will result in having less clipping.
+
+<img src="images/lrasym-1.png" width=800><BR/>
+<i>Single sideband peaks vs. dual sideband peaks.</i>
+
+<img src="images/lrasym-2.png" width=200><BR/>
+<i>The effect of using this option on the spectrum.</i>
+
+<img src="images/lrasym-3.png" width=800><BR/>
+<i>Audio peak levels after demodulating the audio. From left to right: Traditional left/right clipping, composite clipping, composite clipping with L-R asymmetry.</i>

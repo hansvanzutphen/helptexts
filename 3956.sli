@@ -1,0 +1,4 @@
+Detection band width.
+
+Setting this very low causes "sqeeky" highs, and increases the CPU load. Setting this very high
+makes the reconstructed highs more noisy.

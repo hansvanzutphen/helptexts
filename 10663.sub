@@ -1,0 +1,10 @@
+How much of the available time is spent for processing.
+
+This is not the same as the overall system CPU load. What it shows is how much of the time Stereo Tool
+is busy with processing in each processing thread - it could also be waiting. 
+
+If this bar is nearly full (around 90% or higher) you can expect performance problems such as
+hiccups in the audio.
+
+Please note that overhead such as resampling (used when enabling [[10166]]
+or [[10630]]) is not displayed in this graph, but does take extra time.

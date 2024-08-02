@@ -1,0 +1,1 @@
+Specify the IP port on which MicroMPX traffic will be sent. The default is port 8854 and generally should not need to be changed unless some other application is utilizing port 8854.

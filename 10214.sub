@@ -1,0 +1,12 @@
+Select 1, 2 or 3 bands AGC.
+
+[b]While the AGC offers upto 3 bands, since the [[10479]] was added, the best result
+can be obtained using only 1 band comgined with [[10479]]. The rest of the text is kept here to explain what the other settings do, but we strongly advise to use 1 band with [[10479]].
+
+1 band gives the best approach of the total RMS volume. However, loud bass sounds will cause other frequencies to be dropped (which makes sense, as they count as part of the RMS volume).
+
+2 bands <i>sounds</i> more constant. Band 1 contains all the sound (hence behaves identical to the 1 band AGC), band 2 contains frequencies above 200 Hz. There are 2 issues when using 2 bands: <UL><LI>The volume of the two bands may move apart, causing the audio to sound different.</LI><LI>In the 2nd band, because very low frequencies are ignored, loud higher frequencies such as loud voices in music may cause the volume of band 2 to drop.</LI></UL><BR>To solve these issues, the band 1 volume is not dropped below the band 2 volume unless the bass level is really loud, and the band 2 volume is not dropped below the band 1 volume to protect against volume drops on loud voice sounds. To configure this behavior, see the sliders [[255]], [[270]]
+and [[291]].
+
+3 bands is identical to 2 bands (see the previous paragraph), except that very loud highs are reduced. This time, also the level of the 3rd band is never increased above that of band 2. [[271]] is used to set the target maximum highs level.
+

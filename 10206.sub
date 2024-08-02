@@ -1,0 +1,7 @@
+Removes background noise, including 16-bit quantization noise.
+
+The noise gate removes background noise, which is mainly useful for older
+recordings. But even for recent CD's it helps to let it work very gently,
+because quantization noise (the number of bits on a CD is not infinite)
+can be increased a lot by processing which makes music sound harsh. Gentle
+[[10083]] and [[10084]] solve this.

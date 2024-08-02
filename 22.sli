@@ -1,0 +1,6 @@
+Changes the placement of sounds without changing their phase differences.
+
+Moves between 0 (all sounds in the center, 1 (no change) up to 8 (the sounds are moved 8 times further away from the center than in the original signal, if possible of course).
+Note that "0" does not mean that the output signal is mono, because the phase differences are not affected by the width slider. With this setting, for someone who hears both speakers it still sounds like stereo, but if someone hears only one speaker all the sounds are present.
+
+<font color=#FF0000>Setting width to a very high value will almost always introduce artifacts, so it should be used with care - or not at all.</font>

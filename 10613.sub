@@ -1,0 +1,7 @@
+Matrix mode lets the AGC work on Left+Right and Left-Right instead of Left and Right channels. (Experimental)
+
+This makes the stereo signal very constant - and probably way too strong for most purposes. The output contains nearly the same amount of audio in L+R and L-R, which means that there's an extreme amount of stereo present, so it usually needs to be tamed down a bit afterwards. This mode is experimental and may have unwanted side effects.
+
+You should probably disable Stereo Boost when you use this.
+
+For FM, Matrix AGC without taming down the stereo tends to increase multipath distortion problems, if you're going to try this out, enable the Stokkemask filter to compensate for that. And tame the stereo down a bit, otherwise it's really too much.

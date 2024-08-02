@@ -1,0 +1,3 @@
+Enables the Composite Clipper.
+
+The composite clipper uses the [[10236]], but uses a lot more CPU load.

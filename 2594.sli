@@ -1,0 +1,3 @@
+Adjust the RMS measurement block size.
+
+With a smaller block size, staccato-sounds are better adjusted in level - the volume is lowered more (the silence is more or less ignored) which better corresponds to how human hearing works.

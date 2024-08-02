@@ -1,0 +1,1 @@
+Determines whether the compressor will use a peak-based or RMS-based algorithm. Peak mode will tend to react to a single small spike in the sound. RMS mode responds more like human hearing does, but may cause pumping with low frequencies.

@@ -1,0 +1,8 @@
+The amount of time that hiss detection uses.
+
+If this time is short, FM stereo hiss will be removed nearly immediately
+when it becomes present. However, the detection of noise vs. tones and the
+level detection is less accurate. With longer times, it takes longer for the
+filter to kick in but it has less effect on the sound and removes the FM
+hiss a bit more accurately (or actually, the [[317]] setting can be reduced a
+bit).

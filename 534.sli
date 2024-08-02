@@ -1,0 +1,9 @@
+Controls how fast synchronization works
+
+Synchronization is done by slightly changing the sample rate of the input
+signal. This means that it has a (small) effect on the pitch of audio.
+Using a faster speed means that synchronization works faster, but gets more
+audible.
+
+The default setting is 1%, which means that the <i>maximum</i> possible
+adjustment if things are really wrong is 1%.

@@ -1,0 +1,3 @@
+The settings for the initial required volume boost estimation.
+
+All the sounds that are above a certain level are increased in level. [[10571]] is used afterwards to remove unwanted boosts.

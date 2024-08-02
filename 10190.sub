@@ -1,0 +1,5 @@
+Settings for normal (non-FM) output.
+
+If FM processing is used, then the normal output contains the signal after
+demodulating and de-emphasis. It should be similar to the sound that people
+hear on their FM radios.

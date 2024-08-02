@@ -1,0 +1,1 @@
+Reduces CPU load by ignoring frequencies above 19 kHz. &nbsp;This filter should have no effect on FM or streaming operation. The CPU load reduction can be as much as 30%. Using this setting, however, will increase the latency.

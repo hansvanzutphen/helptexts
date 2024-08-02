@@ -1,0 +1,4 @@
+Protect against volume drops caused by loud highs.
+
+Protects the sound against volume drops caused by extremely loud (often pre-emphasized) highs. The only reason why this is configurable is that it takes a lot of CPU power.
+

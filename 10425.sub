@@ -1,0 +1,16 @@
+ITU-R SM.1268 compliance settings.
+
+The Stokkemask (ITU-R SM.1268) is a mask on the RF spectrum (see
+[[10523]]). Enabling this mask makes the RF spectrum less wide, which
+improves multipath distortion and reception strength of your station, and
+reduces disturbances caused to weaker stations at nearby frequencies.
+
+Using Stokkemask is mandatory in the Netherlands, but it improves reception
+everywhere. For stations that don't need to be compliant but do want the
+improved reception, [[2154]] can be used - it has less impact on the audio
+and the CPU load but it <i>should</i> have the same advantages.
+
+<font color=#FF0000>The Stokkemask filter can be used without using 
+[[10519]], but the sound quality will suffer a lot, and the effects of the
+RDS and stereo pilot cannot be taken into account, which means that compliance
+cannot be completely guarranteed.</font>

@@ -1,0 +1,5 @@
+Enables higher quality [[10192]].
+
+This setting greatly reduces artifacts in the low latency monitoring output.
+Turning this feature on doubles the CPU load of the low latency processing.
+It does not affect the other outputs.

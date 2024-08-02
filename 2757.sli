@@ -1,0 +1,17 @@
+The <i>Marian Trace Alpha</i> sound card driver for <i>Windows 7</i>
+(probably also Windows Vista and 8) causes some systems to lock up
+completely after running for some time - typically a few days.
+
+The cause of this appears to be something that's timing-related: If
+the ASIO code in Stereo Tool returns control to the driver very quickly,
+it happens more frequently (within a few hours instead of days).
+
+If this slider is set higher, the time before control is given back to
+the sound card driver is increased, which seems to completely remove
+the lock-ups.
+
+For non-Marian cards, and for Marian cards on Windows XP, you can safely
+set this slider to 0 (which slightly reduces the CPU load). The default
+setting (3) fixes the problem for all the people who have reported this
+issue so far; if you run into it anyway, you can try a higher value.
+Please contact us if this does not fix the issue.

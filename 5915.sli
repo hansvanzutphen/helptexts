@@ -1,0 +1,4 @@
+The AF method B tuning frequency.
+
+For AF method B encoding, the RDS encoder needs to know the frequency that the signal will be transmitted on.
+So, fill in your own frequency here.

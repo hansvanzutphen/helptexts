@@ -1,0 +1,7 @@
+The maximum amount of Immersive Bass that may be added, relative to what is already there.
+
+Adding a lot of Immersive Bass to very clean deep bass sounds without any other sounds present to
+mask the effect can sound weird and somewhat distorted. This setting limits how much may be added,
+compared to the audio already present around the same frequency.
+
+See also [[6342]], the maximum of these two is used.

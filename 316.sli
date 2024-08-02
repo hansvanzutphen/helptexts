@@ -1,0 +1,3 @@
+Controls hiss vs. tone detection in combination with [[316]].
+
+Higher values mean that sounds are more easily detected as noise.

@@ -1,0 +1,3 @@
+Synchronizes the [[10055]] to the [[10604]].
+
+If different sound cards are used for FM and non-FM (streaming, HD, DAB, listening) outputs, they will drift after a while, which leads to hiccups or lost audio. By enabling synchronization, the [[10055]] will be synchronized to match the [[10604]] sample rate. This is also needed when one of the sound cards is a virtual cable.

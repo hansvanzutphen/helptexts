@@ -1,0 +1,8 @@
+Controls the frequency range on which the stereo widener works.
+
+Widening deep bass sounds is useless and may actually reduce the
+reception quality. The human hearing cannot distinguish where bass
+comes from (unless you're using headphones).
+
+Widening high frequencies in combination with a delay may cause an echo-like effect.
+Some people like this, others don't.

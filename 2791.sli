@@ -1,0 +1,7 @@
+Downmix audio to mono for mono AM transmitters.
+
+The downmixing is more sophisticated than traditional downmixing, because
+any issues caused by phase differences between the channels (phase
+cancellation) are solved. So to get the best sound, it's better to feed
+Stereo Tool with stereo input and use this downmix switch than to feed
+Stereo Tool with mono input.

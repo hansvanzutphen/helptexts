@@ -1,0 +1,6 @@
+The AGC release time.
+
+A lower "time" value means a higher speed. So with higher values, it moves up slower on
+a level decrease.
+
+For an AGC you typically want it to be standing nearly still most of the time.

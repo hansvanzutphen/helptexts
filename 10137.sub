@@ -1,0 +1,3 @@
+Prepares the AGC for the BS412 levelling which is required for FM stations in some European countries.
+
+Among others, stereo (L-R) sounds are treated as less important than mono (L+R) sounds, because in the BS412 level measurement that's also the case.

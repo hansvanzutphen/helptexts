@@ -1,0 +1,4 @@
+Maximum phase difference between the left and right channel.
+
+When the total phase difference between the two channels gets above this level, the [[19]] is reduced temporarily to keep it below the level that is set here.
+

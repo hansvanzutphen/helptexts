@@ -1,0 +1,3 @@
+Determines how many clipper steps are oversampled to 768 kHz.
+
+Only used when [[3822]] is enabled. A higher value uses more CPU load, but it also sounds slightly better.

@@ -1,0 +1,8 @@
+Settings that protect the Advanced Clipper against intermodulation distortion.
+
+Intermodulation distortion is the type of distorting that is caused by
+loud bass sounds, which create 'holes' in other frequency ranges. (Intermodulation
+distortion is actually any kind of distortion created by modulation effects
+between different frequencies, but the type caused by low bass frequencies
+is harder to clean up).
+

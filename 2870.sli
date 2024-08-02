@@ -1,0 +1,3 @@
+Multiplier for the minimum amount of audio measured.
+
+For completely constant tones, using 100% here will completely remove the sound, lower values will always reduce less. Normally 100% is a good value here.

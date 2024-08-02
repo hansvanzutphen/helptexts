@@ -1,0 +1,6 @@
+ITU-BS.1770 loudness metering compliant mode.
+
+ITU-BS.1770 is the base upon which the R128 loudness level metering has been
+built. In ITU-BS.1770 mode, the AGC adjusts the level based on how human
+hearing works, instead of the actual power of the audio. Bass
+is counted less strong, and higher frequencies are counted stronger.

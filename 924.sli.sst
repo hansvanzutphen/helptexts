@@ -1,0 +1,1 @@
+This control determines how quickly the gain reduction value recovers when the audio level falls below the threshold.

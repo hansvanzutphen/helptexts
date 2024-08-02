@@ -1,0 +1,6 @@
+Reparation of AZIMUTH (phasing) errors.
+
+AZIMUTH errors are often present in tape recordings, and also on some cheap CDs. Phasing problems causes playing a recording in mono or through a surround system to result in very ugly artifacts. But even normal stereo playback may sometimes sound a bit unpleasant.
+The phasing offset is automatically detected and removed by this filter.
+
+This filter only works properly if the sounds at the left and right channel are similar. If this is not the case for a longer period, the azimuth correction will slowly be reduced.

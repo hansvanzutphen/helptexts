@@ -1,0 +1,4 @@
+Password protection settings.
+
+Stereo Tool can be password protected. This makes it impossible to change or export any settings.
+Note: The protection is not very strong, if someone has access to the .ini file they can still make changes or disable the password protection.

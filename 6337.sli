@@ -1,0 +1,3 @@
+The slope of the lowpass filter for the input signal.
+
+The Immersive Bass is generated based on the lowpassed input signal.

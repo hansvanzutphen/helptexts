@@ -1,0 +1,5 @@
+Removes any small remaining peaks after the rest of the processing.
+
+This is the final step of the processing chain. If there are any peaks left above 0 dB, this removes them by quickly lowering the volume around the peak. This filter was built to avoid creating harmonics, not to sound good - so it should not be used to remove big spikes.
+
+If the Post Amp slider is set close to 1.00x (0 dB), HARD LIMIT should always be enabled to protect against clipping. For FM output it should also always be enabled, to protect against overshoots.

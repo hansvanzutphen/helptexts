@@ -1,0 +1,4 @@
+The Low Latency Monitoring Output volume.
+
+Must be set low enough to handle spikes because no clipping is performed
+on this output.

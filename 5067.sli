@@ -1,0 +1,4 @@
+Sets the output level of the stream.
+
+You should always leave enough headroom because lossy codecs cause overshoots. How big these are
+depends on the codec and bitrate. Typically, values between -1 and -2 dB are usually fine.

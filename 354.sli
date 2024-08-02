@@ -1,0 +1,5 @@
+Conttols how long the declipper keeps calculating to improve the results.
+
+This affects both the CPU load and quality. Higher values remove more
+distortion (but the effect is small because it's only the last bit of
+remaining distortion that's affected).

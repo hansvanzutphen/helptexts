@@ -1,0 +1,1 @@
+Adjusts the number of CPU threads used by SST for processing. &nbsp;Additional threads can result in higher quality, but will increase CPU usage.

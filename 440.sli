@@ -1,0 +1,4 @@
+Clips bass harder if it's asymmetrical.
+
+Asymmetrical bass (just like asymmetrical mids, which are handled by [[10231]]) are as bad for the sound as symmetrical bass sounds at half the frequency - meaning that they can easily cause very noticeable intermodulation distortion.
+If this setting is checked, the detection of asymmetrical bass causes the bass clipping level to be lowered, which protects the other sounds.

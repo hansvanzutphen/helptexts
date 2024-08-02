@@ -1,0 +1,5 @@
+Controls how often the display is refreshed.
+
+Lowering the refresh rate slightly lowers the CPU load (more so if the
+window is very big), and it also helps a lot when using a remote connection
+to a pc running Stereo Tool.

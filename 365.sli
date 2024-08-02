@@ -1,0 +1,10 @@
+Does not allow restored samples to be closer to 0 than the input signal.
+
+This sounds logical, but in some cases the reconstruction algorithm finds
+a solution that has lower values than the input. If you force these to be
+higher, it can happen that restoration does not sound very good. On the
+other hand this setting protects longer blocks of high frequency noise
+with a bass sound which might not even be clipped, but are incorrectly
+detected as clipped. In some cases the declipper can introduce some
+intermodulation distortion - although other measures have been taken to
+avoid this. With this setting enabled that won't happen.

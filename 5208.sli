@@ -1,0 +1,9 @@
+Selects how the Bass EQ works.
+
+Either way, the high part of the band is never adjusted.
+
+"Adjust relative to each other" means that the bass bands keep their level in total, but are adjusted
+relative to each other.
+
+"Adjust relative to band above active bands" means that both bands are adjusted to match the level
+of the audio above the bass bands, without adjusting that highest band.

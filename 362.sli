@@ -1,0 +1,3 @@
+Sample values below this (absolute) level are never clipped.
+
+Make sure that [[542]] is set correctly, otherwies this may cause the declipper to stop functioning at very low input levels.

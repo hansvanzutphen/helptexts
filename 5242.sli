@@ -1,0 +1,10 @@
+If the level drops dramatically, this controls how fast the release can get.
+
+In Analog Compressor Symmetric modes, the attack and release behavior are symmetrical.
+This is generally a good thing: Handling attack and release the same (albeit with different speeds)
+is the most "natural" design. But there is one problem with this. 
+A very big attack should be handled quickly, but if attack and release are handled the same and the
+level briefly drops to zero, that would also cause release to act very fast. Which may cause
+over-reactions.
+
+This setting controls what - in case of silence - the release will use as its input level.

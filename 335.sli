@@ -1,0 +1,11 @@
+Give Stereo Tool's processing priority over other running programs.
+
+Normally, all programs get a share of the available CPU resources. Which
+means that if you run a lot of heavy programs, Stereo Tool might not get
+enough CPU time to process everything in time and it might start to hiccup.
+Setting a higher priority here helps against that, but it may also cause
+other programs to be slowed down more.
+
+If you use Stereo Tool for background listening, you should probably leave
+this turned off. If the audio is 'mission critical', this should be set to a
+high level.

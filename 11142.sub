@@ -1,0 +1,8 @@
+Protection against sudden large level increments.
+
+If - after a moment of silence, or after a longer very soft part of a song - the level
+suddenly increases a lot, Sudden Jump Protection can very quickly turn the level down,
+overriding the normal [[4874]] speed.
+
+This makes the AGC output sound far more constant, and makes things a lot easier for
+the processing that comes afterwards.

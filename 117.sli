@@ -1,0 +1,10 @@
+The type of program that you're broadcasting.
+
+Many receivers can automatically search for some type of broadcast, such
+as a news broadcast. If you don't always broadcast the same type of
+program and you want to update this setting, make sure that
+[[118]] is enabled.
+
+The list of PTY codes is very different for RDS (EBU, used in Europe) and
+RDBS which is used in the US. The PTY codes are changed when you change
+the [[111]].

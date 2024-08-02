@@ -1,0 +1,3 @@
+Amont of samples to look back to.
+
+A higher value increases the CPU load, but reduces artifacts.

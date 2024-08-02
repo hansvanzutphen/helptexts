@@ -1,0 +1,3 @@
+Distortion protection.
+
+Quickly lowers the volume if the input level exceeds this level. Use with care, may cause distortion by itself if the cause of the high input level is loud bass.

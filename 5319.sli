@@ -1,0 +1,4 @@
+The level at which the AGC starts after starting the software.
+
+This is only useful for file-based processing. Set it up such that the AGC is at a reasonable level, to avoid
+gain riding at the start of a song.

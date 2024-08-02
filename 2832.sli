@@ -1,0 +1,4 @@
+Increases effect of detected transients (punch) in the stereo (L-R) signal.
+
+See also [[2831]]. To protect against unwanted effects (a mono-only sound which is not present
+in the L-R stereo signal but would still affect the stereo separation), the minimum of [[2831]] and [[2832]] is used to detect punch.

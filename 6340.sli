@@ -1,0 +1,4 @@
+Lowpass frequency for the output signal.
+
+The generated Immersive Bass signal is removed above this frequency.
+

@@ -1,0 +1,10 @@
+Automatically calls [[10440]] if an input or output does not work.
+
+If no audio passes through a sound card input or output for over
+10 seconds, if this setting is enabled [[10440]] is triggered automatically.
+
+If after 4 restarts no audio has passed through it at all, Stereo Tool is
+restarted completely if [[2796]] is also enabled.
+
+Note that VLC inputs or outputs are not included in this (they might disappear
+for longer periods due to network issues etc).

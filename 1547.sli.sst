@@ -1,0 +1,1 @@
+Inserts an EQ in the sidechain of the AGC to control the frequencies at which it responds. This can help prevent “pumping” of the AGC with heavy bass or midrange frequencies, for example.

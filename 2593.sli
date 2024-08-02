@@ -1,0 +1,3 @@
+Enabled improved Release behavior.
+
+Originally, if the input volume dropped a lot there release could get incredably fast, especially if the AGC was at a very low level. This means that different input levels cause different AGC behavior, which is bad. Improved Release fixes this. The only reason that this setting is available is that older presets were made without this feature, and they still need to work properly.

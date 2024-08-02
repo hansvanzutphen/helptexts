@@ -1,0 +1,3 @@
+Avoids the correction of the channels to drift too far apart.
+
+It is possible that the left/right balance could be incorrect even within a single band. Use this control to specify how much the correction should be allowed to vary between the channels.

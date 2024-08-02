@@ -1,0 +1,5 @@
+The time a 86% volume reduction due to a higher input level takes.
+
+If the input level increases a bit, the volume goes down more slowly than
+if it increases a lot. This means that it's not possible to give a value in dB/ms.
+

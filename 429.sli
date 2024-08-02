@@ -1,0 +1,3 @@
+Chooses between bass reduction or pumping.
+
+If the bass gets above the threshold set in [[428]], this slider controls if the entire volume should be dropped (causing pumping) or only the bass (resulting in less bass).

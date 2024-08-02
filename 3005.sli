@@ -1,0 +1,5 @@
+Main processing core affinity.
+
+This core will perform about 60-70% of all the processing tasks.
+
+Windows only: Set to Mask if you want to use an affinity [[2846]] that leaves part of the control to Windows.

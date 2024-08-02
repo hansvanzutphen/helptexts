@@ -1,0 +1,32 @@
+Synchronizes audio on FM transmitters using standard Shoutcast etc. streams.
+
+If an FM or AM station has multiple transmitters and RDS is used to automatically
+switch between those frequencies, it's very important that the signals are
+synchronized so that switching between the frequencies is not noticeable
+for a listener.
+
+This is often achieved using specific hardware on both the sending (studio)
+and receiving (transmitter) end. This hardware is usually expensive, and it
+would be much simpler if a station could just use an exising (free) streaming
+protocol to send the audio to the transmitters - there's already a PC there
+that runs Stereo Tool which could receive the signals.
+
+The problem with most streaming mechanisms is that there is nothing built in
+to keep the signals synchronized. In fact, even if you start two players on
+the same pc, there's often a difference of multiple seconds between the two
+players. And due to minimal differences in sample rate between the sound
+cards in pc's, after a long period (weeks-months) the signal that comes out
+of the different pc's could be multiple minutes apart.
+
+Stereo Tool can synchronize any type of stream that you can feed to it,
+as long as it gets the audio as soon as it arrives (it should not be buffered
+elsewhere). This means that the plugin version of Stereo Tool can do it, and
+the stand alone version can do it if you have configured it to be able to
+receive streams.
+
+
+<center><iframe width="560" height="315" src="//www.youtube.com/embed/PH1mUfvo7T8" frameborder="0" allowfullscreen></iframe>
+<BR/>
+<i>This video shows how well it works on a station in Belgium<BR/>
+that uses Stereo Tool on their 13 FM frequencies.</i>
+</center>

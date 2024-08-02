@@ -1,0 +1,9 @@
+Sets the detection frequency range for detecting potentially audible crackles.
+
+The Sand Filter detects larger (typically a few thousand Hz)
+areas in the spectrum with very little content that could
+mask crackling sounds caused by Controlled Distortion, and
+then protects those against the "sandy" (crackling) sound.
+
+
+

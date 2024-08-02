@@ -1,0 +1,6 @@
+Extra [[8]] when using composite clipping.
+
+Because the composite clipper causes far less artifacts in the sound,
+it's usually safe to make the sound a bit louder.
+This slider allows you to do that without changing the normal
+[[8]] level for when the composite clipper is turned off.

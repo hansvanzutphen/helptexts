@@ -1,0 +1,4 @@
+Determines the target maximum output level.
+
+This is the input level for the next processing step, usually the
+[[10461]].

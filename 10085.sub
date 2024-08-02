@@ -1,0 +1,6 @@
+Removes FM stereo hiss on the input (!) signal.
+
+If you need to rebroadcast audio from another radio station, and reception
+is not optimal, this filter can remove the FM stereo hiss without touching
+the rest of the sound. The sound stays stereo. Even quite severe stereo hiss
+can be nearly completely removed.

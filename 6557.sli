@@ -1,0 +1,9 @@
+Size of the RMS detection area, when using RMS detection mode.
+
+Using an RMS detection area slightly improves the standard RMS behavior. More importantly, it protects the compressor against
+overreacting. If a loud sound stops, without using an RMS detection area, the compressor can keep moving down for a short
+while. This is particularly noticeable on loud S sounds in higher bands - even after the S stops, the level drops down
+further, and the audio after the S sounds dull. It takes a while for release to take over and increase the level again.
+
+When using an RMS detection window, attack stops immediately after the loud sound and release takes over directly. In some
+cases this can reduce unwanted drops of the highs after a loud S by more than 3 dB.

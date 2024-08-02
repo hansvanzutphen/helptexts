@@ -1,0 +1,5 @@
+Bit depth increaser.
+
+The Dequantizer can takes files of a certain bit depth (CD's are 16 bit, but you might also have recordings that use less), and calculate a few extra bits. It can clean up quantization noise in the process, if the recording was created without dithering.
+
+This process does generate MP3-like artifacts, however the level of those is much lower than that of the noise that is removed.

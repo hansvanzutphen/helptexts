@@ -1,0 +1,11 @@
+Corrects tilt problems in the input signal.
+
+If you have an analog signal path from the studio to Stereo Tool, you might
+have some tilt issues (a square wave does not look like a square wave
+anymore.
+
+<img src="images/input_tilt.png">
+
+Tilt correction lets you correct this, which slightly improves the audio
+quality (mainly the bass) and also helps the declipper to function
+optimally.

@@ -1,0 +1,11 @@
+Global CPU load control
+
+Allows lowering the CPU load at the expense of a degradation in audio
+quality. For every 10% the Quality slider is below 100%, the CPU load is
+reduced by 5% - so at the lowest setting of 20% the CPU load is 60% of that
+at Quality 100%.
+
+At the maximum [[263]] setting, Quality has very little effect and a value
+of around 50% is acceptable for most people. At lower [[263]] settings, the
+effect on the audio (especially bass) is much bigger.
+

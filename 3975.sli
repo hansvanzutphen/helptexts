@@ -1,0 +1,11 @@
+Controls how quickly the maximum frequency at which Spectral Hole Filler works follows a burst of highs.
+
+In many MP3/MPEG2 encoded files, the highs (especially above 16 kHz) are removed, except at some spots
+where they were very loud. If we were to suddenly reconstruct the whole area upto the highest frequency
+that was reached for a very short moment, the highs could become very restless (present - not present - 
+present - not present) - which is already an issue with these files, but it would actually get worse
+due to this.
+
+By not responding instantly, but only when the high frequencies are present for a longer period, this
+restlessness is avoided.
+

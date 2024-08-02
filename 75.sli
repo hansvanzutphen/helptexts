@@ -1,0 +1,3 @@
+Sets the equalizer level for a frequency band.
+
+The output volume of each band is multiplied by this value. This can be done before or after Multiband compression (see [[92]]).

@@ -1,0 +1,5 @@
+Sets the clipping level for a frequency band.
+
+When the volume of a band gets higher than the value set in [[35]], clipping can be used to cut off the sound that is too loud. The value of each clipping slider determines at which volume clipping starts, for example when the clipping slider is set to 1.50, clipping starts when the volume gets above 1.50 times the [[35]] value.
+
+Using clipping improves the sound quality because very short very loud spikes that are left over after compressing or limiting are removed. This makes the sound far less "jumpy", and the output volume more constant. Clipping too much (at too low levels) however makes the sound dull and lifeless.

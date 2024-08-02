@@ -1,0 +1,3 @@
+The maximum speed at which tilt correction can change per tilt measurement.
+
+Immediately fixing anything that is detected may sometimes cause big errors, so instead the tilt level follows the measurements slowly.

@@ -1,0 +1,5 @@
+Enables FM pre-emphasis.
+
+If this checkbox is enabled, processing ([[10236]] and [[10]]) is done with pre-emphasis.
+
+<font color=#FF0000>If you want to send pre-emphasized output to a transmitter, make sure that [[112]] is also enabled!</font>

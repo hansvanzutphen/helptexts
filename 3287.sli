@@ -1,0 +1,17 @@
+Determines the release behavior.
+
+[[3237]] and release shape must be balanced to get good results. Normally, they are filled in automatically, but you can still change them to get a different behavior.
+
+Standard behavior (input and output):<BR/>
+<img src="images/AttackShape_Good.png" width=745><BR/>
+
+Too low Attack Shape will cause the attack to start later and go down too deep:<BR/>
+<img src="images/ReleaseShape_TooLow.png" width=745><BR/>
+
+If you lower it even further the effect is even more extreme:<BR/>
+<img src="images/ReleaseShape_MuchTooLow.png" width=745><BR/>
+
+Too high Release Shape will cause the release have a more asymptotical behavior, it will take very long before the target level is reached:<BR/>
+<img src="images/ReleaseShape_TooHigh.png" width=745><BR/>
+
+See also [[3237]].

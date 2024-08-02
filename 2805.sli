@@ -1,0 +1,11 @@
+Turns the widener off completely if the input is already very wide.
+
+If the input signal already contains a lot of stereo content, the
+[[10670]] is turned off.
+
+This is particularly important when playing audio with 100% channel
+separation such as old Beatles tracks where voices are often recorded on
+one channel, and the instruments on the other. If a delayed ([[2802]]) version
+of the signal would be added, it would sound like an echo on the complete
+signal. And if there's no delay, it would cause anti-phase signals to
+appear in the audio.

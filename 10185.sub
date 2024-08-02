@@ -1,0 +1,12 @@
+Configuration of input and output sound cards, and synchronization.
+
+Besides choosing sound cards, this section also lets you configure
+FM transmitter synchronization, which can be used to synchronize the sound
+at multiple FM transmitter sites, using a normal Shoutcast or other stream
+as input.
+
+A few notes:
+<UL><LI>If you want low latency audio, use ASIO for both input and output. If you don't use ASIO, Windows gives you an extra 100-300 ms of latency, which is far too much if you are listening to yourself for example on a headphone.</LI>
+<LI>If you use multiple sound cards which don't share the same clock, the output
+buffer will at some point get underruns (causing drops in audio) or overruns (causing some pieces of audio to get lost). See [[533]] for a (partial) solution.</LI>
+</UL>

@@ -1,0 +1,5 @@
+An extra mechanism to prevent incorrect clipping detection.
+
+A veil is placed on both the top and the bottom of the waveform. It rests on
+the peaks of the waveform, and drops down between those peaks. Only samples
+that are close to the veils can be clipped.

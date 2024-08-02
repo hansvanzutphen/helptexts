@@ -1,0 +1,4 @@
+The sound card to use for Low Latency Monitoring Output.
+
+Note that using Low Latency Monitoring Output without ASIO is useless
+because the delay that Windows adds is far too big.

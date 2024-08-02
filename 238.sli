@@ -1,0 +1,6 @@
+Hides the Stereo Tool window upon startup.
+
+Normally, the Stereo Tool window is shown when you start Stereo Tool. Once
+you have configured it to your satisfaction, if you only want to hear
+Stereo Tool without seeing it, enable this option to auto-hide the window
+every time Stereo Tool is started.

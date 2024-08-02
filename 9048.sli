@@ -1,0 +1,4 @@
+Sound card to which the normal (non-FM) output should be sent.
+
+This can be overruled by [[]] and [[]].
+

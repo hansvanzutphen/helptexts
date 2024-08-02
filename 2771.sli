@@ -1,0 +1,5 @@
+The level at which the top of this band must be cut off.
+
+If no compression/limiting occurs, or if all the bands are compressed/limited
+by the same amount, the end result is guarranteed to be flat in frequency
+response.

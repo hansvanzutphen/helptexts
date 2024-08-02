@@ -1,0 +1,8 @@
+How asymmetrical the sound may be.
+
+The allowed value here depends on your local legislation. Values upto 200%
+are supported, but usually not allowed.
+
+Note: Opposed to other uses, when you increase this level, you need to lower
+the settings of [[7]] to allow for the extra headroom. <i>This is a
+workaround for now.</i>

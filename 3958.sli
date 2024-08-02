@@ -1,0 +1,6 @@
+Perform heavy calculations at once on startup or settings changes.
+
+Turning this on will briefly block the processing until the calculations have been performed.
+
+Turning this off will do the calculations during normal processing, which means that after startup or
+after changing a setting, the filter takes a few seconds to become active.

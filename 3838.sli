@@ -1,0 +1,3 @@
+Enables remote RDS control via UECP.
+
+If this is enabled but no UECP server is connected, then the behavior depends on [[3845]].

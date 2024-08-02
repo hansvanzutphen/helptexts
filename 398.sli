@@ -1,0 +1,12 @@
+The number of bins around a spike that are protected against distortion.
+
+Constant tones such as voices are especially susceptable to intermodulation
+distortion from bass sounds. Or actually, there is not more intermodulation
+but it is far more noticeable.
+
+This slider controls, when a frequency that sticks out is detected, how
+big the area around it is that needs to be protected against bass intermodulation
+distortion.
+
+Setting this higher gives more protection, but also slightly lowers the output
+level.

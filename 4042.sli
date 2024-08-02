@@ -1,0 +1,5 @@
+Sets the number of threads (which usually each uses a CPU core) for processing.
+
+Setting this higher spreads the load over more CPU cores, which means that on slower systems more or higher [[4057]] processing can be used. In plugin versions of Stereo Tool, it adds latency, so if low latency is a goal and you're using Stereo Tool as a plugin in another program, it's better to keep this value as low as possible (ideally, 1). Also, if multiple Stereo Tool instances are running on the same system, they could get in each others way, and in that situation it's also better to use a low number of threads, and give each Stereo Tool instance its own CPU core to work on.
+
+See also [[416]].

@@ -1,0 +1,15 @@
+Resamples the input to match the output sample rate.
+
+If you use a different sound card for input and output, chances are that the
+sample rates do not match perfectly and after some time (hours to days) the
+output buffers suffer from underruns (buffer is empty, moment of silence gets
+inserted) or overruns (buffer is too full, input is ignored and some audio
+is lost).
+
+The same problem occurs if you feed the input through a virtual audio cable
+(VAC, VB Cable).
+
+Enabling this setting matches the input sample rate to the output sample rate.
+
+Note that this uses extra processing power, so if it is not needed you should
+keep it turned off.

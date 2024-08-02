@@ -1,0 +1,16 @@
+Generates "warm", "car radio" bass.
+
+If enough deep bass is present, then when listening on good quality speakers everything may sound great.
+But as soon as you start listening on smaller sized speakers, some songs may still have bass, and others
+may appear to have almost none at all.
+
+The reason is that deep bass cannot be properly reproduced on such speakers. If there happens to be enough
+mid-bass, it will still sound ok, but if there is very little or no mid-bass, there may appear to be no
+bass at all.
+
+Immersive Bass generates this mid-bass from the lower bass frequencies.
+
+Warning: Simply turning Immersive Bass on may cause bad effects on presets, because the added Immersive
+Bass may share the multiband compressor/limiter bands with the deep bass. So turning Immersive Bass
+on can lead to a reduction in deep bass. So, presets need to be tailored to handle the extra mid-bass
+pressure.

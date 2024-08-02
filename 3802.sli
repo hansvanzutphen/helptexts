@@ -1,0 +1,3 @@
+Determines whether only big blocks of audio are processed, or also smaller chunks.
+
+Smaller chunks can lead to more accurate removal and a cleaner sound, but also more short-term MP3-like 'chirping' artifacts. It also uses more processing power.

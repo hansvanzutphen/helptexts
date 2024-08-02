@@ -1,0 +1,15 @@
+The number of packets over which the [[4589]] packets are sent.
+
+This is best explained using some numbers. Let's say that Span is set to 64 packets, and [[4589]] is set to 4 packets.
+Then that means that for every 64 normal packets, 4 extra recovery packets will be sent. This causes 6.25% (4/64) overhead.
+With these settings, of the total of 68 (64 + 4) packets, any set of upto 4 packets can be recovered if they are lost.
+
+With 32 and 2, which has the same amount of overhead, any set of 2 packets of the total 34 can be recovered if lost.
+
+This may seem to be very similar, but packets often are dropped in burst, so typically 64/4 will recover far more lost packets
+than 32/2, and even 32/4 will only recover slighty more packets than 64/4, at double the overhead.
+
+The only problem with larger Span values is that they require more delay at the decoder end. If the first of 64 packets is
+lost, in order to recover it, at least one recovery packet is needed to recover it. And the recovery packets are sent after
+sending all the normal packets in the Span. So, with 96 packets per second, around 700 ms of latency is needed to enable
+recovery for 64 packets. For 32 it's only half that.

@@ -1,0 +1,4 @@
+Shows the input (top bar) and added (bottom bar) amount of stereo signal.
+
+The bottom bar also shows if the effect is reduced (gray bar) by
+[[2804]], [[2805]] or [[2806]].

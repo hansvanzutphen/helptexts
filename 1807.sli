@@ -1,0 +1,9 @@
+Increases the level of the 2nd compressor with faster attack.
+
+Because the attack is so much faster, the audio level of the 2nd compressor
+is generally a bit lower. If we would take the minimum of the two, we would
+always look at the 2nd compressor, but that should only happen in extreme
+cases. By increasing the output level and then taking the maximum of the two,
+the 2nd compressor only has an effect on the sound if its output level is
+quite a bit lower. For example, if this value is set to 2.00, the 2nd compressor
+will not kick in if the level difference is less than 6 dB.

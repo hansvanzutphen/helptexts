@@ -1,0 +1,5 @@
+Sets the place in the processing chain where True Bass is performed.
+
+For consistency, it's best to place it before the [[10461]], or if you use 2 Multiband compressors, at least before [[10781]].
+
+The effect on the audio is bigger if you place it after the multiband compressors, but you risk getting too loud bass in some cases, and the clipper can easily be overdriven if that happens.

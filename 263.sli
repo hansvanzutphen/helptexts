@@ -1,0 +1,23 @@
+Controls audio output delay.
+
+This setting controls how much audio Stereo Tool gets to work with. If it
+can work on bigger blocks of audio, the resulting output quality is usually
+better. But if you are talking through a microphone and listening to yourself
+on a headphone, too much delay can be annoying.
+
+For the best quality, and definitely in all cases where the delay does not
+matter, use the maximum setting (4096 samples, around 93 ms,
+depending on the sample rate). A good compromise between latency and quality
+is setting 1024 (23 ms), which gives a total latency of about 28 ms
+(this includes sound card delays and the time needed to process the audio).
+
+Each reduction of the latency by half makes the artifacts caused at lower
+latencies 4 times as loud. Which means that the step from 4096 to 1024 is
+smaller than that from 1024 to 512! At latency 512 (12 ms, 17 ms total latency)
+the audio quality really suffers.
+
+The stand alone version of Stereo Tool has an extra [[10192]] monitoring
+output which offers a total latency of 11 ms.
+
+Note: The quality is also very strongly affected by the [[294]] setting,
+especially at lower latencies.

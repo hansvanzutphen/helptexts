@@ -1,0 +1,16 @@
+Selects the purpose of [[10189]].
+
+[[11295]] is a built-in microphone processor that adds no latency. Use upto 2 sound card inputs
+for external microphone feeds, which are processed using a full-fledged microphone processor before
+the signal is combined with the normal input. The latency "lifts" on top of the existing latency,
+which makes it possible to have a total microphone plus normal processing latency below 6 ms.
+
+Combine with input 1 just adds the two inputs. Useful for example when broadcasts are coming from
+multiple studio's.
+
+Back-up switches to Input 2 when there's silence (below [[3947]] for [[3948]] time). As soon as the
+main audio comes back, it switches back to the main input.
+
+External RDS input can be used to use an external RDS encoder.
+
+SCA 1/2 input can be used for [[10247]].

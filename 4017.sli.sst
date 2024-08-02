@@ -1,0 +1,1 @@
+Similar to the various SSB modes, adjusts the maximum amount of asymmetry that will be applied to the L-R subcarrier when in this &ldquo;dynamic&rdquo; SSB/DSB mode. As with SSB operation, settings that are too high may cause performance issues with some receivers.

@@ -1,0 +1,6 @@
+Compensates for a non-phase linear pre-emphasis unit after Stereo Tool.
+
+If (and this is not recommended) you use the left/right de-emphasized FM signal from Stereo Tool to feed into a stereo coder that also pre-emphasizes (this can also be part of a transmitter), in many cases such pre-emphasis units are not phase linear. Combining phase linear de-emphasis from Stereo Tool with non-phase linear pre-emphasis in another unit causes overshoots. To compensate for those overshoots, use the non-phase linear de-emphasis mode instead.
+
+Please note:<BR/>
+Using the [[113]] in Stereo Tool, especially when combined with the [[10519]], gives a far superior result.

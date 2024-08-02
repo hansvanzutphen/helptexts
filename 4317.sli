@@ -1,0 +1,5 @@
+The IP address of a decoder.
+
+This IP address must be reachable from the pc on which Stereo Tool runs.
+
+It is possible to send multiple streams to the same encoder for redundancy. See also [[4653]].

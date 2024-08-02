@@ -1,0 +1,3 @@
+The ASIO device to be used.
+
+Only one ASIO device can be used in a program at once.

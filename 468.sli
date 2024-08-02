@@ -1,0 +1,3 @@
+Ignore de-esser for small drops.
+
+If the highs level is only slightly too high, this slider reduces the effect of the de-esser, leaving a brighter sound. If the highs get really loud, the de-essing behavior is not changed.

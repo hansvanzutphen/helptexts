@@ -1,0 +1,3 @@
+The maximum amount surrounding peaks may be higher than this one.
+
+If this peak is a lot lower and [[380]] is enabled, it will be marked as not clipped.

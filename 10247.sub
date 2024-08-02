@@ -1,0 +1,12 @@
+Settings for extra analog audio channels.
+
+On the FM band, it's possible to transmit extra analog audio channels, which
+can be used for example for audio transmission for the blind, music for
+stores etc.
+
+These transmissions are normally modulated at 67 and/or 92 kHz. A special
+receiver is required to receive it.
+
+Please note that broadcasting SCA channels will increase multipath distortion
+and that the required frequencies are very high for sound cards - the 92 kHz
+carrier cannot be transmitted completely at all.

@@ -1,0 +1,5 @@
+Level below which all release action stops.
+
+If the output audio is below this level, release stops completely. Be careful with this, if it is set too high, it can cause the compressor to not come back after a big spike!
+
+See also [[3677]].

@@ -1,0 +1,4 @@
+Centers texts in the GUI.
+
+This was the old behavior. The new alignment looks cleaner, but some people might prefer the old
+style.

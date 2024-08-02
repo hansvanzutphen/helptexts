@@ -1,0 +1,1 @@
+Turns ASIO use on or off. This is a global setting and will enable or disable the ability to use an ASIO device for inputs and outputs.

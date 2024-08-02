@@ -1,0 +1,8 @@
+Ignore the loudest few sample values for peak level measurement.
+
+Due to several causes (MP3 encoding, analog input), sometimes a few samples
+can peak above the clipping level. So it's safer to ignore the loudest few
+samples. This slider controls how many of such loud samples should be ignored.
+
+This is a long-term measurement, so the percentage of values to be ignored
+should be equal to or lower than that for [[374]].

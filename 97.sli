@@ -1,0 +1,3 @@
+Delay between the left and right channel.
+
+This introduces a (very rudimentary) stereo effect. Note that this also changes recordings that are already in stereo, that it also makes sounds like voices stereo (which is generally considered bad), and that the result will sound very bad when played back in mono.

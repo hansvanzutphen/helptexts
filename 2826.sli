@@ -1,0 +1,7 @@
+Controls how much effect punch (transient) detection has.
+
+At 0%, everything is boosted maximally regardless of detection of punch.
+At 100%, the amount of widening for constant tones appoaches none at all.
+
+Setting this too high may reveal some unwanted effects and cause the total
+effect of the stereo widener to be less than desirable.

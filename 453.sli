@@ -1,0 +1,9 @@
+The amount of headroom.
+
+If this value is too low, sudden big volume drops (red line) can occur,
+which are usually visible as a sharp very deep spike down. This causes a
+very brief drop in audio level, which must be inserted at that point because
+otherwise the signal would have gotten above the [[425]].
+
+However, if you lower this value, the average output level will also be
+lower (of course, differences of 0.1 dB are not really noticeable).

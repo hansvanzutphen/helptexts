@@ -1,0 +1,5 @@
+Enables collection of PNR data.
+
+Enable this on moments of silence (with the disturbing sounds present), so the filter can learn what to remove. You might need to click [[10703]] to remove data that was collected earlier.
+ 
+This step needs to be performed at the correct [[10186]], [[263]], [[264]] and [[542]] setting - when any of these settings are changed, the learned information becomes unusable, and the filter is disabled until either the settings are restored or a new learning stage has been performed.

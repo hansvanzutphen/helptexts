@@ -1,0 +1,3 @@
+The number of recovery packets per [[4588]] normal packets.
+
+This value should normally be (a lot) lower than [[4588]].

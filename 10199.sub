@@ -1,0 +1,4 @@
+Settings that control the declipping after detection.
+
+These settings control things like CPU load, but also how much of clipping
+can be restored.

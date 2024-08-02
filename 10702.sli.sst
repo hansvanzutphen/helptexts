@@ -1,0 +1,1 @@
+Used to &ldquo;learn&rdquo; the noise signature to be removed. With only the noise source applied to the input, turn the &ldquo;Learn&rdquo; control &ldquo;On&rdquo; for several seconds. This samples the noise such that a filter can be constructed to remove it. 

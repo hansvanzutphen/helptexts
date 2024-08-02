@@ -1,0 +1,4 @@
+Sound card settings for FM output.
+
+Note that if you use ASIO for FM output and the sample rate is not at least 176.4 kHz,
+some parts of the FM spectrum cannot be sent to the sound card.

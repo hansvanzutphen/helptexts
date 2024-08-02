@@ -1,0 +1,4 @@
+The output of the bass clipper is removed above this frequency.
+
+Note that if no clipping occurs, the result of both filters (input and
+output lowpass) is nothing.

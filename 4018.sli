@@ -1,0 +1,4 @@
+Filters out very soft noisy sounds that Absolute Highs generates.
+
+This can be useful for example for speech, where you want the high part of S sounds to be reconstructed,
+but you might not want to get noisy harmonics on everything.

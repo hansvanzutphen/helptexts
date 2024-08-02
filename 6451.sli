@@ -1,0 +1,7 @@
+List of EON AF frequencies.
+
+Several EON AF methods can be used and combined here.
+
+Method 4 is used for AF method A data, and looks like this: "4 91.1 92.2 93.3". The number of frequencies can be anything upto 25.
+
+Methods 5, 6, 7 and 8 are used for AF method B pairs, and are entered as the method number plus 2 frequencies in the correct AF method B order. So, if you want to transmit 2 pairs using method 5 and 6, you might type "5 91.1 92.2 6 94.4 93.3".

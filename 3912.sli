@@ -1,0 +1,3 @@
+Encodes RDS in quadrature mode.
+
+This lowers the total (top) of the stereo pilot and RDS signal from about 13.5 to 12%. Which allows about 0.15 dB extra loudness when not using the [[10517]]. With the composite clipper the difference is smaller, about 0.02 dB.

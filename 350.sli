@@ -1,0 +1,4 @@
+Sets the AGC level upon program startup.
+
+For normal processing, it doesn't really matter where the AGC starts, but if you use Stereo Tool to master music for example, and you use Stereo Tool as a VST plugin, then you might want to be able to configure the start level of the AGC to avoid unwanted volume effects in the first few seconds after start of processing.
+

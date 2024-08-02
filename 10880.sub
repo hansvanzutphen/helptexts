@@ -1,0 +1,22 @@
+Lost harmonics generator.
+
+True Bass attempts to generate harmonics that either weren't recorded properly (due to for example a highpass filter, a bad microphone) or appear to be missing.
+
+It can generate bass at a specific frequency, which matches the rest of the signal. True Bass was designed to only generate bass that sounds like it should always have been there.
+
+Some examples:
+Input: Square wave, 50 Hz, with the base frequency (50 Hz) filtered out - only 150, 250, 350, 450 Hz etc. remain. True Bass will recreate a 50 Hz tone in this situation:
+
+Input:
+<img src="images/TrueBass_INPUT_SQUARE.png" width=760>
+
+Output:
+<img src="images/TrueBass_OUTPUT_SQUARE.png" width=760>
+
+However, if instead of a square wave, we feed it a sine wave at 150 Hz, it will [b]not[/b] generate a subharmonic:
+
+Input:
+<img src="images/TrueBass_INPUT_SINE.png" width=760>
+
+Output:
+<img src="images/TrueBass_OUTPUT_SINE.png" width=760>

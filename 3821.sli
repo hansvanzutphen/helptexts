@@ -1,0 +1,3 @@
+Always uses the [[10519]] when it's enabled.
+
+Normally, composite clipper is disabled if there's no sound card available that runs at 128 kHz or more. This enforces generating the composite signal anyway in that situation. Mainly useful for testing.

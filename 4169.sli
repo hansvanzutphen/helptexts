@@ -1,0 +1,3 @@
+Sets the time between keyframes.
+
+If packets are lost (even after using redundant streams and [[11388]]), audio can only resume after reception of a keyframe.

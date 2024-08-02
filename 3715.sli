@@ -1,0 +1,3 @@
+Protects the compressor against big spikes which are limited anyway.
+
+If this is enabled, if a sound will be limited, the compressor will act as if the signal is limited before entering the compressor. As a result, it will go down less fast on sudden loud sounds.

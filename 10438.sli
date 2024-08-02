@@ -1,0 +1,11 @@
+Fire up the sound card driver's ASIO control panel.
+
+The ASIO control panel is a window provided by the sound card driver which
+lets you configure certain things, such as the ASIO block size (which affects
+latency).
+
+If you want an as low as possible latency, find the lowest latency value here
+that works without hiccups.
+
+Not all sound card drivers support this button (although you can usually
+change the settings elsewhere if they don't).

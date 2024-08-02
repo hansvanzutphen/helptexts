@@ -1,0 +1,5 @@
+Controls how much faster the 2nd compressor release is.
+
+Beside a faster attack, the release for the 2nd compressor can also be made
+faster. This helps to prevent long-term volume drops after a short loud spike
+in the sound. This value controls how much faster the release is than [[554]].

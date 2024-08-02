@@ -1,0 +1,6 @@
+Follows the detected lowpass level from the [[10642]].
+
+The [[10642]] is not very good at reconstructing high frequencies, use this setting to make
+Absolute Highs take over above the detected lowpass frequency.
+
+If the Delossifier detects no MPEG audio, enabling this setting will automatically disable Absolute Highs.

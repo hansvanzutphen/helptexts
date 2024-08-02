@@ -1,0 +1,3 @@
+Maximum time after the expected time of receiving an AES67 packet to give up and insert silence.
+
+This value must be higher than all the output buffer sizes to avoid problems when there are network issues.

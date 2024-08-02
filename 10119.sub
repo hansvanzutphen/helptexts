@@ -1,0 +1,4 @@
+Controls the long-term limiter.
+
+The long-term limiter adjusts the level very slowly based on 20 different prediction algorithms that predict future input. If the amount of limiting is less than about 1 dB (visible as a red line in the BS412 output display), it should normally not be noticeable.
+

@@ -1,0 +1,9 @@
+Faster synchronization after startup of after loss of signal.
+
+During normal operation, the synchronization should be done very prudently.
+But directly after connecting or reconnecting to a stream, to avoid taking
+multiple hours to reach synchronization, it can be done a bit faster. Turbo
+controls how fast the speed can be adjusted in this situation. Note that the
+maximum amount of speedup is still controlled by [[536]], so if that is not
+set too high it should still be nearly unnoticeable. The [[534]] effect
+is increased in Turbo mode, so there is no big slowdown when the target point is reached.

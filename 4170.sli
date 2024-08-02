@@ -1,0 +1,3 @@
+Restarts if a sound card keeps timing out.
+
+If a sound card keeps timing out (which happens if it's unresponsive), this will restart Stereo Tool after 4 attempts.

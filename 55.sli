@@ -1,0 +1,5 @@
+Determines how fast the volume for this frequency band is lowered when the output level gets above [[35]].
+
+For each band, when a sound that is louder than the set maximum occurs, this value determines how fast the output volume is lowered. Too high values make the sound very flat, too low values may cause the amplification to be lowered too slowly, causing (probably unwanted) loud sounds when an instrument starts playing suddenly.
+
+When this value is 1, the output volume never gets above the level set by [[35]]. Lower values mean that sudden peaks can cause the volume to be shortly higher. Clipping can be used to remove such peaks (see [[90]] and [[65]]).

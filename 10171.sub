@@ -1,0 +1,6 @@
+Shows the output before (left) and after (right) tilt correction.
+
+Important: You need to make sure that there's enough headroom for the
+tilt correction. So, if you feed a 15 Hz square wave, the waveform should
+not clip. If it does, you need to lower the output level to the sound card
+(and adjust the transmitter to handle the lower level).

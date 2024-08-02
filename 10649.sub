@@ -1,0 +1,22 @@
+Automatic restart behavior when problems occur.
+
+Stereo Tool is made to run unattended for months or even years without
+human interference. And - as many people have reported over the years -
+it usually runs for years without a single glitch.
+
+Audio processing is very different from other types of programs: Once the
+processing runs, as long as the program is untouched it does not allocate
+or deallocate memory, it does not swap to or from the disk, it does not
+attempt to access servers, load or save files. All it does is continuously
+getting a same-sized chunk of audio from a sound card, run the same
+processing over it and send it to another sound card. This means that the
+vast majority of programming errors will cause issues immediately in the
+first second - if it runs for one second it will probably run for years.
+
+But if something goes wrong anyway, these settings determine what action
+is taken.
+
+Note that if something bad happens, you will always get a popup window
+with a notification, and if the directory C:\temp exists and is writable
+it is also written to a file, <tt>C:\temp\StereoTool_Exceptions_Log.txt</tt>.
+

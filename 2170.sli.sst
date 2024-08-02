@@ -1,0 +1,1 @@
+Some radios may have an issue when demodulating peaks beyond a certain point. Adjust this control to limit the maximum demodulated peak levels. Generally settings between 110% and 130% will have little impact on the audio.

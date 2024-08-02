@@ -1,0 +1,30 @@
+Composite clipping greatly improves the quality of loud FM transmissions.
+
+The composite clipper can create upto 160% left and right channel modulation
+while keeping the total modulation at 100%. It also allows the usage of
+Single Sideband stereo coding and several reception improvements.
+
+If the audio is clipped normally, and stereo encoding and RDS encoding are
+added afterwards, the output that is generated will only rarely peak to
+the maximum modulation. Multiple dB's of signal headroom are wasted by
+clipping the audio without looking at the stereo pilot, RDS signal and how
+the L+R and L-R modulated at 38 kHz contribute to the peak level.
+
+To give a simple example: If there's a high frequency peak in the audio,
+and both the stereo pilot and RDS signals are peaking in the opposite direction,
+then the peak in the audio could be clipped at a much higher level. It is
+possible to 'hide' audio peaks inside the holes created by the pilot and RDS
+signals. The effect of the 38 kHz modulation of the L-R signal is even bigger
+but also much harder to explain.
+
+When using normal audio clipping and then adding the stereo and RDS signals,
+the left and right channel audio level after demodulation on an FM receiver
+will always be a bit below 100%. [[159]] can get it closer to 100%, but it
+will never exceed 100%. When using composite clipping, values over 160% can
+be reached. The audio level coming out of the receiver still won't exceed
+100% though, because only high frequencies can reach levels above 100%,
+and they are reduced with de-emphasis in the receiver.
+
+<i>The composite clipper can not be used if you are using an external stereo
+coder, and works slightly less good with an external RDS encoder.</i>
+

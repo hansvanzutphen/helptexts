@@ -1,0 +1,17 @@
+Automatically learning noise and hiss remover.
+
+Some radio stations have a problem with constant sounds, such as a 50/60 Hz hum from a bad cable (which can be hard to find), a high pitch tone from a fan or airconditioner, a constantly present hiss etc. PNR Noise & Hiss can learn what the disturbing sound sounds like, and then remove it.
+
+For constant tones, the removal is nearly perfect, with nearly no side effects, even if a tone is as loud as the actual programming. For non-constant tones, including hiss, PNR can reduce it by a few dB without causing noticeable artifacts.
+
+See this YouTube video for an example of how to set it up and what it does:
+
+<center><iframe width="420" height="315" src="//www.youtube.com/embed/psn-YhiE5M0" frameborder="0" allowfullscreen></iframe></center>
+
+How it works:
+<UL><LI>First, we measure at least a few seconds of silence (noise only, by enabling [[10702]]) to determine what the noise sounds like.</LI>
+<LI>From the measured audio, after filtering out the lowest and highest values using [[2875]] and [[2876]], the minimum level, the average value, the medium value (at position [[2877]]) and the variance are determined.</LI>
+<LI>[[2870]], [[2871]], [[2872]] and [[2873]] are used to determine how much audio will be removed. These values may be changed after the measurement.</LI>
+<LI>Removing audio begins immediately after [[10702]] is disabled. Use the [[2869]] to check that (almost) no real audio gets removed.</LI></UL>
+
+The average value and sigma (variance) are used to determine how much more audio should be removed than the minimum. If this is increased too much, artifacts will become more audible.

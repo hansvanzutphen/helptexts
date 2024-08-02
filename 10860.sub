@@ -1,0 +1,5 @@
+UECP settings.
+
+UECP is a standardized protocol that is used to send information to RDS encoders. It is supported by many software and hardware RDS encoders, and by many playout systems.
+
+Originally, UECP was used over an RS232 connection, but many products are now supporting it via Tcp/IP. Stereo Tool only supports the latter.

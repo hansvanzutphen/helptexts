@@ -1,0 +1,6 @@
+Maximum noise level, added after MPEG compression.
+
+The Spectral Hole Filler assumes that audio that has been thrown away by MPEG encoding is completely
+silent. If the MPEG compressed audio is sent through an analog studio, for example, some noise might
+be present, and this setting can be used to make the Spectral Hole Filler ignore that noise in its
+determination of whether something is an MPEG compression artifact or not.

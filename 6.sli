@@ -1,0 +1,4 @@
+Amplifies the signal before most of the processing occurs.
+
+[[10194]], [[10182]] and [[10212]] if [[330]] is enabled ignore this setting.
+If you want to correct a too low sound card input level, use [[542]] instead.

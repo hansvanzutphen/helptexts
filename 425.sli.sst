@@ -1,0 +1,1 @@
+Determines the maximum BS412 output level. In most countries where BS412 is used, this must be set to 0 dB, but in some cases it&#39;s +3 dB. When changing this setting, you may also need to adjust input drive to the BS412 limiter.

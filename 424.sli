@@ -1,0 +1,3 @@
+Amplifies or attenuates the input level before the BS412 limiter.
+
+This value should be chosen to amplify or attenuate the audio level such that it is just above the BS412 target level, to avoid stress on the BS412 limiter. Red line drops should be limited as much as possible (preferably no drops below -1 dB) and the green/pink line drops should not get below -2 dB too often, but the black line should be as close as possible to 0 dB.

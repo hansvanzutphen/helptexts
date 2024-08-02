@@ -1,0 +1,12 @@
+Affects reconstruction of hiss-like sounds on top of loud bass.
+
+Loud bass in distorted audio can remove long blocks of audio. If this
+audio is hard to predict (noise-like sounds), it takes more effort to
+properly restore it. This slider increases the quality of such highs,
+but at the cost of a big CPU load increment.
+From 99% to 98%, the CPU load drops by half. The step to 96% is another
+drop by half, the next step to 92% is another drop by a factor two.
+If your CPU can handle it and you play tracks with this type of
+distortion, you might want to set it a bit higher than the default value.
+
+

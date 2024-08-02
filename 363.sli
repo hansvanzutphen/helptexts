@@ -1,0 +1,6 @@
+If tilt cannot be detected, do not declip.
+
+If there's clipping, then there are usually a lot of samples on a line on the
+top or bottom of the waveform. And that means that the tilt can be detected.
+If nothing like this is present, it makes sense to assume that the audio has
+not been clipped, and to turn the declipper off.

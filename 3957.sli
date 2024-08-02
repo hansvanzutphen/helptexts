@@ -1,0 +1,3 @@
+Detection band overlap.
+
+Setting this lower makes the reconstruction a bit better, at the cost of increasing the CPU load.

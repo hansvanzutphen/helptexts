@@ -1,0 +1,3 @@
+Determines how fast the volume level is increased when the output level is low.
+
+When the output volume has been lowered due to too loud sounds, this slider determines how fast the output volume can be increased again. A higher value means that the average output level gets closer to the target level, but may also cause pumping. A low value may cause source material with big volume changes to come out too soft on average.

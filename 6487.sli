@@ -1,0 +1,4 @@
+Enables transmission of this line of EON data.
+
+Note: No EON data will be transmitted if the PI code is not set, either via this interface or via
+[[10860]].

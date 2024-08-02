@@ -1,0 +1,5 @@
+Multiplies the L-R channel with this value.
+
+This can be used to reduce extreme stereo separation. For example, if [[228]] and [[229]] are increased and this slider is decreased, the stereo separation for most tracks should not change much, but extremes will be removed.
+
+Values below 1.00 can be beneficial when using [[2154]] and [[10243]].

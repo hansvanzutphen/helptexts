@@ -1,0 +1,8 @@
+Determines how strongly the L+R signal is added to the L-R signal.
+
+Adding the L+R (which is normally stronger) to the L-R signal gives a more natural
+control of the amount of stereo than just setting a maximum difference between the
+levels would.
+
+Set it higher to get less of a stereo boost. At 0, the stereo boost is maximum
+(L-R in the output is equal to L+R in level).

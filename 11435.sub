@@ -1,0 +1,5 @@
+Pre-bass clipper.
+
+This filter is intended to be used to reduce very loud very low frequency
+content. This slightly improves the rest of the audio - and very low
+bass sounds are typically not or hardly audible.

@@ -1,0 +1,3 @@
+Protects against loud bursts due to abrupt spectrum changes.
+
+When the spectrum has been severely altered, the incoming audio my change abruptly. Using this feature will help the filter prevent large spikes from occurring. This may be especially noticeable in bass frequencies.

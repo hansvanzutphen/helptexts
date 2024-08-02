@@ -1,0 +1,4 @@
+Controls envelope smoothing around peaks in the waveform.
+
+Lower values may cause distortion, but too high values reduce the precision of the limiters and (to a much lesser extent) the compressor release behavior.
+

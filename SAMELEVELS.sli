@@ -1,0 +1,4 @@
+It is generally a good idea to make sure that the output level of each filter
+is set such that disabling the filter does not change the level. This makes
+it much easier to compare what each filter does (it can be turned on and off
+without having to adjust other settings).

@@ -1,0 +1,3 @@
+Extra text shown in the title bar.
+
+If you are running multiple Stereo Tool instances on a pc, for example if you have a streaming server, this allows you to change the title of each Stereo Tool window to indicate which signal it is processing. The text is shown in the title bar and when you hover over the tray icon in Windows.

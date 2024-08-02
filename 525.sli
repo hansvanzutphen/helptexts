@@ -1,0 +1,8 @@
+Web interface port number.
+
+The port number at which the web interface can be reached. To access it,
+go to http://ip_address_of_pc:port/
+
+So for example, on a local pc with the web host configured at port 8080
+you can use http://127.0.0.1:8080/ .
+

@@ -1,0 +1,6 @@
+Increases effect of detected transients (punch).
+
+Punch detection often doesn't reach 100%; this setting boosts the effect
+to reach maximum widening. The detected punch will never exceed 100%.
+
+For punch detection, the minimum of L+R and [[2832]] is used.

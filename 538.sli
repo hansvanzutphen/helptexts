@@ -1,0 +1,4 @@
+Compensation of small constant delay differences between sites.
+
+If there's a constant small difference in timing between sites (this is
+usually not the case), you can correct it here.

@@ -1,0 +1,7 @@
+Pre-emphasis settings.
+
+To reduce hiss on the receiver, FM stations broadcast high frequencies
+a lot louder, and the receiver reduces this again. If you don't configure
+pre-emphasis correctly, you'll get a very dull sound that lacks highs.
+So, if you don't hear enough highs on your FM station, this is where you
+should look first.

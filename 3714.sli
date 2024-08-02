@@ -1,0 +1,3 @@
+Determines how fast the limiter goes up and down.
+
+Setting this faster reduces intermodulation distortion and pumping, but increases harmonics distortion. Also, for faster levels the output is louder.

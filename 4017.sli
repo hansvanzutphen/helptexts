@@ -1,0 +1,3 @@
+The maximum amount of asymmetry in the L-R part of the MPX spectrum.
+
+Some receivers might not like large amounts of asymmetry. We have not really encountered issues with it (the effect is <i>far</i> smaller than that of using SSB stereo), but this setting makes it possible to limit the effect.

@@ -1,0 +1,14 @@
+The PI code of your radio station.
+
+The PI code controls things like automatic switching to Alternative
+Frequencies,. It's important to set this up correctly. Here's why:
+<UL>
+<LI>If you use the same code as another station in your area, you might 'steal' listeners from them (they automatically switch to your station if its reception is better), or you might loose listeners to them in areas where their signal is better. Beside this, this is <i>extremely</i> annoying to listeners.</LI>
+<LI>If you change your code at a later time, some radios where your station has been programmed on a preset button may turn the sound off because they 'think' it's the wrong station, even if reception is perfect. Only reprogramming the preset button helps in that case - but no all listeners will understand this.</LI>
+</UL>
+PI codes are regulated differently in different countries, please check with your local authorities what you need to do.
+
+The PI code needs to be entered as a hexadecimal number. The default is FFFF, which means that it should be disabled - but not al receivers adhere to this.
+
+The first 2 digits of the PI code are a country code, but again, many receivers ignore it. Whatever you do, make sure that the last 2 digits are unique in your area, and that they are not FF.
+

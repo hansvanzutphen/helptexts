@@ -1,0 +1,4 @@
+Configures how strongly Stereo Boost works.
+
+Higher values sound 'wider', but also increase certain sounds (see [[242]]) and may cause multipath problems with FM reception (see [[230]], [[2154]] and [[10243]]).
+

@@ -1,0 +1,4 @@
+Determines how fast the volume level is decreased when the output level is below the [[27]].
+
+When the output volume would be louder than the set maximum [[27]], this slider determines how fast the output volume is reduced. A higher value means that the average output level gets closer to the target level, but may also cause sudden volume drops when very short loud spikes occur. A low value may cause spikes to remain when the sound suddenly increases a lot. See [[10060]] (and also the no longer advised [[256]]) for a solution for that.
+

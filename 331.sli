@@ -1,0 +1,4 @@
+Artifact filtering.
+
+Lower differences between bands means less artifacts, but also that the
+multiband compressor is less effective.

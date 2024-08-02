@@ -1,0 +1,4 @@
+Select what to synchronize the display to.
+
+If you choose input, events are shown as fast as possible, to match
+the incoming levels even if the output is sent out with a delay.

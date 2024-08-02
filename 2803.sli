@@ -1,0 +1,4 @@
+Maximum boost of the L-R signal that's added to the original stereo signal.
+
+This is only the maximum, the effect can be reduced by [[2804]], [[2805]] and
+if there's almost no L-R signal present, [[2806]].

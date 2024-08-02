@@ -1,0 +1,1 @@
+Controls how quickly each band responds to changes in audio level above the threshold. Smaller numbers will result in a faster attack time. Move the control to the left to slow down attack and to the right to speed up attack.

@@ -1,0 +1,5 @@
+Maximum amount of quantization noise removal.
+
+For dithered audio, this level should be set to 2, for non-dithered audio, 1 is sufficient.
+
+Setting this level too high creates more MP3-like artifacts.

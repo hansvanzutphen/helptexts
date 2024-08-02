@@ -1,0 +1,10 @@
+Controls the CPU core affinities.
+
+Setting the CPU core affinities is useful for low latency processing, because it makes the behavior predictable. Beside that, it is also usable when you run a lot of different Stereo Tool instances or other software on one pc, in that case you can give each instance its own core or cores.
+
+By default, if these settings are left to Any, the OS (Windows, Linux, Mac OS X) will control what runs on which core.
+
+For optimal performance and low latencies, use these guidelines:
+<UL><LI>Try to avoid Core 0. Core 0 is used by drivers, which means that when using core 0 at very low latencies, you run a risk of getting hiccups.</LI>
+<LI>When using a system that has Hyperthreading, assign [[3005]] and [[3006]] to virtual cores that don't share the same physical cores. On most systems, that means that you should avoid combining core 0 with 1, core 2 with 3, core 4 with 5 etc. Also note that the fact that drivers use core 0 might also makes the core 1 performance less constant.</LI></UL>
+So, if you have a system with 4 cores with Hyperthreading, then Windows will see 8 cores, and you should normally select for example cores 2 and 4 for [[3005]] and [[3006]], and core 0 for [[3007]] and [[3008]] things that are non-critical.

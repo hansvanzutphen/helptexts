@@ -1,0 +1,8 @@
+Lowers the maximum MPX deviation when using BS.412.
+
+If you have a sound card that's not perfectly linear, you can lower this
+slider a bit to lower the maximum peak level of the output. The [[10117]]
+will still be reached, so this can be used to protect against 75 kHz overshoots.
+
+Stations that <i>want</i> to sound smashed can lower this setting further
+to increase the amount of clipping.

@@ -1,0 +1,1 @@
+Controls the output level of the low latency monitor output. Since there is no clipping on this output, the volume may need to be reduced to account for any spikes in the audio level.

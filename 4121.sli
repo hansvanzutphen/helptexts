@@ -1,0 +1,8 @@
+Whitelist of IP addresses for web interface access.
+
+The IP addresses in this list can access the web interface. There are several ways to specify IP address ranges, here are some examples:<BR/>
+<tt>127.0.0.1</tt> Just 127.0.0.1.<BR/>
+<tt>192.*.*.*</tt> Any address that starts with 192.<BR/>
+<tt>192.0.0.0/8</tt> Only check the first 8 bits, so any address that starts with 192.<BR/>
+<tt>192/8</tt> Only check the first 8 bits, so any addres that starts with 192.<BR/>
+<tt>127.0.0.1, 192.168.100.101</tt> Those two addresses.

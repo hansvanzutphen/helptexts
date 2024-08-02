@@ -1,0 +1,7 @@
+Amount of delay of the L-R signal that is added to the original stereo signal.
+
+When using more delay, the sound appears to 'open up', however it might start
+to sound like an echo, especially for high frequency transients.
+
+When using 0, there is no delay and the existing stereo information is
+boosted.

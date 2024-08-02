@@ -1,0 +1,11 @@
+Sends the audio to a streaming (IceCast) service, or streams directly.
+
+Warning: This uses libVLC. libVLC works, but the MP3 and AAC-codecs are sub-par and should not
+be used. ogg/Vobris, FLAC, WAVE etc are of course fine and can be used without issues, but for
+MP3 or AAC streaming we advise to use an external streaming program.
+
+To make this work, <a href="https://www.videolan.org/">VLC Media Player</a> 2 or 3 must be installed.
+For 32 bit Stereo Tool, 32 bit VLC Media Player must be installed, for 64 bit Stereo Tool,
+64 bit VLC Media Player is needed.
+
+

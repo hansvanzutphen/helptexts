@@ -1,0 +1,5 @@
+Selects a GPS NMEA device.
+
+In most cases, a driver is needed to talk to GPS receivers, which typically have an RS232-type interface, to make them work via USB. (If you have an RS232 interface on your pc, you can probably use it directly.)
+
+When selecting a COM port, it will be opened at 9600 baud, 8 bits, Negative parity, 1 stop bit. For any other settings use [[6760]].

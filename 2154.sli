@@ -1,0 +1,5 @@
+Enables a clipper mode that's intended to reduce multipath distortion.
+
+Multipath clipper mode combines ideas from a previous multipath clipper
+implementation and [[10425]]. It <i>probably</i> reduces multipath
+distortion.

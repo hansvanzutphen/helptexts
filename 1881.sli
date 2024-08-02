@@ -1,0 +1,11 @@
+Ignore coupling for the highest band.
+
+The highest band is somewhat special: If you don't allow it to move freely,
+absense of highs or presence of very strong highs cannot be handled properly.
+On the other hand, if you want the output to stay true to the original,
+that's actually a good thing.
+
+With this slider you can determine how much of band coupling is ignored for
+the highest band. Note that since bands are still coupled in both directions,
+the changed value of this lowest band will also have some effect on adjacent
+bands.

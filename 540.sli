@@ -1,0 +1,3 @@
+Limits [[7]] at or below 0 dB.
+
+Normally, there's no good reason to set [[7]] higher than 0 dB, except maybe when you're testing certain things.

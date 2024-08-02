@@ -1,0 +1,6 @@
+Settings to declip MP3 audio.
+
+After MP3 encoding, audio gets spread in time, and if a sample is clipped the
+samples close to it will also get a part of the distortion.
+So, samples close to clipped samples which have a relatively high value all need
+to be treated as clipped.

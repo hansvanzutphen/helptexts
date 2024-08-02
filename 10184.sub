@@ -1,0 +1,12 @@
+Web interface to configure Stereo Tool remotely.
+
+Stereo Tool contains a web server that shows all the Stereo Tool settings
+in a browser, enabling configuring it from a remote pc, phone or tablet.
+
+<font color=#FF0000>Important: At this moment the web interface is NOT
+protected against unauthorized use. Anyone can get in and change settings.
+So DO NOT USE THIS on a system with an open internet connection.</font>
+
+Metering is not visible in this interface, so if you can, it's often easier
+to use a program like TeamViewer to login to the pc remotely.
+

@@ -1,0 +1,3 @@
+Limits loud highs before the compressor.
+
+Reduces loud (pre-emhpasized) highs before they hit the compressor. This filter only responds if the total level would be too high.

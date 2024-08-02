@@ -1,0 +1,5 @@
+Use more compression.
+
+Changes the input and output levels of the compressor such that the total
+output level is not affected but compressor starts to work at much lower
+input levels.

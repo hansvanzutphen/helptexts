@@ -1,0 +1,3 @@
+CPU usage control setting.
+
+Set this higher for slightly more accurate processing. The CPU load will increase a lot though.

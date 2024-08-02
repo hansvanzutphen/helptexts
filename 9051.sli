@@ -1,0 +1,7 @@
+Sound card to use for audio input.
+
+If this is set to Streaming (via VLC), a stream is used for input instead.
+This setting can be overruled by [[516]] and [[517]].
+
+
+

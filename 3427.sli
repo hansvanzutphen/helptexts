@@ -1,0 +1,5 @@
+Lookahead time.
+
+This determines how much the compressor looks ahead. For fast attack speeds (under 10 ms), this helps a lot to remove the short spikes that remain after compressing.
+However, we have also noticed that in some cases it can cause the sound to become more restless, so don't overuse this.
+

@@ -1,0 +1,5 @@
+Sensitivity for the introduction of intermodulation distortion.
+
+With the added distortion, also certain really nasty types of distortion, such
+as intermodulation distortion in female voices combined with bass sounds
+can occur. This slider controls the detection of this type of distortion.

@@ -1,0 +1,10 @@
+Override the default ASIO block size.
+
+The ASIO block size is typically set by the ASIO driver. In most cases it's possible to overrule
+the ASIO block size, to get lower latencies, or to use bigger blocks to improve stability. Too
+small block sizes can cause very brief clicks in the audio, depending on the CPU, Windows version
+and sound card driver).
+
+Note that some drivers don't allow using different block sizes, and not all sizes work on all
+devices. If a selected block size is not accepted by the driver, Stereo Tool will try to increase it until
+it is accepted.

@@ -1,0 +1,3 @@
+The pre-emphasis setting for your region.
+
+For most parts of the world this must be 50 &mu;s, but in the US 75 &mu;s is used. This means that the increment of high frequencies in the US is higher than in the rest of the world, which also means that it is more difficult to broadcast loud highs.

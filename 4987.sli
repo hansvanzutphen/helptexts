@@ -1,0 +1,9 @@
+Limiter attack/release speedup if no bass is detected.
+
+The idea here is that when there's no bass, the limiter can move very fast
+without causing intermodulation distortion. If there is a lot of bass,
+the limiter needs to move slower.
+
+Slower movements lead to lower output levels, so if the difference is too
+big and the limiter is working very hard, bass tends to cause volume
+drops.

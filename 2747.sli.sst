@@ -1,0 +1,1 @@
+Adjusts the detection threshold of the Power Bass section. If the detected amount of existing bass content is above this threshold, additional bass will not be added.

@@ -1,0 +1,3 @@
+Configure the maximum high frequency RMS level.
+
+See [[10214]]. If 3 bands are used, this slider configures the maximum high frequency RMS level, relative to the [[27]]. Note that band 3 will never be louder than band 2, so setting this to 100% makes the 3 band AGC equal to the 2 band AGC. Setting it to 0% completely removes the highs.

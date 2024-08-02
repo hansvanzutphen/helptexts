@@ -1,0 +1,5 @@
+Controls the difference in release speeds between 2 compressors to determine punch.
+
+Punch is detected by looking at the difference in amount of attack between
+two compressors. This slider determines how much slower the release works
+for the 2nd compressor.

@@ -1,0 +1,5 @@
+Determines the audio quality and CPU usage.
+
+At lower quality settings, the audio sounds less good, but the CPU usage is much lower. This setting mainly affects bass, and it has more effect with aggressive processing and steep filters. At low levels, a low setting can cause "chopper-like" sounds in the bass.
+
+The effect on the audio is determined by the combination of this setting and ((263)). For low ((263)) settings, the Quality slider must be set as high as possible to keep the quality acceptable. In Stereo Tool, the maximum setting is 100%, which is why the minimum latency (which already sounds pretty bad) is 512. In Omnia SST, Quality can be increased upto 150% which allows for lower latencies (the minimum available is 128 samples, less than 3 ms processing latency).

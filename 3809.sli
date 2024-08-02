@@ -1,0 +1,3 @@
+Extra delay for synchronization.
+
+This can be used for example to synchronize a DAB or HD signal to the FM signal, with the amount of shift in time that's needed to make them arrive simultaneously at a receiver.

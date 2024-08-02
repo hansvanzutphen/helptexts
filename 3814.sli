@@ -1,0 +1,9 @@
+Protects against drops in the lows/mids caused by very loud highs.
+
+Very loud highs (which can easily occur due to pre-emphasis)
+can push all other sounds down in level. This gives a very
+annoying, restless effect.
+
+Leif's high gap protection is the replacement of the older
+Highs gap protection, which used far more CPU load to achieve
+the same effect.

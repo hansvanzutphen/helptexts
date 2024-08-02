@@ -1,0 +1,7 @@
+Disables the 2nd compressor if the attenuation didn't suddenly drop a lot.
+
+The 2nd compressor should only be active if there's a huge difference between
+the volume when using a normal and very fast attack, but that's not all - if
+you play very dynamic music it should not kill the punch.
+This slider controls how much the attenuation must have suddenly dropped (in
+the fast attack 2nd compressor) for it to be taken into account.

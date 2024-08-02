@@ -1,0 +1,14 @@
+Settings to control ITU-R BS.412 compliance.
+
+In several European countries, FM stations have to comply to a standard called ITU-R BS.412. This standard demands that the total power over any 60 second period is below a certain threshold.
+
+The BS412 limiter in Stereo Tool attempts to achieve this without compromising the audio quality. It does this using 20 different algorithms that predict future input based on previous input, which together decide what to do with the sound to keep it below, but as close as possible to, the threshold.
+
+Despite of this, you get the best result if the input level is already nearly constant. The BS412 limiter in Stereo Tool knows how to handle increased highs due to pre-emphasis and slightly increased bass because other filters respond less to bass (due to ITU-1770). But other changes may cause problems. So try to avoid using the equalizer in the Multiband compressor and Bass Boost too much.
+
+The BS412 graph shows output and filter effect levels in a single graph. The pre-drawn horizontal lines are 1 dB apart, the darker line on top is at 0 dB.
+
+In the graph, you can see lines of different colors: BLACK shows the moving BS412 output level and should be below, but as close as possible to, the 0 dB line. RED shows slow volume changes. In general, it's best if this line doesn't drop below -1 dB - bigger drops can be noticeable. GREEN/PURPLE shows short-term volume drops caused by the compressor. YELLOW spikes show that the de-esser reduced loud highs. The actual drop of the highs is less than what is depicted here. BROWN spikes show the de-basser in action. Finally, PINK shows the dynamic adjustment of the compressor thresholds.
+
+You can see the output for the last 5 minutes, the last hour or the last day. Use the "Large view" button for a bigger display, which also shows the maximum FM deviation at the bottom (top line is +/- 75 kHz, each horizontal line is 10 kHz less).
+

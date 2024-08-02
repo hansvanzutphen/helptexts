@@ -1,0 +1,6 @@
+Amplifies the output signal.
+
+This slider amplifies the output signal with a value <i>after</i> all the
+processing has finished. This is in effect a volume slider. If the [[10235]], [[10236]] and/or [[10]] is enabled, this value should not be set higher than 0.00 dB (x1.0). [[540]] can be set to enforce this.
+Otherwise, to avoid distortion, make sure that the output bar display is never completely filled: Too loud
+output means that the sound will be distorted.

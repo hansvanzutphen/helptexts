@@ -1,0 +1,1 @@
+Sets the maximum size of the peaks that will be recreated by the declipper.Certain waveforms (dense, block waveforms for example) would cause a nearly infinite peak level. This slider forces the recreated peak level to stay below a certain point relative to the original level of the sample.Setting this value too low may result in some remaining distortion after declipping.

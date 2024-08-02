@@ -1,0 +1,4 @@
+Controls how abruptly Phase Rotation starts to work above [[258]].
+
+Lower values can cause a huge 'bump' in the phase response, which can be
+noticeable (some people even seem to like it).

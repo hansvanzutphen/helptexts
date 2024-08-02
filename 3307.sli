@@ -1,0 +1,3 @@
+Determines how fast [[3297]] responds to a very low input level.
+
+In the hydraulic door example, this determines how fast the oil heats up.

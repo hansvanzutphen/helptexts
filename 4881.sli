@@ -1,0 +1,10 @@
+Changes how far Sudden Jump Protection may push the level down.
+
+To keep track of sudden level changes, two separate level measurements are being done, one that
+can change fast and one that only change slowly. If the one that moves fast indicates a far higher
+level, Sudden Jump Protection can be activated.
+
+Because it moves so much faster, in many cases it can end up at a higher level than the slow
+detection ever will, and due to that, cause Sudden Jump Protection to push the level down further
+than where it ends up after stabilizing. This setting compensates the fast measurement, set it
+higher to avoid the level being pushed down too far.

@@ -1,0 +1,3 @@
+Encodes the stream to make it hard for external parties to take over the stream.
+
+(We say "make it hard" because in the end, anything can be hacked).

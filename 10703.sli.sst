@@ -1,0 +1,1 @@
+Once a particular noise signature has been &ldquo;Learned&rdquo; it becomes a single, fixed filter. &nbsp;If the input source changes over time, &nbsp;the noise signature will need to be updated as this filter may no longer apply. &nbsp; This reset control will discard any learned analysis data in preparation for learning a new noise signature.

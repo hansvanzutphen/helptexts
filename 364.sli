@@ -1,0 +1,4 @@
+If clipped samples do not seem to form a line, detect them as not clipped.
+
+This slider controls how far the samples may deviate from a straight line.
+

@@ -1,0 +1,7 @@
+The group sequence to be transmitted.
+
+Example: 0A 2A 0A 8A
+
+This will transmit a lot of 0A (PS text) groups, and only a small number of 2A (RT text) groups. 8A is normally
+used for TMC (traffic information for navigation systems), but it's only available if 8A group data is sent.
+See also [[6598]].

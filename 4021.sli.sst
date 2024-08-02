@@ -1,0 +1,1 @@
+Sets a window in dB in which the ACG will not increase or decrease gain, providing a &ldquo;dead band&rdquo; during which no processing occurs in this section. Larger values will provide increased dynamics and a more open, less &ldquo;busy&rdquo; sound but will also require downstream sections of the processor to work harder.

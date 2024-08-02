@@ -1,0 +1,5 @@
+Makes the bass shape flatter.
+
+Filtering after bass clipping tends to cause a "valley" in the
+waveform. This reduces the strength of the bass, and increases
+harmonics. This setting attempts to remove such valleys.

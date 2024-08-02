@@ -1,0 +1,3 @@
+Number of samples to look ahead.
+
+The number of samples to look ahead. This increases both CPU load and latency, but reduces artifacts.

@@ -1,0 +1,3 @@
+For testing: Pre-ringing is only removed for the left channel.
+
+This also affects [[2783]].

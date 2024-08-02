@@ -1,0 +1,4 @@
+Release acts as if the input level is always at 0 dB.
+
+So the release speed depends only on how deep the level has dropped.
+See also [[2717]].

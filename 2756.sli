@@ -1,0 +1,16 @@
+Protects against clicks and pops due to buffer underruns.
+
+When the ASIO buffer size is set very small, to minimize latency,
+in some cases a block of audio may not yet be available when it needs
+to be sent to the ASIO driver, which normally results in audible
+clicks.
+
+This setting lets Stereo Tool predict the data that would be sent
+to the sound card, and lets it send that instead. This masks most
+of the clicks and pops, but not entirely.
+
+It would make sense to have this option enabled at all times, but to
+more easily hear when the buffer setting is correct, it is advised to
+turn this checkbox off when you are setting the buffer sizes, and on
+again afterwards as some extra protection.
+

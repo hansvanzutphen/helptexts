@@ -1,0 +1,1 @@
+Adjusts the &ldquo;curve&rdquo; of the compression knee at the threshold. Higher values will make this transition softer, lower values will make it more abrupt.

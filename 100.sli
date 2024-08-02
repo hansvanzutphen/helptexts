@@ -1,0 +1,5 @@
+Remove very deep bass sounds.
+
+Controls the highpass frequency. Tones below this frequency are removed.
+
+The behavior of the highpass filter is affected by the setting of [[243]].

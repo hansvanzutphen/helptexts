@@ -1,0 +1,8 @@
+Clipper level.
+
+For higher frequency bands, clipping typically gives a much nicer result than [[963]],
+if the bands are narrow enough.
+The clipper output is filtered afterwards to remove distortion, which results in a very tightly
+controlled sound.
+
+For low frequency bands, the filtering is not very effective and [[963]] should be used instead.

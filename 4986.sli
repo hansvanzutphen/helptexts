@@ -1,0 +1,3 @@
+Bass detection frequency.
+
+Audio is seen as bass if it's below this frequency.

@@ -1,0 +1,4 @@
+Indicates the watermarking plugin version number.
+
+These plugins (basically the Thimeo's part of the watermarking code) are certified by Kantar.
+The legacy Stereo Tool Kantar build uses Version 1.01. ST-Enterprise and STXtreme will have version 2.00 (awaiting certification, not yet available).

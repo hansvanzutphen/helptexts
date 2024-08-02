@@ -1,0 +1,14 @@
+Attempts to remove pre-ringing from lossy compressed audio files.
+
+One of the typical artifacts in MP3 and other lossy compressed files
+is pre-ringing. This means that a sound that should start suddenly,
+has a sort of 'pre-echo': Instead of starting suddenly you first hear
+it come up softly, and then there's a sudden jump when the sound was
+really supposed to start. This gives the typical 'smeared-out', non-punchy
+sound on lower bitrate MP3s.
+
+This filter attempts to detect pre-ringing, and reduce it.
+
+Important: Because to be able to determine whether a sound is caused
+by pre-ringing or it is a sound that should be there, this filter needs
+to look ahead a lot, which adds a lot of extra latency.

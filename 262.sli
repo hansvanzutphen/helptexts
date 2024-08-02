@@ -1,0 +1,3 @@
+Don't allow Loudness to add a DC offset.
+
+In some cases, clipping only occurs in one direction (for example because there are spikes in one direction, but not in the opposite). Normally, Loudness will move the DC offset level to reduce the needed amount of clipping. This may however cause a DC offset in the output for a longer period of time, which is not always accurately reproduced by a sound card. So if you are feeding an FM transmitter with your sound card, and it's not phase linear, it's usually a good idea to enable this setting to avoid getting too big spikes in your FM modulation.

@@ -1,0 +1,4 @@
+Controls upto which frequency the bass may be deformed to sound louder.
+
+Bass sounds upto this frequency can be deformed to make them sound louder without getting higher peak levels. Setting this value higher gives more bass, at the cost of the sound quality of the bass. Values upto about 160 Hz should be fine.
+

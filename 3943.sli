@@ -1,0 +1,3 @@
+Uses the same band frequencies as [[10461]].
+
+This was intended as a performance improvement, but isn't really useful so far.

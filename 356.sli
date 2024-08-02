@@ -1,0 +1,11 @@
+Check this if the input is analog, or if it has been resampled.
+
+If the input is analog or resampled, the position in the audio where samples
+are taken 'moves', which makes it more difficult to distinguish between
+clipped and not clipped samples.
+
+If this checkbox is checked, if a sample is detected as clipped, the 2 surrounding
+samples will also be marked as clipped. This does mean that the set of
+'good' samples is reduced, which makes restoration a bit harder. But the
+opposite, not detecting a sample as clipped while it actually is clipped,
+is much worse for a good reconstruction.

@@ -1,0 +1,6 @@
+Perform Phase Rotation before all other filters.
+
+By default, Phase Rotation is performed just before the clipper. If this setting
+is enabled, it is moved to just before Natural Dynamics and the AGC.
+
+At low latencies (1024 sampples and below), Phase Rotation is always done at the start of the processing chain.

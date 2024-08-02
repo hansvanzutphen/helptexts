@@ -1,0 +1,3 @@
+Forces the clipper to more aggressively remove spikes.
+
+This allows a lower [[397]] setting to reach the same level of remaining (small) spikes which can be cleaned up with [[10]]. The audio quality may get slightly reduced though.

@@ -1,0 +1,3 @@
+Lowpass frequency of the SCA channels.
+
+If this is set too high, other subcarriers such as RDS at 57 kHz (+/- 2.4 kHz) may be affected.

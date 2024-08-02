@@ -1,0 +1,4 @@
+Controls if transients are widened more than constant sounds.
+
+Widening transients more helps to protect against boosting reverb. It also
+tends to keeps voices in music more audible.

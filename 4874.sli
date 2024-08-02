@@ -1,0 +1,6 @@
+The AGC attack time.
+
+A lower "time" value means a higher speed. So with higher values, it moves down slower on
+a level increase.
+
+For an AGC you typically want it to be standing nearly still most of the time.

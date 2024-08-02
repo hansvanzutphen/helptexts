@@ -1,0 +1,14 @@
+Scheduling loading of different .sts settings file
+
+This feature continuously looks for a [[9047]] on disk. It is loaded upon startup, and every time its date/time changes. This can be used for example to have different processing during the day and night. The date/time is checked 4 times per second.
+
+It is a good idea to first create a file with the necessary changes, and then rename it to the file that Stereo Tool checks. This avoids problems when the file is being loaded while you are still writing to it.
+The modification date is only accurate op to seconds. So changes less than a second after the previous changes may be ignored.
+
+The new file only needs to contain the changes - it is read "on top of" the already existing data.
+For example, to change the Pre Amp value, use:
+
+<tt>[Common]<BR/>
+Pre amplifier=10</tt>
+
+Warning: Certain abrupt parameter changes can give audible effects.

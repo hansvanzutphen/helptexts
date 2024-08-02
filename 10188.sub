@@ -1,0 +1,5 @@
+Input audio settings.
+
+You can receive input using ASIO (preferred if your sound card supports it),
+the standard Windows audio layer, and if you have installed <a href="http://www.videolan.com/vlc/">VLC</a>,
+an audio stream.

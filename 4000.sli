@@ -1,0 +1,7 @@
+Detects MPEG compression, and disables Spectral Hole Filler if the input signal doesn't appear to be compressed.
+
+In some rare cases, the Delossifier could add artifacts on audio that wasn't even MPEG compressed.
+This setting analyses the input, and turns the whole filter off if the input doesn't appear to be MPEG compressed.
+
+While it's not 100% accurate, the meter next to the button can be used as an indicator of MPEG compressed
+audio. If it's on during most of a track, it has probably been MPEG compressed.

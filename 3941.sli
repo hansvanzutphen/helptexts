@@ -1,0 +1,5 @@
+Perform extra pre-emphasis to protect the FM signal against overshoots after a lossy link.
+
+<i>Don't use this unless you know what you are doing. This setting will adversely affect the audio quality.</i>
+
+Adds extra pre-emphasis to the FM clipper on top of the FM pre-emphasis, to protect the FM signal that is sent to the transmitter against overshoots, and de-emphasises it again before outputting. If you have a clipper at the transmitter site, you probably don't want to use this. And you definitely don't want to use this at high loudness levels. In countries with BS412-like regulations, this setting can be useful though.

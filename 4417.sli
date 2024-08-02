@@ -1,0 +1,6 @@
+The port address of a decoder.
+
+This port address must be reachable from the pc on which Stereo Tool runs. You will probably need to setup port forwarding in the 
+router on the decoder site.
+
+(TODO: ADD EXPLANATION).

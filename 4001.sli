@@ -1,0 +1,14 @@
+Removes extreme phase differences to reduce multipath and improve mono compatibility.
+
+If the left and right channel are in anti-phase (for certain instruments),
+the L-R signal is very strong, which makes the RF bandwidth on FM wider,
+which in turn increases the chance of getting multipath reception issues.
+
+Beside that, if reception goes to mono - and in fact also if someone
+is listening to a stream on a mono device such as a phone - the instruments
+that are in anti-phase would disappear completely, or get reduced in level.
+
+This filter makes it possible to determine the maximum phase difference
+between the left and right channel.
+
+Setting it very low will reduce the experienced stereo image.

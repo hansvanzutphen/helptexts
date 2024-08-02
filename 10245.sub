@@ -1,0 +1,13 @@
+All the settings to generate a compliant FM signal.
+
+All the settings that are related to the FM signal can be found here, such
+as pre-emphasis, stereo and RDS encoding, RDS texts, Stokkemask (ITU-R SM.1268)
+and ITU-R BS.412 compliance and multipath distortion protection.
+
+FM processing is more difficult that normal processing. Because of [[10070]] you often loose highs when enabling the FM processing settings ([[10519]] helps a lot against this), Stokkemask and multipath distortion protection can have some impact on the amount of stereo separation, and BS412 lowers the level a lot.
+
+Some people prefer to use Stereo Tool only for processing and use a separate RDS and stereo coder. While this works and still gives a reasonable sound, it makes it impossible to use [[10519]] which gives several dB's of extra headroom for mainly the high frequencies, and features such as multipath distortion protection. If the whole composite/MPX signal is generated from within Stereo Tool, the sound that can be generated is a lot better.
+
+If you are planning to use Stereo Tool on an FM transmitter, please also read
+[[10191]]. If you have multiple transmitters and want to synchronize the sound
+between them, see [[10630]].

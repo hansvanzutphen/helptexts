@@ -1,0 +1,3 @@
+Select internal streaming (preferred!) or streaming via libVLC.
+
+Internal streaming is more stable and sounds better, but for now it supports fewer options.

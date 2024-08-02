@@ -1,0 +1,39 @@
+Adjusts release behavior to match human hearing for more natural results.
+
+Without Inertia and [[2459]], after a very big volume spike the speed at which the audio returned was always the same - but determined by how much it had to move up. So, if the volume dropped by 6 dB and after 100 ms the volume went up 3 dB, then for a volume drop of 12 dB that would be 6 dB. Sounds perfect.
+
+But it's not. Say you have a huge drop, for example after a very loud 'S' in the high frequency band, where normal volume differences are at most a few dB and this S suddenly sticks out 20 dB.
+For a difference of 4 dB, after 100 ms the difference in level is 1 dB - 75% of the difference is reduced. Now, this last 1 dB is really nearly unnoticeable, so for your ears the release kinda stops after 100 ms.
+But, for a difference of 20 dB, after 100 ms the difference is still 5 dB! And you need more than another 100 ms before you reach this 1 dB point.
+
+So, after a loud sound you hear a gap at settings that sound good for small volume differences.
+
+[[2459]] helps a lot for the final part of release: Small differences get compensated faster. But at the same time, bigger differences take longer to recover, which causes the same effect for really big differences as before.
+
+Inertia fixes this. With inertia combined with [[2459]] you can make the release happen in a nearly constant time, without the slowdown at the end that you would have without [[2459]], but also without the slower recovery for very big volume differences. Basically, the release happens in a nearly straight line, but the slope of the release depends on how much level must be compensated. With high Inertia values, release can even be faster for very big differences than for smaller ones, which can be good to quickly fill up the gap after a loud sound.
+
+For bigger Gamma values you need bigger Inertia values.
+
+
+In case things are not yet clear now, here's another explanation: For release, especially large differences must be compensated very fast - for 2 reasons:
+<UL><LI>Big differences mean very dynamic input, and for more dynamic input it's good that more compression occurs.</LI>
+<LI>If you have a loud sound, and it takes multiple seconds for the level to get back, that sounds really bad.</LI></UL>
+Example:
+<UL><LI>Sound drops by 4 dB. When 3 dB has been restored, you really won't hear much difference anymore in level.</LI>
+<LI>Sound drops by 40 dB. Now, when 39 dB has been restored you really don't hear much difference anymore.</LI></UL>
+So in one case when 75% restoration is there we're good, in the other we need 97.5%. And since - without [[2459]] - the behavior is asymptotic, reaching 97.5% takes multiple times as long as reaching 75%. Higher [[2459]] values only make things worse.
+
+Why is this bad? Well, it makes it nearly impossible to find a good [[554]], what works well for small differences will be far too slow for big differences, and what works well for big differences will sound very aggressive on small differences.
+
+So, the time it takes for the level to be restored to a level where human hearing stops to notice a difference - say 1 dB below the target level - must be nearly constant.
+
+Inertia ('heavyness') makes sure that once release is moving up, the speed won't slow down until the target is reached. For big drops the effect is much bigger than for small drops, which is exactly what is needed.
+
+Release Inertia and [[2459]] must be configured to work properly together. The best way to do this is to record a sample with different level tones (Loud - soft, loud - less soft, loud - just a little less loud), and check if all take approximate the same time to reach a level slightly below the target level.
+
+<i>Analogy
+
+If you have to drive 10 meters, you just barely hit the gass and drive very slowly.<BR/>
+If you have to drive 1 km, you hit the gass and speed up ([[824]]), then release the gass and let the car roll slowing down towards the end.<BR/>
+With Inertia, you would not release the gas until you're very close to the end and then hit the brakes to stop.
+</i>

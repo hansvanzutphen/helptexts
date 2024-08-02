@@ -1,0 +1,13 @@
+Lets the compressor respond faster to small differences and slower to large ones.
+
+Small differences in level are quickly compensated, with helps to reach the target level much faster as long as differences in level are small. This gives a much more sparkling, 'alive', sound. But... Big differences are less quickly compensated. See [[2494]] for a solution for that.
+
+Another explanation to further clarify things: In the compressors, if there's a volume change, it takes quite long for the level to 'stabilize'. That's because the closer the actual level gets to the 'target' level, the slower it moves (the shape is asymptotic). Something similar happens in release. This seems to be a good thing, and traditionally this is what compressors do.
+
+What Flatness does is:
+<UL><LI>If the difference in level is 6 dB, nothing changes</LI>
+<LI>If the difference in level is less than 6 dB, for Flatness values > 1 the change speed is increased.</LI>
+<LI>If the difference in level is greater than 6 dB, for Flatness values > 1 the change speed is decreased.</LI></UL>
+More technical: The Flatness'th root of the difference in level is used - so for 2 that's the square root etc.
+
+What this means: The higher the Flatness value is, the more the movement to the new level will look like a straight line instead of an asymptote.

@@ -1,0 +1,5 @@
+Turn all processing off.
+
+If Bypass is enabled, Stereo Tool does nothing - the audio goes through
+unmodified. Bypass is useful to compare the original input with the output, or to turn Stereo Tool off
+without having to unload it.

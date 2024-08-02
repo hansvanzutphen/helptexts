@@ -1,0 +1,5 @@
+Forces the clipper to use in 4 times oversampled mode.
+
+This removes any spikes over 0 dB that are created in the sound card during playback. These spikes can cause distortion based on the sound card design, but they don't have to.
+
+This means that the clipping is stronger, hence may cause slightly more artifacts for high frequencies. For FM processing, this is automatically enabled regardless of the setting.

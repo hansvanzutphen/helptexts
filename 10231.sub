@@ -1,0 +1,3 @@
+Phase Rotation makes peak levels of asymmetrical sounds lower, to protect the compressors, limiters and clippers.
+
+This protects the compressors, limiters and clipper against certain types of sounds that can easily distort. Examples are voices (especially female voices) and trumpets. They are very asymmetrical, with big spikes in one direction, and if there's also a bass sound present they tend to suffer from intermodulation distortion.

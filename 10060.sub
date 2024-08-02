@@ -1,0 +1,4 @@
+Handling of sudden burst of loud audio.
+
+The AGC slowly adjusts the level to keep the average level constant. This section overrides the standard AGC behavior to immediately lower the level very rapidly if the volume suddenly increases a lot.
+Without this, the AGC output would in some cases still contain very loud audio.

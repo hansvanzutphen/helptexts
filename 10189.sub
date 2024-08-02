@@ -1,0 +1,3 @@
+Second audio input, mostly used for SCA audio encoded at 67 kHz.
+
+Note that this is NOT intended to feed an external RDS encoder.

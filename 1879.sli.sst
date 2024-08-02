@@ -1,0 +1,1 @@
+Controls the degree to which bands track one another. A setting of 0% allows the bands to act completely independently. Higher settings force all bands to track more closely resulting in more of a wideband effect. 

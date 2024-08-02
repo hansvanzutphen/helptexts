@@ -1,0 +1,7 @@
+Ignore the declipping result if the output is still a flat line.
+
+Declipping should increase the texture of what was a (clipped) straight line.
+If not, the
+samples that were detected as being clipped probably were not clipped in
+the first place. So in that case, the result of the restoration should be
+ignored and the original sample values should be used.

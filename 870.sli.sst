@@ -1,0 +1,1 @@
+Adjusts the final output level of each band. In Multiband 1, adjusting these controls will in turn affect the amount drive to Multiband 2. In Multiband 2, these controls will affect the amount of drive to the final clipper. Bear in mind that since Multiband 2 is the final processing stage before clipping, extreme adjustments here can cause audible artifacts from the clipper.

@@ -1,0 +1,16 @@
+Adjusts for different input levels on left and right channel.
+
+If the left and right channel input levels aren't perfectly equal (which
+might happen for example if you're using some analog equiment), this slider
+allows you to correct it. A negative value means that the left channel is
+boosted, a positive value means that the right channel is boosted. Don't
+look too much at the value, instead play some mono audio and adjust this
+slider until the input levels (which you can see in the VU meters) are equal
+for left and right.
+
+Most other devices (including amplifiers) will reduce the level of a channel
+instead of increasing it. The reason to increase the level is that otherwise
+it's more difficult to show both the original and the modified (by [[542]]
+and [[2829]]) volume levels - one channel could be made louder while the other
+could be made softer.
+

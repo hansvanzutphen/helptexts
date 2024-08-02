@@ -1,0 +1,9 @@
+<UL><LI>-100 %: Play ONLY the mono sounds.</LI>
+<LI>0 %: Don't do anything</LI>
+<LI>+100 %: Play ONLY the stereo sounds.</LI></UL>
+If an instrument is only present on one channel, -100% will completely remove it. If an instrument is present at the center, +100% will completely remove it.
+
+Note: [[22]] is performed first!
+
+<font color=#FF0000>Use 'stereo only' with care: High values can cause annoying artifacts.</font>
+

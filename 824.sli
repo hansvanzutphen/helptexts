@@ -1,0 +1,6 @@
+Time for the 'brake' on the release to fade out.
+
+When attack has been active, release is not immediately activated to avoid
+excessive movement. Instead, the release is held back for a while. This slider
+determines how long.
+

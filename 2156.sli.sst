@@ -1,0 +1,1 @@
+Enables various styles of Single Sideband (SSB) operation in the 38 kHz L-R stereo subcarrier. This can improve multipath performance in some cases, but some receivers may not respond well. Experiment with this setting to see what works best in your environment.

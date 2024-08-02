@@ -1,0 +1,5 @@
+Limits how fast (recovery) packets can be send to the network.
+
+Many networks have limitations in how many packets they can process, if large numbers of [[4589]] packets are
+sent in burst, some of them (plus some real packets that come afterwards) can get dropped, actually deteriorating
+reception on the other end.

@@ -1,0 +1,3 @@
+Determines how fast the average audio level is adjusted.
+
+Only sounds above the average level (plus a theshold) can be boosted.

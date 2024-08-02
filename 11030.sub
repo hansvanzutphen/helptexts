@@ -1,0 +1,6 @@
+Controls the built-in MicroMPX encoder.
+
+MicroMPX is a codec that can be used to send the full composite signal, including pilot and RDS,
+with perfect peak control and no MPEG-like artifacts, from Stereo Tool to your transmitter, using only low bitrates.
+
+Several error recovery and redundancy measures are built in.

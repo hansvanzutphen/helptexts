@@ -1,0 +1,4 @@
+The flatness value.
+
+0 does nothing, 100% moves the measurement strength at crossover frequencies
+from -6 dB to 0 dB. See the thin lines in the [[10563]] display.

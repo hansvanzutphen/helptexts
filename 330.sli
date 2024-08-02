@@ -1,0 +1,7 @@
+Determines whether Gating is based on the actual input level, or the input level after [[6]].
+
+Controls the behavior of [[274]].
+
+If this is enabled, the gating level is based on the input level, ignoring the setting of [[6]]. In other words, increasing [[6]] does not require changing the [[274]].
+
+If this is disabled, gating just responds to the actual input volume of the AGC - if [[6]] is increased, the [[274]] also needs to be increased to get the same behavior as before.

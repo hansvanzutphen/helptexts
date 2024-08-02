@@ -1,0 +1,5 @@
+Tone comes out at roughtly the same level regardless of whether they are at the center or between frequency bands.
+
+Without this mode, if a single tone is in between two bands it will come out about twice as loud as when it's in the center of a band. This is most noticeable when playing a tone sweep, but normal music can also be affected by this. Especially bass frequencies can often not be controlled accurately without Flat frequency response mode.
+
+Flat frequency response mode enables [[87]]. If that filter was not already enabled, the CPU load is increased.

@@ -1,0 +1,3 @@
+Lowpass frequency for the input signal.
+
+The Immersive Bass is generated based on the lowpassed input signal.

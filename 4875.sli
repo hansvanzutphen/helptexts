@@ -1,0 +1,5 @@
+The maximum attack speed.
+
+If the attack (based on [[4874]]) is faster than this setting, it is slowed down.
+
+So have constant speed movements, set this value very slow and [[4874]] very fast.

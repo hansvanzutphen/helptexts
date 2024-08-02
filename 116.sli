@@ -1,0 +1,4 @@
+The RDS signal volume, in % of the total level.
+
+Higher values may improve RDS reception, but may also increase
+multipath distortion and make Stokkemask compliance much harder.

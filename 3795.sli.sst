@@ -1,0 +1,1 @@
+Slows down the release action of the multiband compressors when audio falls below this value. This is normally set at a higher level than the Gate Freeze control to create a window in which the release time slows down but doesn&rsquo;t stop completely. &nbsp;

@@ -1,0 +1,4 @@
+Makes the transition around the threshold more smooth.
+
+At the threshold the response to slightly different input levels changes
+abruptly. Knee smooths the transition.

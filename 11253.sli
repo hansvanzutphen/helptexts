@@ -1,0 +1,3 @@
+Packet counter (display only).
+
+This can be used to verify that UECP data is coming in, and passing through the Site/Encoder filtering.

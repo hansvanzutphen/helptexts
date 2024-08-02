@@ -1,0 +1,7 @@
+Enables AVX2 hand-optimized code.
+
+Many processing algorithms were optimized using hand-written SSE2 and AVX2 code. This setting enables
+that code. Note that compiler-generated AVX2 code if not affected by this setting, it will be used
+whenever the CPU supports it.
+
+You should not touch this setting unless you have a very specific reason for it.

@@ -1,0 +1,3 @@
+Configures how much extra bass is needed to drop band 1 output level below band 2 output level.
+
+See [[10214]]. If the bass is just a bit too loud (the band 1 output level would drop slightly below the band 2 output level), keeping the band 1 output level equal to the band 2 output level gives much better results, because it better preserves the original audio content. But if the bass gets very loud, it does need to be dropped. This slider configures how much louder band 1 may get before its output level is reduced.

@@ -1,0 +1,8 @@
+Asymmetrical clipping and limiting for AM stations.
+
+AM stations can broadcast an asymmetrical signal - peaks to the top may
+be higher than peaks to the bottom (which would cause the carrier to
+disappear). Local regulations (amount of asymmetry allowed) may vary.
+
+The effect of asymmetry on the audio signal is not very big, and some
+older transmitters might not be able to handle it very well. Use with care.

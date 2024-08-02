@@ -1,0 +1,3 @@
+Allows exceeding [[3277]] if the input level drops a lot.
+
+Hydraulic door behavior: If you release the door it will close at a certain speed. In this case, if you were to put pressure on it to close faster, the oil in the hydraulic system warms up and becomes more fluid, which makes the door close a bit faster. This control determines how much faster the door can move if the pressure if high for a while (see also [[3307]]).

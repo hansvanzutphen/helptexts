@@ -1,0 +1,6 @@
+Controls coupling between adjacent multiband bands.
+
+To avoid very extreme effects from the multiband compressor if certain
+frequency ranges are nearly absent or very loud in the incoming signal,
+the bands can be tied together to stop a single band to move very far away
+from the adjacent bands.

@@ -1,0 +1,3 @@
+Controls when the Abrupt Change Protection filter kicks in.
+
+If Abrupt change protection does too much (signified by white dots at the edge of the display), you can make it worry about fewer overshoots, using this control. Higher values mean less protection.

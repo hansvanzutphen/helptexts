@@ -1,0 +1,36 @@
+Used to translate Stereo Tool to another language.
+
+This button exports the current texts to a file named <tt>Export.stl</tt>. This file is generated
+in the same directory where Stereo Tool is installed. If that's not possible
+due to access rights, it is placed in the Users directory (normally
+<tt>C:\Users\yourusername\</tt>).
+
+This file consists of lines with the original text in English, an = sign,
+and the translated text. Example:
+
+<tt>Configuration=Configuratie<BR/>
+Language=Taal</tt>
+
+If you want to edit this file, rename it to the language that you want to
+support (for example Nederlands.stl) and if needed copy it to the directory
+where Stereo Tool is installed. After restarting Stereo Tool, you will see
+Nederlands as a selection under [[]]. Now you can start editing the file.
+
+Some texts are too long to fit in on the screen if you have a small display.
+For such texts, multiple versions are available:
+
+<tt>Startup minimized in system tray.0=Start geminimaliseerd in system tray<BR/>
+Startup minimized in system tray.1=Start geminimaliseerd<BR/>
+Startup minimized in system tray.2=Start min.
+</tt>
+
+Upto 3 texts can be provided. In case your translation is longer than the
+original text and you need more alternative texts than are provided in the
+generated file, you can just add them. If there's only one line, you can add
+the .0 yourself and create a .1 (and .2) version.
+
+If a new version of Stereo Tool comes out, new texts may have been added or
+texts may have been changed. If you load your old language file and then
+press the Export button, you get a file where everything that you have
+translated previously is available in the file, but things that you have not
+yet translated are there too - in English.

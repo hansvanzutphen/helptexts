@@ -1,0 +1,12 @@
+Remove high frequencies.
+
+Controls the lowpass frequency. Tones above this frequency are removed.
+
+This filter is very steep. The volume starts to drop a few hundred Hz below the configured frequency, and no frequencies above the set frequency should be coming through. The lowpass filter is always phase linear.
+
+Some special values are:
+<UL><LI>15000<BR>
+This is the lowpass frequency that should officially be used for FM stations. Since the filter is very steep, slightly higher frequencies should also work, and result in a better output quality.</LI>
+<LI>4500 Hz</LI>
+The lowpass frequency for AM stations in Europe.</LI></UL>
+

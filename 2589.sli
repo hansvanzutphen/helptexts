@@ -1,0 +1,10 @@
+Skip some steps in the Stokkemask filtering.
+
+When spikes outside the Stokkemask are detected in the RF spectrum,
+the signal around those spikes needs to be clipped more strongly.
+Around means in both directions. If this checkbox is checked, this is
+only done in forward direction, because moving backwards through the
+data (at 16x oversampling) is very heavy, and doing this in one direction
+has almost the same effect as doing it in both directions.
+
+You might want to keep this turned off if you really need to be 100% compliant.

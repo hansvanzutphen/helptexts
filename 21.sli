@@ -1,0 +1,6 @@
+Sets the maximum allowed level separation per frequency.
+
+Could be useful for example for FM radio stations, this can ensure that the maximum phase difference stays below a certain level, which reduces signal loss when a receiver switches to mono.
+
+<font color=#FF0000>This setting currently introduces artifacts. It should not be used unless it is really necessary. Changes may be made to it in later versions.</font>
+

@@ -1,0 +1,5 @@
+Gives priority to frequencies that sound louder.
+
+This follows the human hearing and FM pre-emhpasis curves,
+and prioritizes those sounds that will pass through the combination
+of human hearing and pre-emphasis with the least effort.

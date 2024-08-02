@@ -1,0 +1,4 @@
+Determines how strongly the level is adjusted.
+
+At 1000:1 (basically infinity to one), if the input level increases by 6 dB, the audio is
+decreased by 6 dB. At 2:1, the audio would be decreased by only 3 dB.

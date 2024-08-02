@@ -1,0 +1,9 @@
+Controls how to combine the measurements in [[318]].
+
+The histogram of measured noise levels over [[318]] is ordered, and then the
+value at this position is used as the noise level.
+
+If the FM stereo hiss is very constant, use a low value. This reduces incorrect
+FM stereo hiss detection. If for some reason the stereo hiss is not constant and changes rapidly, you might need a higher value.
+
+Set this value as low as possible until you notice that it starts to miss hiss.

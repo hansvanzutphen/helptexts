@@ -1,0 +1,3 @@
+Input frequencies to look at to generate harmonics.
+
+If this frequency is set very high, asymmetrical sounds such as voices can cause rumbling effects. If it is set too low, if only one harmonic is seen the filter will not do anything (see the images of a square wave and sine wave above), a too steep filter will make the filter "think" that a square wave which' ground frequency is gone is actually a sine wave.

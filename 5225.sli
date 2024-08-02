@@ -1,0 +1,7 @@
+Text field to specify the [[117]] in more detail.
+
+This can be used to transmit an 8-character PTYN text that will be displayed on receivers, usually instead of the
+PTY code. For example, the PTY code, which needs to be selected from a (limited and sometimes outdated) list of
+31 entries, might be SPORT. And the PTYN text could then be FOOTBALL.
+
+Receivers will still filter based on the [[117]] value.

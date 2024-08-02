@@ -1,0 +1,8 @@
+Shows how many seconds the watermarking has worked since the last clock time reset.
+
+This is useful to verify that watermarking is active, and to see when the watermarking clock time has been updated.
+If the time doesn't move while this watermark is enabled, watermarking is not working - you should have received an error message at an earlier point if that's the case.
+
+Always verify that the signal that you <i>think</i> you are watermarking is indeed running. For example, if you are feeding a left/right demodulated
+FM signal to a streaming encoder, it may sound ok but it would have the FM watermark. In that case, no HD signal would be watermarked at all.
+So, always verify that the output(s) that you expect to be watermarking are all enabled, and no others.

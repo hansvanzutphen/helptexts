@@ -1,0 +1,11 @@
+Protects the output against overshoots when using lossy compression (MP3 etc.) on it.
+
+If you compress the tightly clipped output of Stereo Tool with a lossy codec such as MP3, AAC, Ogg, you will notice that you get spikes again. This is caused by the fact that almost any change in the tightly clipped signal will cause it to be less tightly clipped. To avoid getting distortion, you need to lower the output level.
+
+But because differences in the signal occur much more in higher frequency ranges, it helps to boost the highs a bit before clipping, and lowering them again afterwards.
+
+<img src="images/mp3_spike_protection.png">
+
+This graph shows the effect of different  settings on a 128 kbit/s MP3 file.
+
+Lossy Compression affects [[10236]] and [[10]].

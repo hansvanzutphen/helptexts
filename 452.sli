@@ -1,0 +1,3 @@
+Cuts off remaining peaks above this level.
+
+The compressor responds slowly, this cuts off peaks that remain.

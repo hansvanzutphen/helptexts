@@ -1,0 +1,3 @@
+Enables performance optimizations based on Leif Claesson's Omnia.9 clipper.
+
+This greatly reduces the CPU load with no noticeable reduction in audio quality.

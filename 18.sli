@@ -1,0 +1,9 @@
+Maximum speed at which the filter follows detected phasing errors.
+
+This slider controls how fast the azimuth correction can change if the measured displacement is differs from the correction that is taking place.
+
+Use a very low value (ó 0.1 æm) to correct for a constant azimuth correction.
+
+Use a higher value (~ 0.4 æm) to also correct for rapid changes.
+
+To avoid getting too much effects from measurement noise, use the lowest possible value where the blue line (the actually performed correction) can keep up with the red dots (the measurements).

@@ -1,0 +1,30 @@
+Select a single sideband encoding method.
+
+When using [[2153]], there are multiple methods to do it. They all may
+cause a different result, some were made to resemble what other manufacturers
+do, others were made based on our own ideas.
+
+<UL><LI><b>Standard</b><BR/>
+This is how other manufacturers do it. Very low frequencies (upto about 150
+Hz) are modulated normally, anything higher than that is modulated only on
+the lower sideband.</LI>
+<LI><b>Probably optimal</b><BR/>
+Something special happens when a tone of 12666.7 Hz is transmitted in the L-R signal.
+The upper sideband frequency (50666.7 Hz) is exactly a multiple of the
+lower sideband frequency (25333.3). In the RF spectrum, the energy of these
+two frequencies gets bundled and much higher peaks occur.
+
+If you have a tone at 1000 Hz, it will be modulated at 37000 and 39000 Hz.
+Switching to SSB modulation would create a twice as strong signal at 37000 Hz,
+which causes much higher peaks in the RF spectrum and seems more likely to cause
+reception problems.
+
+Probably optimal
+mode reduces frequencies above 50667 Hz more, but leaves lower frequencies
+as they are (dual sideband modulated).
+</LI>
+<LI><b>Steep optimal</b><BR/>
+Similar to Probably optimal, but with a much steeper filter at 50666 Hz.</LI>
+<LI><b>Extreme (Pure Hilbert)</b><BR/>
+For testing purposes only, do not use this. Uses perfect SSB modulation. Causes reception problems in receivers and lower audio levels in the clipper.</LI>
+</UL>

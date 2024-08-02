@@ -1,0 +1,1 @@
+If ASIO is enabled, this selects which inputs to use on the selected ASIO device. These settings will override the &ldquo;Input Device ID&rdquo; setting, which is used to select a WDM device. Selecting &ldquo;No ASIO&rdquo; will disable ASIO for the input. In addition, ASIO Input Right is disabled when &ldquo;No ASIO&rdquo; is selected in &ldquo;ASIO Input Left&rdquo;.

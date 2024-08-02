@@ -1,0 +1,1 @@
+Displays the status of the MPX output buffer. If this bar is not staying filled, audio dropouts will result. Increase the buffer size to ensure this buffer is staying filled.

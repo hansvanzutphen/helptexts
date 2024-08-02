@@ -1,0 +1,7 @@
+Texts are entered using the standard Windows ASCII table.
+
+Converts special characters, assuming that they are entered using the
+standard (Windows-1252) character mapping.
+
+If this is disabled, characters are transmitted unchanged - so then it is
+assumed that the RDS character set is used.

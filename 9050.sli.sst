@@ -1,0 +1,1 @@
+Selects a WDM device to use for the low latency output. This setting is overridden and disabled when &ldquo;ASIO Output Left&rdquo; is set to anything other than &ldquo;No ASIO&rdquo;.Note: Using WDM rather than ASIO with the low latency output will add sufficient delay to make it unsuitable for low latency usage.

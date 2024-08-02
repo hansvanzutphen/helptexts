@@ -1,0 +1,4 @@
+How fast the bass AGC can come back up after being kicked down.
+
+This value is relative to the AGC [[29]], so 10.0 means that this
+release can go 10 times as fast as that setting.

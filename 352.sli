@@ -1,0 +1,3 @@
+Selects which sanples to mark as damaged by MP3 encoding.
+
+Samples in the [[353]] above this percentage are marked as clipped. Note again that marking more samples as clipped makes restoration harder, but not marking a clipped sample as clipped is worse.

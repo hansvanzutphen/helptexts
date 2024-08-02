@@ -1,0 +1,3 @@
+Amount of pre-ringing allowed.
+
+Since the subharmonic frequency is lower, it can sometimes start before the original bass sound started. This sounds very strange. This setting determines how much pre-ringing is allowed. Setting it too low will also remove reconstructed bass harmonics if they are a lot louder than the original.

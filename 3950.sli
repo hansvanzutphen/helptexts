@@ -1,0 +1,4 @@
+Highpass frequency for True Bass.
+
+True Bass can generate extremely low frequency sounds, that aren't audible and only cause problems in the rest
+of the processing. They are filtered out, below this frequency (which is relative to the [[3920]]).

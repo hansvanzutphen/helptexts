@@ -1,0 +1,3 @@
+Compatibility option for older presets.
+
+There was a bug in the implementation of Flat Frequency Response, older presets might depend on it. Don't use this for new presets!

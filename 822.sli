@@ -1,0 +1,4 @@
+Chooses between RMS or Peak level measurement.
+
+Peak mode can cause quite large reactions to a single small spike in the sound.
+RMS mode responds more like human hearing does, but low frequencies seem to be counted a lot stronger than in peak mode, which easily causes pumping.

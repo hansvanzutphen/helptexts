@@ -1,0 +1,3 @@
+Controls buffer restarting.
+
+If the sound card buffer is nearly empty or nearly full for a longer period of time, which indicates that some sort of problem has occurred and might lead to hiccups in the audio, this will automatically act as if [[10439]] is pressed.

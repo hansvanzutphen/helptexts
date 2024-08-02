@@ -1,0 +1,3 @@
+Determines how fast the volume is dropped if it is too high
+
+BS412 requires that the total volume stays below a threshold in any 60-second period. If the input level is too high (higher than [[425]]) at any moment, it needs to be dropped. If this is done fast, the drop will be less deep, but for short bursts it will be bigger than needed. If the drop is slow, and the loud sounds last for a longer period of time, the drop will get deeper because the first part which is too loud needs to be compensated. So, if you broadcast audio with rapidly changing volume levels, a lower value (say, 2) might work better, for normal music a value around 3 should be fine. If you're going to broadcast constant tones, go for a higher value :) .

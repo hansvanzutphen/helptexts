@@ -1,0 +1,1 @@
+Selects a WDM device to use for the MPX output. This setting is overridden and disabled when &ldquo;ASIO Output Left/1&rdquo; is set to anything other than &ldquo;No ASIO&rdquo;.

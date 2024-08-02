@@ -1,0 +1,3 @@
+Pull bands down if adjacent bands are lower, but never pull bands up.
+
+This gives better level control.

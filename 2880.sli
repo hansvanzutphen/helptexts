@@ -1,0 +1,4 @@
+Improved bass filter slope.
+
+This should always be turned on, it's here for compatibility
+with older presets.

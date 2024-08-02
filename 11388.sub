@@ -1,0 +1,14 @@
+Settings that control recovery of lost network packets.
+
+MicroMPX sends approximately 96 packets per second. If a network connection drops out for a moment, this will 
+typically lead to one or more packets in sequence to be lost.
+
+These packets can be recovered by sending error recovery data in extra packets. Sending error recovery data
+slightly increases the bitrate, but greatly reduces the chance of getting audio dropouts due to network issues.
+
+On a perfectly reliable network, it's not needed to use this.
+
+Some people have asked for the possibility to send the same stream twice over the same connection, with a 1 second
+delay, as a means of redundancy. Instead of that, you can set both [[4588]] and [[4589]] to 120 packets (the number
+of packets that are sent in about 1.5 seconds). That way, any drop that takes less than 0.7 seconds will be fully
+recovered. (Note: The total of the two sliders may not exceed 255, that's why we can only go to 120).

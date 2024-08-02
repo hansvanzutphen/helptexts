@@ -1,0 +1,5 @@
+Processing latency for the [[10192]].
+
+Comparable to [[263]], but for the low latency output.
+
+Quality 128 gives a processing latency of under 3 ms, allowing a total input-to-output latency of about 5-6 ms. At 256, the processing latency is a bit below 6 ms, with a total input-to-output latency of around 9 ms.

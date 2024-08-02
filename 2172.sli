@@ -1,0 +1,4 @@
+The direction in which higher peaks are allowed.
+
+This depends on how the transmitter is connected to the sound card.
+Tests are probably needed to determine the correct setting.

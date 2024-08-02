@@ -1,0 +1,3 @@
+Enables lowpass filter for FM.
+
+This overrules the global lowpass frequency for the FM output.

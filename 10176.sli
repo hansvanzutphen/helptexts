@@ -1,0 +1,4 @@
+Test tone frequency.
+
+The frequency of the test tone if the [[type]] is set to Sine, Square or
+Smooth Square. Otherwise this slider is ignored.

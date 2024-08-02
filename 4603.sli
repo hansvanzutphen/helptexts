@@ -1,0 +1,5 @@
+Sets the maximum difference in change between the audio channels.
+
+For example if the left channel would be attenuated by 10 dB and the right channel by 5 dB, but
+channel linking is set to 2 dB, then the right channel will be attenuated by 8 dB instead.
+So the loudest channel pulls the other channels down to at most this many dB above its own level.

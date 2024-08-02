@@ -1,0 +1,7 @@
+Determines how independent the two channel volumes can move.
+
+If both AGC channels behave completely independent of each other, a loud tone on one channel may cause strange stereo effects because other tones are reduced on one channel, but not on the other. On top of that, the total audio content changes if this happens.
+
+If both AGC channels do exactly the same, a loud tone on one channel causes volume drops on the other channel, which can also be unwanted.
+
+This slider allows choosing an intermediate setting.

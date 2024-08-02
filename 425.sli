@@ -1,0 +1,3 @@
+Determines the maximum BS412 output level.
+
+In most countries where BS412 is mandatory, this must be set to 0 dB, but in some it's +3 dB. When changing this setting, you may also need to adjust [[424]].

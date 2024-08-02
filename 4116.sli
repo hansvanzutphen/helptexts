@@ -1,0 +1,7 @@
+Sets an area in which the AGC stops moving.
+
+When a window size is set, the AGC internally behaves normally, but as long as the level stays inside the window,
+it doesn't move. As an example, say that a window of 2 dB is set. If the input level first goes up a lot, the AGC will go
+down, but the actual action runs 1 dB behind (half of the window size). If the input level then drops a bit, the AGC would normally rise again, but
+as long as it stays within the window, the output level doesn't change. Only if the AGC would rise more than 2 dB, the
+windowed version would start to follow again.

@@ -1,0 +1,9 @@
+Selects between clean highs and constant volume levels.
+
+High frequencies can get extremely loud due to FM [[110]]. With this slider,
+you can choose if you want to keep the volume of all other sounds constant
+(low values), or if you want loud highs to be able to push other frequencies
+down. That allows the highs to sound brighter, but pumping caused by loud
+highs is very annoying in music.
+
+If you are using [[10519]], higher values are less problematic, because highs are less problematic.

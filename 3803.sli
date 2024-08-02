@@ -1,0 +1,3 @@
+Enables synchronization.
+
+If this is set to Auto, Stereo Tool will compare sound card names to 'guess' if synchronization is needed. If the latency is very low, Auto will never enable synchronization.

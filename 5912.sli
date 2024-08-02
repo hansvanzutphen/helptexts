@@ -1,0 +1,5 @@
+Enables transmission of the EWS (Emergency Warning System) code.
+
+Do not use this unless you know what you're doing. This is part of the Emergency Warning System which is used
+in some countries. Special receivers are placed in homes that sound an alarm in case of a disaster (nuclear disaster, forest
+fire, ...).

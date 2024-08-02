@@ -1,0 +1,7 @@
+Enables the web interface.
+
+<font color=#FF0000>Important: At this moment the web interface is NOT
+protected against unauthorized use. Anyone can get in and change settings.
+So DO NOT USE THIS on a system with an open internet connection.</font>
+
+Both enabling and disabling the web interface requires a restart!

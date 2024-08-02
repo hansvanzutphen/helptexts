@@ -1,0 +1,5 @@
+The speed at which the bass detection value fades out if no bass is seen anymore.
+
+This should be slow enough to cover the area between two bass
+sine wave cycles.
+

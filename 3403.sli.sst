@@ -1,0 +1,1 @@
+Adjusts the balance between feed back and feed forward operation. In feed back mode (100%), the output level is used for detection. In feed forward (0%), the input level is used.

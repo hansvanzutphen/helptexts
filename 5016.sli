@@ -1,0 +1,7 @@
+Sets an area in which the compressor stops moving.
+
+When a window size is set, the compressor internally behaves normally, but as long as the level stays inside the window,
+it doesn't move. As an example, say that a window of 1 dB is set. If the input level first goes up a lot, the compressor will go
+down, but the actual action runs 0.5 dB (half of the window) behind. If the input level then drops a bit, the compressor would 
+normally rise again, but as long as it stays within the window, the output level doesn't change. Only if the compressor would rise
+more than 1 dB, the windowed version would start to follow again.

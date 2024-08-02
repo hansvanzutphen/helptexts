@@ -1,0 +1,1 @@
+Adjusts the amount of buffering to apply to the low latency output. Set this as low as possible to minimize latency while still maintaining a stable output.

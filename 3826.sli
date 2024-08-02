@@ -1,0 +1,4 @@
+Throws high frequencies away to reduce CPU load.
+
+Doing this for FM or for streaming has no effect on the audio quality if the [[3827]] is set higher than the [[99]]. One exception is that for [[10425]], a minimum frequency of 19200 must be set.
+The CPU load reduction can be upto 30%, depending on the settings. Using this setting does increase the latency a bit (also upto 30%).

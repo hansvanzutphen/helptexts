@@ -1,0 +1,15 @@
+Outputs a pre-emphasized signal.
+
+<font color=#FF0000>If you leave this disabled and feed the signal to an
+FM transmitter, the sound will lack highs. Make sure that this is enabled
+when using an FM transmitter.</font>
+
+If this checkbox is disabled, processing ([[10236]] and [[10]]) is done with pre-emphasis,
+but signal that's sent to the output is de-emphasized, as it would be in an
+FM receiver. This means that you can hear the sound as it would be on a radio,
+but the signal is not suitable to send to a transmitter.
+
+An exception is when the transmnitter performs pre-emphasis, but chances are
+that you'll get a pretty bad signal because in many cases the pre-emphasis
+circuit in a transmitter is non-phase linear, and it might not perfectly
+match the FM specification.

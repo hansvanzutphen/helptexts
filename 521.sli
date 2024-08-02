@@ -1,0 +1,9 @@
+Use a separate thread for SCA input.
+
+Enable this to avoid hiccups on the main audio if there are differences
+in sample rate between the sound cards for [[9051]] and [[10189]].
+
+Only enable this if it's really - if possible use the same sound card
+for both inputs. While this checkbox protects the main audio ([[9051]])
+from hiccups, the SCA signal may still get hiccups.
+

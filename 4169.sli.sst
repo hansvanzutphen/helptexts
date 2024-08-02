@@ -1,0 +1,1 @@
+The MicroMPX server will periodically send &ldquo;reset packets&rdquo; to synchronize the client. Depending on the stability of the connection, it may be necessary to send these packets more frequently. On most connections, the default (and maximum) of 5 seconds is generally sufficient. Decrease this value to send reset packets more frequently.

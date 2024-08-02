@@ -1,0 +1,3 @@
+Settings that affect phase rotator artifacts and delay in low latency modes.
+
+These settings effect latencies at and below 1024 samples.

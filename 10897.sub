@@ -1,0 +1,8 @@
+Controls the Spectral Hole Filler part of Delossifier.
+
+MP3 and MPEG2 encoding at lower bitrates causes holes in the spectrum - typically, the louder sounds
+are encoded until there are no bits left, anything that's not encoded yet at that point is turned into
+silence.
+
+This is a very unnatural effect which normally never occurs in natural sounds, and the Spectral Hole
+Filler attempts to put reconstruct the audio that was removed, and puts it back.

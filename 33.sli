@@ -1,0 +1,3 @@
+Enables the old Multiband compressor.
+
+If [[10461]] is enabled, this old version is automatically disabled. This can be used to adjust the new [[10461]] to sound similar to the Classic Multiband Compressor.

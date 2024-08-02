@@ -1,0 +1,8 @@
+FORCES A CRASH! Used to test watchdog and logging behavior.
+
+Pressing this button will cause an exception in Stereo Tool that would
+normally cause it to crash. This can be used to test if the logging works
+(see description above) and if the [[2796]] behavior functions properly.
+
+When this button is pressed, an attempt is made to write data to memory
+position 0. You will see an exception with code 0xc0000005, read/write=1, r/w location=0x0.

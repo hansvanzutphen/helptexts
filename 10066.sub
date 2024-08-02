@@ -1,0 +1,6 @@
+Add some distortion, always or to give more headroom to loud sounds.
+
+Originally, this section was intended to add distortion as an 'artistic effect', but for that purpose [[10606]] was added later which gives a much more precise control.
+
+It can however also be used to allow a bit more distortion when it's most likely not noticeable, and the sound is really loud. This makes the sound less 'squashed'.
+

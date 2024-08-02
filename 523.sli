@@ -1,0 +1,21 @@
+Selection of the sound that will be played though [[10055]].
+
+If [[10191]] plays FM or AM transmitter output, with this setting you can
+select what [[10055]] will play.
+
+If you select a separately processed output, clipping and limiting will be
+done separately for the [[10191]] and [[10055]] outputs. This means that you
+can generate a signal suitable for streaming without suffering from the
+loss in high frequency content caused by FM pre-emphasis, for example.
+
+Options are:
+<table cellpadding=0 cellspacing=0 border=0>
+<tr><td>Input without processing</td><td>&nbsp;&nbsp;</td><td>Plays the original input. Can be useful for monitoring.</td></tr>
+<tr><td>De-emphasized version of FM output</td><td></td><td>What listeners will hear on an FM receiver.</td></tr>
+<tr><td>Separately processed streaming input</td><td></td><td>Separate clipping and limiting for the stream.</td></tr>
+<tr><td>Separately processed pre-emphasized left/right FM output</td><td></td><td>Pre-emphasized stereo FM output, without composite clipper.</td></tr>
+<tr><td>Separately processed de-emphasized left/right FM output</td><td></td><td>De-emphasized stereo FM output, without composite clipper.</td></tr>
+</table>
+
+If separate processing is needed, the CPU load will go up. When that's the
+case, the botton next to the [[523]] pulldown menu will be lit.

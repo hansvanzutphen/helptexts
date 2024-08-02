@@ -1,0 +1,7 @@
+Lets the compresor respond to the sound a bit in the future.
+
+This means that the initial spike of a loud sound gets reduced better,
+which can give a more natural sound.
+
+The attack of the limiter is already protected, and if you don't use very
+short attack times for the compressor this probably has little effect.

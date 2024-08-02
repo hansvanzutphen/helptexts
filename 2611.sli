@@ -1,0 +1,4 @@
+Changes the behavior of [[2610]].
+
+Instead of adding a portion of L+R to L-R, use the maximum of a portion of L+R and L-R. This reduces the maximum stereo increment.
+

@@ -1,0 +1,2 @@
+Restarts if the output buffer is filled below this percentage for a longer period.
+

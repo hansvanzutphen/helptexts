@@ -1,0 +1,1 @@
+Select this function if the incoming audio has been encoded to MP3 or other bit-reduced format at some point.After lossy encoding such as MP3, audio gets spread in time. If a sample is clipped, the samples adjacent to it will also get a part of the distortion. As a result, samples close to clipped samples which have a relatively high value all need to be treated as clipped.

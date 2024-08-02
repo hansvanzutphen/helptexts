@@ -1,0 +1,7 @@
+Sets the L-R level boost when the AGC is not active.
+
+If the AGC drops below the threshold level, that would also turn any
+stereo increase off. This setting can be used to set the "baseline"
+stereo increment when the AGC is inactive.
+
+When the AGC is active (for both L+R and L-R), this setting has no effect.

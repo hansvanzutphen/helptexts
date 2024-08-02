@@ -1,0 +1,11 @@
+Median display controls.
+
+The median helps to set up the Auto EQ correctly. Good settings means that the Auto EQ does nothing
+on average. You should not set up the Auto EQ to compensate consistently present issues in the input
+signal (except when you do so using [[4792]].
+
+It is really important to stress that the Auto EQ should on average (after playing multiple hours
+of "typical" programming) do nothing. So all the median lines should be very close to 0 dB.
+
+If the Auto EQ is "ab"used to always change the spectral content, it will make wrong assumptions
+about the audio that can lead to audible effects.

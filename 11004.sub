@@ -1,0 +1,4 @@
+Shows the RF spectrum after FM modulation.
+
+Note: This display assumes an absolutely perfect path to the
+transmitter, at exactly 75 kHz modulation.

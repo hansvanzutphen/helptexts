@@ -1,0 +1,1 @@
+The &ldquo;Dehummer&rdquo; can be used to learn and remove any constant noise from a source. For constant noise at specific frequencies, the noise can usually be filtered entirely from the source audio. For other noise (such as hiss or other broadband noise) it is typically possible to achieve several dB of attenuation without significantly affecting the source audio.

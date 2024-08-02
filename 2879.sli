@@ -1,0 +1,5 @@
+Perform [[10699]] after the [[10194]].
+
+If your material is clipped first and then noise/hum is added, for example if you play clipped CD's on a system that has a hum, the hum needs to be removed first, and declipper should be done afterwards. In that case, leave this setting off.
+
+But, if for some reason the clipping happened after the noise/hum was added, then you can enable this setting to declip first, and remove the noise and hum afterwards.

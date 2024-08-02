@@ -1,0 +1,3 @@
+<i>In ITU-BS.1770 mode, the AGC adjusts the level based on how human hearing works, instead of the actual power of the audio. The AGC will react less to bass frequencies, and more to higher frequencies depending on these settings.</i>
+
+AGC responds less to bass frequencies because they sound less loud to human hearing.

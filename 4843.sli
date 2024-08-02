@@ -1,0 +1,3 @@
+Determines how much effect Auto EQ has on each band.
+
+This filter does not have to fully correct spectral imbalances. Using this slider will make the filter do less correction. If band 1 is 6dB too quiet, and this is set to 50%, only 3dB of correction will happen.

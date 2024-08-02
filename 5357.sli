@@ -1,0 +1,4 @@
+Make Stokkemask filtering more or less strict.
+
+In countries where you have to comply to Stokkemask, this should never be moved up. But elsewhere, if you want to profit from the improved
+reception with less effect on the audio, you can move this slider to make the Stokkemask filtering more or less strict.

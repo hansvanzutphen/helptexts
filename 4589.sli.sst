@@ -1,0 +1,1 @@
+Adjusts the number of error correction packets sent at each interval. Larger values will consume more bandwidth. As with the error correction span, a value of 0 will disable sending of error correction packets.

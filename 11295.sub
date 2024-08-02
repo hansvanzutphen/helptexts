@@ -1,0 +1,12 @@
+The Built-In Microphone Processor.
+
+The BIMP is a built-in microphone processor, which can be used to replace a hardware
+microphone processor. It processes the microphone input (at most 2 channels - for now)
+and then adds it to the main audio.
+
+The BIMP adds NO latency to the normal processing, because it communicates with the filters
+further down the chain to tell them what's coming, before it's really there yet.
+
+This means that it's possible to have both microphone and normal processing with
+latencies that can reach below 6 ms - at the very least for the [[10192]], but (if the
+quality is acceptable) even for the fully processed FM output.

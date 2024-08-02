@@ -1,0 +1,7 @@
+A sample is probably clipped if it is above this level.
+
+This level is relative to the maximum peak level over a period of time,
+and can be different at the top and the bottom of the waveform.
+
+For CD input with clipping that has not been tilted, a value of 99% should
+be used here - there is no such thing as 'probably clipped' in that case.

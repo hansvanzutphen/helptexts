@@ -1,0 +1,5 @@
+Highs correction value.
+
+See [[5256]]. To properly set up this value, a good quality analyser is needed - many analyzers
+aren't completely flat themselves and are not suitable, in those cases it's probably safer to
+just stick with what the sound card does.

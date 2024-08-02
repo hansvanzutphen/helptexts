@@ -1,0 +1,6 @@
+Shows how many seconds the watermarking has worked since the last clock time reset.
+
+This is useful to verify that watermarking is active, and to see when the watermarking clock time has been updated.
+If the time doesn't move while this watermark is enabled, watermarking is not working - you should have received an error message at an earlier point if that's the case.
+
+Always verify that the signal that you <i>think</i> you are watermarking is indeed running.

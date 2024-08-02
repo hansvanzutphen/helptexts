@@ -1,0 +1,6 @@
+Plays only the sounds that are determined to be pre-ringing.
+
+If [[2785]] is enabled, the pre-ringing sound is played on the left
+channel, and the audio on the right channel is unaffected. This makes
+it easy to hear if only pre-ringing is removed (the sounds stop at the
+moment when a kick is played), or more sounds are removed.

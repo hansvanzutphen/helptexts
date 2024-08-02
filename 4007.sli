@@ -1,0 +1,41 @@
+Switches between UECP (recommended!) and ASCII mode control.
+
+UECP is a standard created by the same group that created the RDS standard, and we recommend using that when available.
+
+However, some playout systems and other programs don't support UECP mode, and they support different dialects of an ASCII mode.
+
+ASCII mode has been tested with <a href="http://www.arcticpalm.com/CSRDS.htm">Arctic Palm Center Stage Live RDS</a>. At the moment it does not work with Magic RDS (we will fix that).
+
+If you want to use ASCII mode, here are some example commands:<BR/>
+Set a static 8-character PS text:<BR/>
+<tt>PS=HELLO</tt><BR/>
+<tt>PS HELLO</tt><BR/>
+<tt>PS:HELLO</tt><BR/>
+<BR/>
+Set a dynamic PS text, automatically split into sub-texts if longer than 8 characters:<BR/>
+<tt>DPS=Hello there, this is a long text!</tt><BR/>
+Alternative names: <tt>PS_TEXT</tt>, <tt>DYNPS</tt>, <tt>DPS1</tt>.<BR/>
+<BR/>
+Set a dynamic PS text, automatically split into sub-texts if longer than 8 characters:<BR/>
+<tt>DPS=Hello there, this is a long text!</tt><BR/>
+Alternative names: <tt>PS_TEXT</tt>, <tt>DYNPS</tt>, <tt>DPS1</tt>.<BR/>
+<BR/>
+Set a Thimeo-style PS text, with instructions for scrolling, timing etc:<BR/>
+<tt>THIMEOPS=1s:Hello/2t&lt;This text scrolls</tt><BR/>
+<BR/>
+Set an RT text:<BR/>
+<tt>RT=This is my radio station</tt><BR/>
+Alternative names: <tt>TEXT</tt>, <tt>RT_TEXT</tt>, <tt>DYNRT</tt>, <tt>RT1</tt>, <tt>NEWS</tt>.<BR/>
+<BR/>
+Send RT+ data:<BR/>
+<tt>RT+=</tt>a<tt>,</tt>b<tt>,</tt>c<tt>,</tt>d<tt>,</tt>e<tt>,</tt>f<BR/>
+Alternative names: <tt>RTP</tt>, <tt>RTPLUS</tt>.<BR/>
+<BR/>
+Delete RT+ data:<BR/>
+<tt>RTPRUN</tt><BR/>
+<BR/>
+Other commands:<BR/>
+<tt>PI=1234</tt><BR/>
+<tt>PTY=11</tt><BR/>
+<tt>DI=0</tt><BR/>
+<tt>MS=1</tt><BR/>

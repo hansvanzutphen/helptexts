@@ -1,0 +1,3 @@
+Selects which of the input channels to use for left and right audio.
+
+This can be useful if you want to use only one input channel (mono), or if you want to swap left and right.

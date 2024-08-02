@@ -1,0 +1,7 @@
+High frequency reconstruction.
+
+Absolute Highs reconstructs missing high frequencies in recordings. For example, if a file has
+been recorded at 22 kHz instead of 44, there's no audio above 11 kHz, and Absolute Highs can
+generate a reasonable approximation of what should have been there.
+
+Beside this, it can also be useful for old music, which doesn't have much highs to begin with.

@@ -1,0 +1,4 @@
+Reduces the bass clipping level if loud high frequencies are present.
+
+Bass combined with loud high frequencies can easily cause intermodulation distortion. Setting this sensitivity higher causes the bass clipping level to be dropped further. This also means that the bass level goes down.
+

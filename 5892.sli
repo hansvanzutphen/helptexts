@@ -1,0 +1,4 @@
+Microphone processor channel selection.
+
+You can choose between only the left or only the right channel of the sound card, or to combine both (after processing - so each microphone is processed separately and then
+combined with the main signal), or to use stereo input.

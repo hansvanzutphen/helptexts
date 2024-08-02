@@ -1,0 +1,5 @@
+Sets the detection threshold for detecting potentially audible crackles.
+
+A lower value means that less protection is performed. A higher
+value means that Controlled Distortion is very often disabled and
+doesn't do that much anymore.

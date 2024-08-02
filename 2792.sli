@@ -1,0 +1,10 @@
+C-QUAM AM Stereo compliant clipping and limiting.
+
+The output signal is clipped and limited such that it complies fully to
+Motorola C-QUAM AM Stereo regulations and guidelines.
+
+Please note that when broadcasting in AM Stereo using C-QUAM, the bandwidth
+of the signal increases slightly. There will be some signal above 10 kHz
+present in the signal that comes out of a stereo AM transmitter. This is
+normal for C-QUAM, but when switching form mono to stereo it's important
+to make sure that you're not causing problems to other stations.

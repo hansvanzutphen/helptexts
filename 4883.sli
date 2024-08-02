@@ -1,0 +1,5 @@
+The maximum release speed.
+
+If the release (based on [[4882]]) is faster than this setting, it is slowed down.
+
+So have constant speed movements, set this value very slow and [[4882]] very fast.

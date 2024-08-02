@@ -1,0 +1,5 @@
+Run [[10131]] in high quality mode for pre-emphasized audio.
+
+High quality mode uses twice as much CPU power as normal quality mode.
+For pre-emphasized audio it's wise to turn it on, because the high
+frequencies can be extremely loud.

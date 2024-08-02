@@ -1,0 +1,5 @@
+Clips the bass before the final clipper.
+
+The purpose is threefold: Protect the final clipper against excessive bass,
+control the bass tightly so it's constant in level, and generate a small
+amount of harmonics to make the bass more audible on small speakers.

@@ -1,0 +1,3 @@
+Enables or disables the Hear and Difference buttons in the software.
+
+The reason to disable these buttons is that they currently affect all outputs, including the signal that's going to a stream or to FM. To prevent accidentally sending bad audio to listeners, this setting can be disabled, which then in turn disables all the Hear and Differece buttons.

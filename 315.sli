@@ -1,0 +1,7 @@
+Controls hiss vs. tone detection.
+
+A lower value means that sounds are more easily detected to be noise - a too low value will reduce not only stereo hiss but also other stereo sounds.
+
+A higher value means that even hiss is not detected properly anymore, and noise removal will not work at all anymore.
+
+Hint: Use the Difference checkbox to hear if what is removed is really only the stereo hiss.

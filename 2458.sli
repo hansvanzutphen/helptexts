@@ -1,0 +1,3 @@
+Lets the compressor respond faster to small differences and slower to bigger ones.
+
+Small differences in level are thus quickly compensated, with helps to reach the target level much faster. And the compressor attack responds less aggressively to big volume changes.

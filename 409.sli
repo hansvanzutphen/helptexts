@@ -1,0 +1,3 @@
+Determines how strictly the bass is clipped.
+
+Higher is better, but also causes a higher CPU load.

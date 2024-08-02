@@ -1,0 +1,4 @@
+Use ASIO for input and output. Use this if possible!
+
+This gives better control over the sound card leading to less potential problems,
+and it greatly reduces the delay between input and output.

@@ -1,0 +1,7 @@
+Decreases the effect of the Stokkemask clipper by using more CPU power.
+
+If this is set higher, multiple RF measurements are done to check if the
+Stokkemask clipper manages to get the signal inside the Stokkemask - once
+it does, the amount of Stokkemask clipping can be reduced, which also
+reduces the effect of the Stokkemask clipper on the audio quality and
+stereo separation.

@@ -1,0 +1,7 @@
+Volume compression (A.K.A. audio level compression) reduces the dynamic range of a sound. This means that loud sounds become softer, and soft sounds become louder.
+
+Limiting limits the maximum audio level below a certain threshold.
+
+For a lengthy discussion about compression, see <a href="http://en.wikipedia.org/wiki/Audio_level_compression">Wikipedia: Audio level compression</a>.
+
+The compressors and limiters in Stereo Tool are protected against causing distortion. So very aggressive settings and large amounts of limiting can safely be used.

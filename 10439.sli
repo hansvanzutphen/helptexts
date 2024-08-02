@@ -1,0 +1,5 @@
+Restarts the whole sound card section. Try this is you are running into
+trouble (buffer underruns, sound cards that refuse to connect).
+
+Normally, in case of trouble this is done automatically, so you <i>should</i>
+never need this.

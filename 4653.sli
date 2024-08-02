@@ -1,0 +1,8 @@
+The network interface on the pc to send the data to.
+
+Typically, the operating system will automatically figure out to which network port data needs to be sent to
+reach the target IP address. But in some cases - especially when using multiple internet providers or links
+for redundancy - you might want to decide this yourself. If 2 internet providers are available that can both
+reach the target IP address (or, multiple IP addresses that all point to the same target device), you can
+decide which data is sent via which provider. The OS will probably choose the same provider for both streams,
+which would remove much of the redundancy.

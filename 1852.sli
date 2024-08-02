@@ -1,0 +1,4 @@
+The fast attack time.
+
+To be useful, this must be a lot smaller than [[555]] - typical values are
+around 1-5 ms.

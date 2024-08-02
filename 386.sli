@@ -1,0 +1,6 @@
+Ignore the declipping result if it did not increase the peak level enough.
+
+Declipping should cause the peak level to increase a bit, otherwise the
+samples that were detected as being clipped probably were not clipped in
+the first place. So in that case, the result of the restoration should be
+ignored and the original sample values should be used.

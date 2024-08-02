@@ -1,0 +1,3 @@
+Calculated level above the long-term level is multiplied by this.
+
+Stereo Tool calculates how loud the current sound is compared to the 'average' level. 0 = equally loud, 1 = twice as loud etc. This calculated level is multiplied by Multiply above. Basically, bigger value means more effect.

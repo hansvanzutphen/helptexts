@@ -1,0 +1,4 @@
+Enables Highs correction.
+
+Some sound cards have a lowpass filter that affects the highest frequencies that are needed for
+FM (the stereo/RDS area). This checkbox enables compensation for that.
