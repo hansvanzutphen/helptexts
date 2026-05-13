@@ -1,6 +1,6 @@
 Removes short volume spikes that remain at the end of the AGC processing.
 
-<b>Superseded by [[10060]], use that instead for better results.</b>
+<b>Superseded by [[20060]], use that instead for better results.</b>
 
 The AGC responds slowly to volume changes, to keep the effects on the audio as small as possible. This does mean that if the volume suddenly increases a lot, a loud 'spike' of sound can remain. This slider determines how much 'spike' is allowed above the configured [[29]]; anything louder than that is reduced.
 

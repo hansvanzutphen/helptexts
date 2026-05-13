@@ -16,7 +16,7 @@ latencies 4 times as loud. Which means that the step from 4096 to 1024 is
 smaller than that from 1024 to 512! At latency 512 (12 ms, 17 ms total latency)
 the audio quality really suffers.
 
-The stand alone version of Stereo Tool has an extra [[10192]] monitoring
+The stand alone version of Stereo Tool has an extra [[20192]] monitoring
 output which offers a total latency of 11 ms.
 
 Note: The quality is also very strongly affected by the [[294]] setting,

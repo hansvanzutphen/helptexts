@@ -4,7 +4,7 @@ Outputs a pre-emphasized signal.
 FM transmitter, the sound will lack highs. Make sure that this is enabled
 when using an FM transmitter.</font>
 
-If this checkbox is disabled, processing ([[10236]] and [[10]]) is done with pre-emphasis,
+If this checkbox is disabled, processing ([[20236]] and [[10]]) is done with pre-emphasis,
 but signal that's sent to the output is de-emphasized, as it would be in an
 FM receiver. This means that you can hear the sound as it would be on a radio,
 but the signal is not suitable to send to a transmitter.

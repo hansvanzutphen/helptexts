@@ -4,4 +4,4 @@ Most of the included presets were built assuming that the input level for music 
 Use the AGC drive to drive it harder that that.
 
 If the input level to the sound card is too low, [[542]] should be used instead, since the input level shouldn't
-really be part of a preset and also affects other things, such as [[10194]] and [[10206]].
+really be part of a preset and also affects other things, such as [[20194]] and [[20206]].

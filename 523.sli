@@ -1,10 +1,10 @@
-Selection of the sound that will be played though [[10055]].
+Selection of the sound that will be played though [[20055]].
 
-If [[10191]] plays FM or AM transmitter output, with this setting you can
-select what [[10055]] will play.
+If [[20191]] plays FM or AM transmitter output, with this setting you can
+select what [[20055]] will play.
 
 If you select a separately processed output, clipping and limiting will be
-done separately for the [[10191]] and [[10055]] outputs. This means that you
+done separately for the [[20191]] and [[20055]] outputs. This means that you
 can generate a signal suitable for streaming without suffering from the
 loss in high frequency content caused by FM pre-emphasis, for example.
 

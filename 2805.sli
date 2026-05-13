@@ -1,7 +1,7 @@
 Turns the widener off completely if the input is already very wide.
 
 If the input signal already contains a lot of stereo content, the
-[[10670]] is turned off.
+[[20670]] is turned off.
 
 This is particularly important when playing audio with 100% channel
 separation such as old Beatles tracks where voices are often recorded on

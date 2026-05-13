@@ -8,6 +8,6 @@ headroom - but 60% is just too much for some.
 Such high spikes only occur occasionally, so clipping them at a lower level
 (110-130%) does no affect the audio much.
 
-This increases the CPU load. [[2154]] and [[10425]] have a similar effect
+This increases the CPU load. [[2154]] and [[20425]] have a similar effect
 (they keep the peak levels at around 120%), so it is probably better to use
 those.

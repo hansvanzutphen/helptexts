@@ -3,7 +3,7 @@ Adjusts the input level to reach around 0 dB peak level.
 Many studios use a lot of headroom in their signal, they feed the processor
 at levels like -24 dB. The built-in presets in Stereo Tool were designed
 for input that reaches levels upto about 0 dB regularly. If you feed the
-audio at -24 dB, certain filters ([[10194]], [[10206]], [[10212]]) don't
+audio at -24 dB, certain filters ([[20194]], [[20206]], [[20212]]) don't
 function properly and the sound will be bad.
 
 Of course, it should still be possible for studios to use a large

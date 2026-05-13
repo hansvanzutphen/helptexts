@@ -1,7 +1,7 @@
 The sample rate to use for input.
 
 Normally, the output sample rate will be identical to the input sample
-rate. The only exception is when you are not using [[10187]], the samle
+rate. The only exception is when you are not using [[20187]], the samle
 rate is lower than 128 kHz and FM output is used.
 
 If you use samle rates above 48 kHz, the audio will be downsampled
@@ -17,12 +17,12 @@ the CPU load is a lot smaller - but you should only use it if you don't
 need any audio above approx. 14 kHz.
 
 If you want to use FM output with stereo and RDS encoding, and you are using
-[[10187]], then the sample rate must be set to at least 128 kHz - 176.4 or
+[[20187]], then the sample rate must be set to at least 128 kHz - 176.4 or
 192 are preferred. If you don't use ASIO for the output, the output sound
 card will automatically be opened with a high enough sample rate to send
 out the stereo and RDS signals.
 
-<font color=#FF0000><b>Important: If you are not using [[10187]] and you
+<font color=#FF0000><b>Important: If you are not using [[20187]] and you
 are using Windows Vista, 7 or 8, you need to make sure that the sound card
 driver is configured to use the same sample rate that you are setting in
 Stereo Tool, otherwise Windows will resample it, which causes artifacts

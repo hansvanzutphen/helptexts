@@ -5,5 +5,5 @@ reconstructing large areas. In many cases, in lower bitrate MP3/MPEG2 encoded fi
 high frequency content is removed. If the Spectral Hole Filler reconstructs this audio it
 can sound weird.
 
-A better solution is to use Spectral Hole Filler in combination with [[10898]] - a link
+A better solution is to use Spectral Hole Filler in combination with [[20898]] - a link
 between the two still needs to be made...

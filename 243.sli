@@ -9,4 +9,4 @@ Possible settings:
 <LI>Phase linear at latencies 2048 and 4096 samples, non-phase linear at latencies 512 and 1024 samples.</LI>
 <LI>Always phase linear</LI>
 <LI>Never phase linear</LI></UL>
-An additional advantage of non-phase linear filtering is that it moves different bass frequencies around in time. This is not or hardly noticeable, but it does offer an advantage to the [[10236]] filter for short bass spikes: Because the bass is spread over time, Loudness can boost it further, resulting in louder bass levels without affecting the rest of the sound.
+An additional advantage of non-phase linear filtering is that it moves different bass frequencies around in time. This is not or hardly noticeable, but it does offer an advantage to the [[20236]] filter for short bass spikes: Because the bass is spread over time, Loudness can boost it further, resulting in louder bass levels without affecting the rest of the sound.
